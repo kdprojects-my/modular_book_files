@@ -1,0 +1,987 @@
+{
+  "meta": {
+    "title": "Salem Recipe Book",
+    "subtitle": "Recipes from Central Asia & Beyond",
+    "authors": [
+      "Saule Dairabayeva",
+      "Karly D. Croci"
+    ],
+    "lastUpdated": "2025-02-07"
+  },
+  "recipes": [
+    {
+      "id": 0,
+      "title": "Eggplant 'Tyeshin Yazyk'",
+      "category": "Appetizers & Side Dishes",
+      "story": "An easy recipe that works best with Chinese eggplants.",
+      "prepTime": "10 min",
+      "cookTime": "60 min",
+      "difficulty": "Easy",
+      "cuisine": "Russian / Mediterranean",
+      "baseServings": 4,
+      "image": "assets/images/eggplant-tyeshin-yazyk.jpg",
+      "dietary": [
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 185,
+        "protein": "3g",
+        "carbs": "14g",
+        "fat": "13g"
+      },
+      "ingredients": [
+        {
+          "name": "large Chinese eggplants (1 lb)",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "name": "kosher salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "name": "olive oil",
+          "amount": 4,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "campari tomatoes (1 lb)",
+          "amount": 5,
+          "unit": ""
+        },
+        {
+          "name": "mayonnaise (or Greek yogurt)",
+          "amount": 3,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "garlic cloves, minced",
+          "amount": 2,
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep eggplants",
+          "text": "Cut off stems and slice eggplants into 0.5 inch rounds. Lay on baking sheet."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Brush with olive oil, sprinkle generously with salt and pepper."
+        },
+        {
+          "step": 3,
+          "title": "Roast",
+          "text": "Roast for 50–60 minutes in preheated oven at 400°F."
+        },
+        {
+          "step": 4,
+          "title": "Make sauce",
+          "text": "Meanwhile, mince garlic and mix with mayonnaise or Greek yogurt."
+        },
+        {
+          "step": 5,
+          "title": "Assemble",
+          "text": "Spread thin layer of mayo sauce over roasted eggplants."
+        },
+        {
+          "step": 6,
+          "title": "Top",
+          "text": "Slice tomatoes and assemble on top of eggplants."
+        }
+      ],
+      "tips": [
+        "For egg-free option, use Greek yogurt with salt instead of mayo",
+        "Can be made in advance and refrigerated for a couple of days",
+        "Garnish with parsley and cilantro"
+      ]
+    },
+    {
+      "id": 1,
+      "title": "Roasted Eggplant with Peppers & Zucchini",
+      "category": "Appetizers & Side Dishes",
+      "story": "A colorful Greek-inspired medley.",
+      "prepTime": "10 min",
+      "cookTime": "40 min",
+      "difficulty": "Easy",
+      "cuisine": "Greek",
+      "baseServings": 4,
+      "image": "assets/images/roasted-eggplant-peppers-zucchini.jpg",
+      "dietary": [
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "nutrition": {
+        "calories": 220,
+        "protein": "8g",
+        "carbs": "16g",
+        "fat": "15g"
+      },
+      "ingredients": [
+        {
+          "name": "eggplants",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "bell pepper",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "zucchini",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "olive oil",
+          "amount": 4,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "feta cheese",
+          "amount": 0.5,
+          "unit": "lb"
+        },
+        {
+          "name": "balsamic glaze",
+          "amount": 2,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Slice",
+          "text": "Cut vegetables into 0.5 inch slices."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Brush with olive oil, sprinkle salt and pepper."
+        },
+        {
+          "step": 3,
+          "title": "Roast",
+          "text": "Roast 40 minutes at 400°F."
+        },
+        {
+          "step": 4,
+          "title": "Dress",
+          "text": "Add feta, drizzle balsamic glaze."
+        }
+      ],
+      "tips": [
+        "Roast in advance",
+        "Use fresh herbs"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Desyatka (Ten Vegetables)",
+      "category": "Appetizers & Side Dishes",
+      "story": "Kazakh canning tradition.",
+      "prepTime": "15 min",
+      "cookTime": "50 min",
+      "difficulty": "Easy",
+      "cuisine": "Kazakh",
+      "baseServings": 10,
+      "image": "assets/images/desyatka-ten-vegetables.jpg",
+      "dietary": [
+        "Vegan",
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 145,
+        "protein": "3g",
+        "carbs": "21g",
+        "fat": "7g"
+      },
+      "ingredients": [
+        {
+          "name": "eggplants",
+          "amount": 10,
+          "unit": ""
+        },
+        {
+          "name": "bell peppers",
+          "amount": 10,
+          "unit": ""
+        },
+        {
+          "name": "tomatoes",
+          "amount": 10,
+          "unit": ""
+        },
+        {
+          "name": "onions",
+          "amount": 10,
+          "unit": ""
+        },
+        {
+          "name": "garlic cloves",
+          "amount": 10,
+          "unit": ""
+        },
+        {
+          "name": "salt",
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "sugar",
+          "amount": 0.75,
+          "unit": "tsp"
+        },
+        {
+          "name": "vinegar",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "olive oil",
+          "amount": 0.5,
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep",
+          "text": "Cut vegetables into wedges."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Add seasonings and water."
+        },
+        {
+          "step": 3,
+          "title": "Cook",
+          "text": "Simmer 50 min on low heat."
+        }
+      ],
+      "tips": [
+        "Great for meal prep"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Eggplant with Turmeric",
+      "category": "Appetizers & Side Dishes",
+      "story": "Mediterranean-Indian fusion.",
+      "prepTime": "10 min",
+      "cookTime": "20 min",
+      "difficulty": "Easy",
+      "cuisine": "Fusion",
+      "baseServings": 3,
+      "image": "assets/images/eggplant-turmeric.jpg",
+      "dietary": [
+        "Vegan",
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 125,
+        "protein": "2g",
+        "carbs": "12g",
+        "fat": "9g"
+      },
+      "ingredients": [
+        {
+          "name": "eggplants",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "chili pepper",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "turmeric",
+          "amount": 2,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "olive oil",
+          "amount": 4,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Slice",
+          "text": "Cut into 0.5 inch slices."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Brush with oil, add spices."
+        },
+        {
+          "step": 3,
+          "title": "Bake",
+          "text": "Bake 20 min at 400°F."
+        }
+      ],
+      "tips": [
+        "Beautiful golden color"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Roasted Tomatoes",
+      "category": "Appetizers & Side Dishes",
+      "story": "Cypriot breakfast classic.",
+      "prepTime": "5 min",
+      "cookTime": "15 min",
+      "difficulty": "Easy",
+      "cuisine": "Cypriot",
+      "baseServings": 4,
+      "image": "assets/images/roasted-tomatoes.jpg",
+      "dietary": [
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "nutrition": {
+        "calories": 195,
+        "protein": "7g",
+        "carbs": "9g",
+        "fat": "15g"
+      },
+      "ingredients": [
+        {
+          "name": "tomatoes",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "feta cheese",
+          "amount": 0.33,
+          "unit": "lb"
+        },
+        {
+          "name": "oregano",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "olive oil",
+          "amount": 5,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep",
+          "text": "Place tomatoes in pan."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Add oregano, feta, oil."
+        },
+        {
+          "step": 3,
+          "title": "Bake",
+          "text": "Bake 15 min at 400°F."
+        }
+      ],
+      "tips": [
+        "Perfect for breakfast"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Turkish Green Beans",
+      "category": "Appetizers & Side Dishes",
+      "story": "Turkish family staple.",
+      "prepTime": "10 min",
+      "cookTime": "45 min",
+      "difficulty": "Easy",
+      "cuisine": "Turkish",
+      "baseServings": 4,
+      "image": "assets/images/turkish-green-beans.jpg",
+      "dietary": [
+        "Vegan",
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 145,
+        "protein": "3g",
+        "carbs": "18g",
+        "fat": "8g"
+      },
+      "ingredients": [
+        {
+          "name": "green beans",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "tomatoes",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "sugar",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "olive oil",
+          "amount": 0.33,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Layer",
+          "text": "Place beans, onions, tomatoes in pot."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Add sugar, salt, oil, water."
+        },
+        {
+          "step": 3,
+          "title": "Cook",
+          "text": "Boil 5 min, then simmer 40 min."
+        }
+      ],
+      "tips": [
+        "Serve cold"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Beets with Potatoes",
+      "category": "Appetizers & Side Dishes",
+      "story": "Roasted beet medley.",
+      "prepTime": "20 min",
+      "cookTime": "60 min",
+      "difficulty": "Medium",
+      "cuisine": "Eastern European",
+      "baseServings": 5,
+      "image": "assets/images/beets-potatoes.jpg",
+      "dietary": [
+        "Vegan",
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 175,
+        "protein": "4g",
+        "carbs": "28g",
+        "fat": "6g"
+      },
+      "ingredients": [
+        {
+          "name": "beets",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "celery roots",
+          "amount": 1.5,
+          "unit": ""
+        },
+        {
+          "name": "potatoes",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "tomatoes",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Base",
+          "text": "Sauté onions and tomatoes."
+        },
+        {
+          "step": 2,
+          "title": "Slice",
+          "text": "Slice all vegetables thin."
+        },
+        {
+          "step": 3,
+          "title": "Layer",
+          "text": "Arrange in baking sheet."
+        },
+        {
+          "step": 4,
+          "title": "Bake",
+          "text": "Bake 60 min at 390°F."
+        }
+      ],
+      "tips": [
+        "Roast beets in advance"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Roasted Vegetables (Vegan)",
+      "category": "Appetizers & Side Dishes",
+      "story": "Simple vegan side.",
+      "prepTime": "10 min",
+      "cookTime": "45 min",
+      "difficulty": "Easy",
+      "cuisine": "Mediterranean",
+      "baseServings": 4,
+      "image": "assets/images/roasted-vegetables-vegan.jpg",
+      "dietary": [
+        "Vegan",
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 135,
+        "protein": "3g",
+        "carbs": "15g",
+        "fat": "8g"
+      },
+      "ingredients": [
+        {
+          "name": "eggplants",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "bell pepper",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "zucchini",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": 4,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep",
+          "text": "Slice vegetables."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Brush with oil."
+        },
+        {
+          "step": 3,
+          "title": "Roast",
+          "text": "Roast 40 min at 400°F."
+        }
+      ],
+      "tips": [
+        "Meal prep friendly"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Borscht",
+      "category": "Soups",
+      "story": "Classic comfort soup.",
+      "prepTime": "30 min",
+      "cookTime": "2 hrs",
+      "difficulty": "Medium",
+      "cuisine": "Russian / Ukrainian",
+      "baseServings": 8,
+      "image": "assets/images/borscht.jpg",
+      "dietary": [
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 285,
+        "protein": "22g",
+        "carbs": "28g",
+        "fat": "9g"
+      },
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "water",
+          "amount": 16,
+          "unit": "cups"
+        },
+        {
+          "name": "potatoes",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "cabbage",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "beets",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "name": "carrots",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "name": "tomato paste",
+          "amount": 2,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Broth",
+          "text": "Cook meat 1.5 hours."
+        },
+        {
+          "step": 2,
+          "title": "Vegetables",
+          "text": "Add potatoes, cabbage."
+        },
+        {
+          "step": 3,
+          "title": "Zazharka",
+          "text": "Sauté onions, tomatoes."
+        },
+        {
+          "step": 4,
+          "title": "Beets",
+          "text": "Add beets, carrots."
+        },
+        {
+          "step": 5,
+          "title": "Combine",
+          "text": "Mix all together."
+        }
+      ],
+      "tips": [
+        "Use pressure cooker"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Russian Vinaigrette",
+      "category": "Salads",
+      "story": "Beet salad classic.",
+      "prepTime": "15 min",
+      "cookTime": "0 min",
+      "difficulty": "Easy",
+      "cuisine": "Russian",
+      "baseServings": 4,
+      "image": "assets/images/russian-vinaigrette.jpg",
+      "dietary": [
+        "Vegan",
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 165,
+        "protein": "4g",
+        "carbs": "22g",
+        "fat": "7g"
+      },
+      "ingredients": [
+        {
+          "name": "beets",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "pickles",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "peas",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "onion",
+          "amount": 0.5,
+          "unit": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": 3,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep",
+          "text": "Cube beets and pickles."
+        },
+        {
+          "step": 2,
+          "title": "Mix",
+          "text": "Combine all."
+        },
+        {
+          "step": 3,
+          "title": "Dress",
+          "text": "Add oil."
+        }
+      ],
+      "tips": [
+        "Roast beets ahead"
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Manti",
+      "category": "Main Dishes",
+      "story": "Central Asian dumplings.",
+      "prepTime": "45 min",
+      "cookTime": "40 min",
+      "difficulty": "Medium",
+      "cuisine": "Central Asian",
+      "baseServings": 6,
+      "image": "assets/images/manti.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 380,
+        "protein": "18g",
+        "carbs": "42g",
+        "fat": "15g"
+      },
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": 3,
+          "unit": "cups"
+        },
+        {
+          "name": "eggs",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "beef",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "squash",
+          "amount": 1.5,
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Dough",
+          "text": "Make dough, rest 30 min."
+        },
+        {
+          "step": 2,
+          "title": "Filling",
+          "text": "Mix beef, squash."
+        },
+        {
+          "step": 3,
+          "title": "Shape",
+          "text": "Cut squares, fill, fold."
+        },
+        {
+          "step": 4,
+          "title": "Steam",
+          "text": "Steam 40 min."
+        }
+      ],
+      "tips": [
+        "Serve with yogurt"
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Pelmeni",
+      "category": "Main Dishes",
+      "story": "Russian dumplings.",
+      "prepTime": "60 min",
+      "cookTime": "20 min",
+      "difficulty": "Medium",
+      "cuisine": "Russian",
+      "baseServings": 6,
+      "image": "assets/images/pelmeni.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 340,
+        "protein": "16g",
+        "carbs": "38g",
+        "fat": "13g"
+      },
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": 3,
+          "unit": "cups"
+        },
+        {
+          "name": "eggs",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "beef",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Dough",
+          "text": "Make dough, rest."
+        },
+        {
+          "step": 2,
+          "title": "Fill",
+          "text": "Add beef filling."
+        },
+        {
+          "step": 3,
+          "title": "Shape",
+          "text": "Fold and seal."
+        },
+        {
+          "step": 4,
+          "title": "Boil",
+          "text": "Cook 20 min."
+        }
+      ],
+      "tips": [
+        "Freeze well"
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Kotlety",
+      "category": "Main Dishes",
+      "story": "Russian meatballs.",
+      "prepTime": "20 min",
+      "cookTime": "35 min",
+      "difficulty": "Easy",
+      "cuisine": "Russian",
+      "baseServings": 6,
+      "image": "assets/images/kotlety.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 295,
+        "protein": "24g",
+        "carbs": "12g",
+        "fat": "17g"
+      },
+      "ingredients": [
+        {
+          "name": "beef",
+          "amount": 2.2,
+          "unit": "lbs"
+        },
+        {
+          "name": "onions",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "eggs",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "flour",
+          "amount": 0.5,
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Mix",
+          "text": "Combine ingredients."
+        },
+        {
+          "step": 2,
+          "title": "Form",
+          "text": "Shape patties."
+        },
+        {
+          "step": 3,
+          "title": "Fry",
+          "text": "Fry 2 min/side."
+        },
+        {
+          "step": 4,
+          "title": "Bake",
+          "text": "Bake 25-30 min at 320°F."
+        }
+      ],
+      "tips": [
+        "Two-step cooking"
+      ]
+    }
+  ]
+}
