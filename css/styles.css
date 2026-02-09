@@ -68,6 +68,15 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(180deg,var(--cr
 .cover-cta{margin-top:40px;display:inline-flex;align-items:center;gap:8px;padding:11px 26px;background:var(--accent);color:#fff;border:none;border-radius:24px;font-family:'DM Sans',sans-serif;font-size:14px;cursor:pointer;transition:background .2s,transform .15s}
 .cover-cta:hover{background:var(--accent-lg);transform:translateY(-1px)}
 
+.cover-image {
+  width: 100%;
+  max-height: 420px;
+  object-fit: cover;
+  display: block;
+  border-radius: var(--r-sm);
+  box-shadow: var(--shadow-sm);
+  margin-bottom: 1.5rem;
+}
 /* ═══════════════════════════════════════════════
    INTRO PAGE
    ═══════════════════════════════════════════════ */
