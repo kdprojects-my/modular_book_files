@@ -98,13 +98,15 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(180deg,var(--cr
 
 /* Title card */
 .title-card{background:var(--card);border-radius:var(--r-card);padding:24px 26px 20px;box-shadow:var(--shadow-md);border-top:4px solid var(--accent);margin-bottom:18px}
+.recipe-image{width:250px;height:auto;border-radius:var(--r-sm);margin-left:18px;margin-bottom:12px;box-shadow:var(--shadow-sm);object-fit:cover;float:right;max-height:250px}
 @media (max-width: 600px) {
   .recipe-image {
-    float: none;
+    float: none !important;
     display: block;
-    width: 100%;
-    max-width: 100%;
-    margin: 0 0 12px 0; /* center above text */
+    width: 100% !important;
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0 0 12px 0 !important;
   }
 }
 
