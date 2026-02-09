@@ -98,7 +98,16 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(180deg,var(--cr
 
 /* Title card */
 .title-card{background:var(--card);border-radius:var(--r-card);padding:24px 26px 20px;box-shadow:var(--shadow-md);border-top:4px solid var(--accent);margin-bottom:18px}
-.recipe-image{width:250px;height:auto;border-radius:var(--r-sm);margin-left:18px;margin-bottom:12px;box-shadow:var(--shadow-sm);object-fit:cover;float:right;max-height:250px}
+@media (max-width: 600px) {
+  .recipe-image {
+    float: none;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 0 12px 0; /* center above text */
+  }
+}
+
 .title-card-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:8px}
 .title-card h2{font-family:'Playfair Display',serif;font-size:26px;font-weight:600;color:var(--bark-deep);letter-spacing:.3px}
 .title-card .cat{font-size:13px;color:var(--accent);font-style:italic;margin-top:4px}
