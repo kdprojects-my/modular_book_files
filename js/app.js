@@ -1,12 +1,8 @@
 /**
  * ============================================================================
- * SALEM RECIPE BOOK - MAIN APPLICATION
+ * SALEM RECIPE BOOK - MAIN APPLICATION (UPDATED)
  * ============================================================================
- * Single centralized JavaScript file for all functionality
- * - Loads recipes from recipes.json
- * - Renders all sections by filtering data
- * - Handles search, category filters, servings scaling
- * - Manages navigation and UI interactions
+ * Enhanced with URL routing and recipe index page
  */
 
 // ═══════════════════════════════════════════════════════════════════
@@ -16,6 +12,7 @@ let recipes = [];
 let currentRecipeId = 0;
 let currentServings = 4;
 let activeCategory = null;
+let navOpen = false;
 
 // Fraction conversion map
 const FRACTIONS = { 0.25: '¼', 0.33: '⅓', 0.5: '½', 0.67: '⅔', 0.75: '¾' };
@@ -28,21 +25,31 @@ const ICONS = {
   chevron: '<svg class="chevron" id="ID_chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#c9733a" stroke-width="2.2" stroke-linecap="round"><polyline points="6 9 12 15 18 9"/></svg>'
 };
 
+// Category definitions for recipe index
+const CATEGORIES = {
+  'Appetizers & Side Dishes': { number: 'I', description: 'Start your meal right' },
+  'Soups & Stews': { number: 'II', description: 'Warming and hearty' },
+  'Main Courses': { number: 'III', description: 'The heart of the meal' },
+  'Dumplings & Pastries': { number: 'IV', description: 'Handmade with love' },
+  'Salads & Vegetables': { number: 'V', description: 'Fresh and vibrant' },
+  'Desserts & Sweets': { number: 'VI', description: 'Sweet endings' }
+};
+
 // ═══════════════════════════════════════════════════════════════════
 // INITIALIZATION
 // ═══════════════════════════════════════════════════════════════════
 async function init() {
   try {
-    // Load recipes from JSON
     const response = await fetch('data/recipes.json');
     const data = await response.json();
     recipes = data.recipes;
     
     console.log(`✓ Loaded ${recipes.length} recipes from ${data.meta.title}`);
     
-    // Initialize UI
+    initRouter();
     setupEventListeners();
-    renderRecipe(currentRecipeId);
+    populateRecipeIndex();
+    handleRoute();
   } catch (error) {
     console.error('Error loading recipes:', error);
     document.getElementById('titleCard').innerHTML = 
@@ -51,12 +58,122 @@ async function init() {
 }
 
 // ═══════════════════════════════════════════════════════════════════
+// URL ROUTING (NEW)
+// ═══════════════════════════════════════════════════════════════════
+function initRouter() {
+  window.addEventListener('popstate', handleRoute);
+  window.addEventListener('hashchange', handleRoute);
+}
+
+function handleRoute() {
+  const hash = window.location.hash.substring(1);
+  
+  if (hash && !isNaN(hash)) {
+    // Hash is a recipe ID number
+    const recipeId = parseInt(hash);
+    if (recipes[recipeId]) {
+      showRecipeDetail(recipeId);
+    }
+  } else if (hash && document.getElementById(hash)) {
+    // Hash is a section anchor
+    goToPage('recipes');
+    setTimeout(() => {
+      document.getElementById(hash).scrollIntoView({ behavior: 'smooth' });
+    }, 100);
+  } else if (!hash) {
+    // No hash, check if we should show default
+    const activePage = document.querySelector('.page.active');
+    if (!activePage) {
+      goToPage('cover');
+    }
+  }
+}
+
+function navigateToRecipe(recipeId) {
+  window.location.hash = recipeId;
+}
+
+function showRecipeDetail(recipeId) {
+  currentRecipeId = recipeId;
+  const recipe = recipes[recipeId];
+  if (!recipe) return;
+  
+  currentServings = recipe.baseServings;
+  
+  // Switch to recipe detail page
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.getElementById('page-recipe-detail').classList.add('active');
+  
+  document.querySelectorAll('.book-tab').forEach(tab => tab.classList.remove('active'));
+  
+  // Render the recipe
+  renderRecipe(recipeId);
+  window.scrollTo(0, 0);
+  
+  if (navOpen) toggleNav();
+}
+
+// ═══════════════════════════════════════════════════════════════════
+// RECIPE INDEX PAGE (NEW)
+// ═══════════════════════════════════════════════════════════════════
+function populateRecipeIndex() {
+  const recipesByCategory = {};
+  
+  // Group recipes by category
+  recipes.forEach(recipe => {
+    if (!recipesByCategory[recipe.category]) {
+      recipesByCategory[recipe.category] = [];
+    }
+    recipesByCategory[recipe.category].push(recipe);
+  });
+  
+  // Render each category grid
+  Object.keys(CATEGORIES).forEach(categoryName => {
+    const categoryKey = categoryName.toLowerCase().replace(/\s+/g, '-').replace(/&/g, '');
+    const gridElement = document.getElementById(`${categoryKey}-grid`);
+    if (!gridElement) return;
+    
+    const categoryRecipes = recipesByCategory[categoryName] || [];
+    
+    gridElement.innerHTML = categoryRecipes.map(recipe => `
+      <div class="recipe-card" onclick="navigateToRecipe(${recipe.id})">
+        <div class="recipe-card-image" style="background-image: url('${recipe.image || 'https://via.placeholder.com/400x300/5c3d2e/ffffff?text=' + encodeURIComponent(recipe.title)}')">
+          <div class="recipe-card-overlay">
+            <span class="recipe-card-time">${recipe.prepTime} + ${recipe.cookTime}</span>
+            <span class="recipe-card-difficulty">${recipe.difficulty}</span>
+          </div>
+        </div>
+        <div class="recipe-card-content">
+          <h4 class="recipe-card-title">${recipe.title}</h4>
+          <p class="recipe-card-subtitle">${recipe.story}</p>
+          <div class="recipe-card-tags">
+            ${recipe.dietary.slice(0, 2).map(tag => `<span class="tag">${tag}</span>`).join('')}
+          </div>
+        </div>
+      </div>
+    `).join('');
+  });
+}
+
+// ═══════════════════════════════════════════════════════════════════
 // EVENT LISTENERS
 // ═══════════════════════════════════════════════════════════════════
 function setupEventListeners() {
-  // Book tabs navigation
   document.querySelectorAll('.book-tab').forEach(tab => {
     tab.addEventListener('click', () => goToPage(tab.dataset.page));
+  });
+  
+  // Smooth scroll for anchor links
+  document.addEventListener('click', (e) => {
+    if (e.target.matches('a[href^="#"]')) {
+      e.preventDefault();
+      const targetId = e.target.getAttribute('href').substring(1);
+      const targetElement = document.getElementById(targetId);
+      
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    }
   });
 }
 
@@ -64,24 +181,17 @@ function setupEventListeners() {
 // NAVIGATION
 // ═══════════════════════════════════════════════════════════════════
 function goToPage(pageId) {
-  // Hide all pages
   document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
-  
-  // Show selected page
   document.getElementById(`page-${pageId}`).classList.add('active');
   
-  // Update active tab
   document.querySelectorAll('.book-tab').forEach(t => 
     t.classList.toggle('active', t.dataset.page === pageId)
   );
   
-  // Scroll to top
+  window.location.hash = '';
   window.scrollTo({ top: 0, behavior: 'smooth' });
   
-  // Render recipe if on recipes page
-  if (pageId === 'recipes') {
-    renderRecipe(currentRecipeId);
-  }
+  if (navOpen) toggleNav();
 }
 
 // ═══════════════════════════════════════════════════════════════════
@@ -90,22 +200,21 @@ function goToPage(pageId) {
 function toggleNav() {
   const panel = document.getElementById('navPanel');
   const overlay = document.getElementById('overlay');
-  const isOpen = panel.classList.toggle('open');
+  navOpen = !navOpen;
   
-  overlay.classList.toggle('open', isOpen);
-  document.getElementById('nav-icon-menu').style.display = isOpen ? 'none' : 'block';
-  document.getElementById('nav-icon-x').style.display = isOpen ? 'block' : 'none';
+  panel.classList.toggle('open', navOpen);
+  overlay.classList.toggle('open', navOpen);
+  document.getElementById('nav-icon-menu').style.display = navOpen ? 'none' : 'block';
+  document.getElementById('nav-icon-x').style.display = navOpen ? 'block' : 'none';
   
-  if (isOpen) buildNav();
+  if (navOpen) buildNav();
 }
 
 function buildNav(filterText = '') {
   const filter = filterText.toLowerCase();
   const groups = {};
   
-  // Group recipes by category
   recipes.forEach(recipe => {
-    // Apply search filter
     if (filter && 
         !recipe.title.toLowerCase().includes(filter) && 
         !recipe.category.toLowerCase().includes(filter) &&
@@ -113,12 +222,10 @@ function buildNav(filterText = '') {
       return;
     }
     
-    // Group by category
     if (!groups[recipe.category]) groups[recipe.category] = [];
     groups[recipe.category].push(recipe);
   });
   
-  // Render navigation
   const navBody = document.getElementById('navBody');
   navBody.innerHTML = Object.entries(groups)
     .map(([category, catRecipes]) => `
@@ -140,39 +247,30 @@ function filterNav(value) {
 }
 
 function selectRecipe(id) {
-  currentRecipeId = id;
-  const recipe = recipes.find(r => r.id === id);
-  currentServings = recipe.baseServings;
-  goToPage('recipes');
-  toggleNav();
+  navigateToRecipe(id);
 }
 
 // ═══════════════════════════════════════════════════════════════════
-// AMOUNT FORMATTING (with fractions)
+// AMOUNT FORMATTING
 // ═══════════════════════════════════════════════════════════════════
 function formatAmount(baseAmount) {
-  const recipe = recipes.find(r => r.id === currentRecipeId);
+  const recipe = recipes[currentRecipeId];
   const scaled = baseAmount * (currentServings / recipe.baseServings);
   
-  // Whole number
   if (scaled % 1 === 0) return scaled.toString();
   
-  // Mixed fraction
   const whole = Math.floor(scaled);
   const frac = scaled - whole;
   
-  // Find closest fraction
   let closest = 0.5;
   Object.keys(FRACTIONS).forEach(key => {
     if (Math.abs(key - frac) < Math.abs(closest - frac)) closest = parseFloat(key);
   });
   
-  // Use fraction if close enough
   if (Math.abs(closest - frac) < 0.06) {
     return whole > 0 ? whole + FRACTIONS[closest] : FRACTIONS[closest];
   }
   
-  // Otherwise decimal
   return scaled.toFixed(2).replace(/\.?0+$/, '');
 }
 
@@ -198,10 +296,10 @@ function toggleSection(sectionId) {
 }
 
 // ═══════════════════════════════════════════════════════════════════
-// CULTURAL INFO (AI-powered)
+// CULTURAL INFO
 // ═══════════════════════════════════════════════════════════════════
 async function fetchCulture() {
-  const recipe = recipes.find(r => r.id === currentRecipeId);
+  const recipe = recipes[currentRecipeId];
   const fact = document.getElementById('cultureFact');
   const btn = document.getElementById('btnCulture');
   
@@ -237,7 +335,7 @@ async function fetchCulture() {
 
 function renderRecipe(id) {
   currentRecipeId = id;
-  const recipe = recipes.find(r => r.id === id);
+  const recipe = recipes[id];
   if (!recipe) return;
   
   currentServings = recipe.baseServings;
@@ -249,12 +347,18 @@ function renderRecipe(id) {
   resetCulturalBanner();
   renderInstructions(recipe);
   renderTips(recipe);
-  buildNav(); // Update nav highlighting
+  buildNav();
 }
 
 function renderTitleCard(recipe) {
   document.getElementById('titleCard').innerHTML = `
     <div class="title-card">
+      <button class="back-to-index" onclick="goToPage('recipes')">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+          <path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/>
+        </svg>
+        Back to All Recipes
+      </button>
       ${recipe.image ? `<img src="${recipe.image}" alt="${recipe.title}" class="recipe-image" />` : ''}
       <div class="title-card-top">
         <div>
@@ -294,7 +398,7 @@ function renderMetaRow(recipe) {
 }
 
 function renderNutrition() {
-  const recipe = recipes.find(r => r.id === currentRecipeId);
+  const recipe = recipes[currentRecipeId];
   const n = recipe.nutrition;
   
   document.getElementById('nutriBar').innerHTML = `
@@ -307,7 +411,7 @@ function renderNutrition() {
 }
 
 function renderIngredients() {
-  const recipe = recipes.find(r => r.id === currentRecipeId);
+  const recipe = recipes[currentRecipeId];
   
   document.getElementById('secIngredients').innerHTML = `
     <button class="section-header" onclick="toggleSection('ing')">
