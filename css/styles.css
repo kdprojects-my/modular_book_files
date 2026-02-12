@@ -74,7 +74,15 @@ body{font-family:'DM Sans',sans-serif;background:linear-gradient(180deg,var(--cr
 .back-to-index:hover{background:var(--cream);border-color:var(--accent);color:var(--bark-deep)}
 
 /* Photo blurb with side image */
-.photo-blurb{display:grid;grid-template-columns:1fr 320px;gap:28px;align-items:start;margin:48px 0;padding:28px;background:var(--card);border:2px solid var(--border);border-radius:var(--r-card);box-shadow:var(--shadow-md)}
+.photo-blurb {
+  display: block;
+  margin: 48px 0;
+  padding: 28px;
+  background: var(--card);
+  border: 2px solid var(--border);
+  border-radius: var(--r-card);
+  box-shadow: var(--shadow-md);
+}
 .photo-blurb-text{font-size:15px;line-height:1.8;color:var(--text)}
 .photo-blurb-text p{margin-bottom:16px}
 .photo-blurb-text p:last-child{margin-bottom:0}
