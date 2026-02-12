@@ -35,6 +35,15 @@ const CATEGORIES = {
   'Baked Goods & Desserts': { number: 'V', description: 'Sweet treats and baked delights to end your meal', slug: 'baked-goods-desserts' }
 };
 
+const CATEGORY_GRID_IDS = {
+  'Appetizers & Side Dishes': 'appetizers-side-dishes-grid',
+  'Soups': 'soups-grid',
+  'Salads': 'salads-grid',
+  'Main Dishes': 'main-dishes-grid',
+  'Specialty & Cultural Dishes': 'specialty-grid',
+  'Baked Goods & Desserts': 'baked-goods-desserts-grid'
+};
+
 // ═══════════════════════════════════════════════════════════════════
 // INITIALIZATION
 // ═══════════════════════════════════════════════════════════════════
