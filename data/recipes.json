@@ -566,7 +566,7 @@
     },
     
     {
-      "id": 8,
+      "id": 7,
       "title": "Borscht",
       "category": "Soups",
       "story": "Classic comfort soup.",
@@ -654,7 +654,134 @@
       ]
     },
     {
-      "id": 9,
+  "id": 8,
+  "title": "Lagman (Noodle Soup)",
+  "category": "Soups",
+  "story": "A staple in southern Central Asia with Uzbek, Uyghur, and Chinese variations. Found in countless cafes across the region.",
+  "prepTime": "30 min",
+  "cookTime": "1 hr",
+  "difficulty": "Medium",
+  "cuisine": "Central Asian",
+  "baseServings": 6,
+  "image": "assets/images/lagman.jpg",
+  "dietary": ["Gluten-Free"],
+  "nutrition": {
+    "calories": 320,
+    "protein": "25g",
+    "carbs": "35g",
+    "fat": "12g"
+  },
+  "ingredients": [
+    {"name": "beef stew meat and ribs", "amount": 1, "unit": "lb"},
+    {"name": "water", "amount": 4, "unit": "liters"},
+    {"name": "potatoes, medium", "amount": 2, "unit": ""},
+    {"name": "daikon radish", "amount": 6, "unit": "oz (200g)"},
+    {"name": "tomatoes, medium", "amount": 2, "unit": ""},
+    {"name": "red bell pepper, large", "amount": 1, "unit": ""},
+    {"name": "onion", "amount": 1, "unit": ""},
+    {"name": "carrots, skinny sticks", "amount": "1-2", "unit": ""},
+    {"name": "tomato or Turkish sweet pepper paste", "amount": "1-2", "unit": "Tbsp"},
+    {"name": "olive oil", "amount": "2-3", "unit": "Tbsp"},
+    {"name": "salt", "amount": "1-2", "unit": "tsp"},
+    {"name": "ground black pepper", "amount": 1, "unit": "pinch"},
+    {"name": "fresh herbs (dill or cilantro)", "amount": "", "unit": ""},
+    {"name": "water for noodles", "amount": 1, "unit": "liter"},
+    {"name": "thick noodles (e.g., udon)", "amount": "", "unit": ""}
+  ],
+  "instructions": [
+    {"step": 1, "title": "Prep", "text": "Cut meat into small-medium cubes. Wash and cut vegetables: onions/carrots/daikon into strings, bell pepper/tomatoes/potatoes into cubes."},
+    {"step": 2, "title": "Brown meat", "text": "Fry meat with salt and pepper in olive oil 5-7 min until golden."},
+    {"step": 3, "title": "Add vegetables", "text": "Add onion and carrots (5 min), then bell pepper (3-4 min). Add tomatoes and paste, sauté."},
+    {"step": 4, "title": "Simmer", "text": "Add 4L water, slow cook 40 min."},
+    {"step": 5, "title": "Serve", "text": "Boil noodles separately in 1L water. Serve soup with noodles and fresh herbs."}
+  ],
+  "tips": ["Use udon noodles to save time, but homemade tastes better."]
+}
+
+{
+  "id": 9,
+  "title": "Puk Tiai (Doenjang Jjigae)",
+  "category": "Soups",
+  "story": "Central Asian 'soul food' – a Korean soybean paste soup. Large Korean diaspora from Stalin-era deportations. Karly's memory: warm bowls during 1990s winter blackouts.",
+  "prepTime": "30 min",
+  "cookTime": "2 hrs",
+  "difficulty": "Medium",
+  "cuisine": "Korean / Central Asian",
+  "baseServings": 6,
+  "image": "assets/images/puk-tiai.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 280,
+    "protein": "28g",
+    "carbs": "20g",
+    "fat": "11g"
+  },
+  "ingredients": [
+    {"name": "beef meat and ribs", "amount": 1, "unit": "lb"},
+    {"name": "water", "amount": 4, "unit": "liters"},
+    {"name": "potatoes, medium", "amount": 2, "unit": ""},
+    {"name": "leeks", "amount": 2, "unit": ""},
+    {"name": "cauliflower florets", "amount": "2-3", "unit": ""},
+    {"name": "firm tofu", "amount": "5-6", "unit": "oz"},
+    {"name": "scallions", "amount": 4, "unit": "bunches"},
+    {"name": "eggs", "amount": "4-5", "unit": ""},
+    {"name": "soybean paste", "amount": 4, "unit": "Tbsp"},
+    {"name": "gochujang (Korean red pepper paste)", "amount": "1-2", "unit": "Tbsp"},
+    {"name": "white rice, steamed", "amount": "", "unit": ""}
+  ],
+  "instructions": [
+    {"step": 1, "title": "Broth", "text": "Slow cook meat/ribs in 4L water for 1.5 hrs."},
+    {"step": 2, "title": "Prep veg", "text": "Cube potatoes/leeks/cauliflower/tofu. Cut scallions into 2-inch pieces."},
+    {"step": 3, "title": "Add veg", "text": "Add potatoes/leeks/cauliflower to broth."},
+    {"step": 4, "title": "Season", "text": "Stir in soybean paste and gochujang. Simmer covered 20 min on medium heat."},
+    {"step": 5, "title": "Finish", "text": "Add tofu/scallions/eggs. Stir gently, cook 3 min. Serve with rice."}
+  ],
+  "tips": ["Pressure cook broth to save time. Sub 0.5 lb green veg (broccoli/bok choy) for leeks."]
+}
+
+{
+  "id": 10,
+  "title": "Okroshka",
+  "category": "Soups",
+  "story": "Cheerful summer soup – light and fresh, perfect for hot days. Serve with sour cream.",
+  "prepTime": "30 min",
+  "cookTime": "1 hr",
+  "difficulty": "Easy",
+  "cuisine": "Russian / Central Asian",
+  "baseServings": 6,
+  "image": "assets/images/okroshka.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 210,
+    "protein": "12g",
+    "carbs": "18g",
+    "fat": "10g"
+  },
+  "ingredients": [
+    {"name": "potatoes (no skin)", "amount": 1, "unit": "lb"},
+    {"name": "eggs, boiled", "amount": 4, "unit": ""},
+    {"name": "beef sausage (e.g., Hebrew National salami)", "amount": 0.5, "unit": "lb"},
+    {"name": "cucumbers, fresh", "amount": "2-3 (8 oz)", "unit": ""},
+    {"name": "red radishes", "amount": "4-5 (5 oz)", "unit": ""},
+    {"name": "scallions", "amount": 4, "unit": "bunches (1 oz)"},
+    {"name": "fresh dill", "amount": 1, "unit": "oz"},
+    {"name": "buttermilk", "amount": 500, "unit": "ml"},
+    {"name": "sparkling water", "amount": 500, "unit": "ml"},
+    {"name": "salt", "amount": 1, "unit": "tsp"},
+    {"name": "black pepper", "amount": 1, "unit": "pinch"}
+  ],
+  "instructions": [
+    {"step": 1, "title": "Roast potatoes", "text": "Brush with oil, salt/pepper. Roast at 390°F ~1 hr."},
+    {"step": 2, "title": "Prep", "text": "Hard boil eggs. Cube all: potatoes/sausage/cucumbers/radishes/eggs."},
+    {"step": 3, "title": "Mix dry", "text": "Combine cubes with chopped scallions/dill."},
+    {"step": 4, "title": "Liquid", "text": "Mix buttermilk/sparkling water + salt/pepper."},
+    {"step": 5, "title": "Serve", "text": "Combine dry + liquid just before serving."}
+  ],
+  "tips": ["Roast potatoes ahead. Keep dry/liquid separate in fridge for best texture."]
+}
+
+    {
+      "id": 11,
       "title": "Russian Vinaigrette",
       "category": "Salads",
       "story": "Beet salad classic.",
@@ -723,7 +850,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 12,
       "title": "Manty",
       "category": "Main Dishes",
       "story": "Central Asian dumplings.",
@@ -789,7 +916,7 @@
       ]
     },
     {
-      "id": 11,
+      "id": 13,
       "title": "Pelmeni",
       "category": "Main Dishes",
       "story": "Russian dumplings.",
@@ -855,7 +982,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 14,
       "title": "Kotlety",
       "category": "Main Dishes",
       "story": "Russian meatballs.",
