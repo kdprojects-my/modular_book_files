@@ -929,8 +929,347 @@
         "Roast beets ahead"
       ]
     },
+
     {
-      "id": 14,
+  "id": 14,
+  "title": "Russian Salad \"Olivier\"",
+  "category": "Salads",
+  "story": "A timeless classic and the crown jewel of New Year's tables across post-Soviet countries.",
+  "prepTime": "40 min",
+  "cookTime": "20-30 min",
+  "difficulty": "Easy",
+  "cuisine": "Russian / Central Asian",
+  "baseServings": 4,
+  "image": "assets/images/olivier-salad.jpg",
+  "dietary": ["Gluten-Free"],
+  "nutrition": {
+    "calories": 320,
+    "protein": "14g",
+    "carbs": "26g",
+    "fat": "18g"
+  },
+  "ingredients": [
+    { "name": "potatoes, medium, boiled with skin on", "amount": 2, "unit": "" },
+    { "name": "carrots, medium, boiled", "amount": 2, "unit": "" },
+    { "name": "eggs, hard-boiled", "amount": 4, "unit": "to 5" },
+    { "name": "beef salami (e.g., Hebrew National)", "amount": 3, "unit": "oz" },
+    { "name": "baby dill pickles", "amount": 0.5, "unit": "cup" },
+    { "name": "green peas, frozen", "amount": 0.5, "unit": "cup" },
+    { "name": "mayonnaise", "amount": 4, "unit": "Tbsp" },
+    { "name": "kosher salt", "amount": 0.5, "unit": "tsp" },
+    { "name": "freshly ground black pepper", "amount": 1, "unit": "pinch" },
+    { "name": "fresh dill or parsley (or both)", "amount": "", "unit": "" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Cook vegetables",
+      "text": "Boil potatoes and carrots 20-30 min until cooked but firm, or steam. Cool slightly and peel."
+    },
+    {
+      "step": 2,
+      "title": "Boil eggs",
+      "text": "Hard-boil eggs, cool, and peel."
+    },
+    {
+      "step": 3,
+      "title": "Dice",
+      "text": "Dice potatoes into 0.5 inch cubes into a medium bowl. Dice carrots, eggs, pickles, and salami the same size."
+    },
+    {
+      "step": 4,
+      "title": "Add peas",
+      "text": "Thaw green peas briefly in hot water, drain well, and add to the bowl."
+    },
+    {
+      "step": 5,
+      "title": "Dress",
+      "text": "Add mayonnaise, salt, and black pepper. Mix gently to combine."
+    },
+    {
+      "step": 6,
+      "title": "Garnish",
+      "text": "Garnish with chopped dill and/or parsley before serving."
+    }
+  ],
+  "tips": [
+    "Do not overcook vegetables; they should hold their shape.",
+    "Chill before serving for best flavor and texture."
+  ]
+},
+
+{
+  "id": 15,
+  "title": "Herring Under Fur",
+  "category": "Salads",
+  "story": "Layered 'dressed herring' salad with beets, potatoes, carrots, eggs, onions, and herring – another New Year symbol in post-Soviet countries.",
+  "prepTime": "30 min",
+  "cookTime": "50-60 min",
+  "difficulty": "Medium",
+  "cuisine": "Russian / Central Asian",
+  "baseServings": 4,
+  "image": "assets/images/herring-under-fur.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 350,
+    "protein": "16g",
+    "carbs": "30g",
+    "fat": "18g"
+  },
+  "ingredients": [
+    { "name": "beet roots, roasted", "amount": 2, "unit": "" },
+    { "name": "potatoes, medium, boiled with skin on", "amount": 2, "unit": "" },
+    { "name": "carrots, medium, boiled", "amount": 3, "unit": "" },
+    { "name": "eggs, hard-boiled", "amount": 3, "unit": "" },
+    { "name": "marinated herring", "amount": 3, "unit": "oz" },
+    { "name": "red onion, chopped", "amount": 0.5, "unit": "medium" },
+    { "name": "mayonnaise", "amount": 5, "unit": "Tbsp" },
+    { "name": "fresh dill or parsley (or both)", "amount": "", "unit": "" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Roast beets",
+      "text": "Wrap beets snugly in foil and roast about 100 min at 400°F until soft and tender. Cool, then peel."
+    },
+    {
+      "step": 2,
+      "title": "Cook vegetables and eggs",
+      "text": "Boil potatoes and carrots 20-30 min until cooked but firm; cool and peel. Hard-boil eggs and peel."
+    },
+    {
+      "step": 3,
+      "title": "Grate and chop",
+      "text": "Grate potatoes, carrots, beets, and eggs into separate bowls. Finely chop onion and herring separately."
+    },
+    {
+      "step": 4,
+      "title": "Layer salad",
+      "text": "On a serving plate, create layers in this order: herring, onions, potatoes (spread with a thin layer of mayonnaise), carrots, eggs (add another thin layer of mayonnaise), and beets on top. Repeat layers if desired."
+    },
+    {
+      "step": 5,
+      "title": "Finish",
+      "text": "Smooth the top layer of beets and decorate with chopped dill or parsley. Chill before serving."
+    }
+  ],
+  "tips": [
+    "Roasted beets give deeper flavor than boiled.",
+    "Do not overcook potatoes and carrots.",
+    "For a molded look, you can assemble in reverse order in a bowl and flip onto a serving plate."
+  ]
+},
+
+{
+  "id": 16,
+  "title": "Beet Salad with Garlic, Yogurt & Raisins",
+  "category": "Salads",
+  "story": "Easy way to use leftover roasted beets. Sweet beets and raisins balanced by garlic and creamy dressing.",
+  "prepTime": "15 min (if beets are ready)",
+  "cookTime": "100 min (for roasting beets)",
+  "difficulty": "Easy",
+  "cuisine": "Eastern European / Central Asian",
+  "baseServings": 4,
+  "image": "assets/images/beet-garlic-yogurt-raisins-salad.jpg",
+  "dietary": ["Gluten-Free", "Vegetarian"],
+  "nutrition": {
+    "calories": 260,
+    "protein": "6g",
+    "carbs": "34g",
+    "fat": "11g"
+  },
+  "ingredients": [
+    { "name": "beet roots, roasted", "amount": 2, "unit": "" },
+    { "name": "raisins", "amount": 0.5, "unit": "cup" },
+    { "name": "garlic cloves", "amount": "1-2", "unit": "" },
+    { "name": "mayonnaise or Greek yogurt", "amount": 5, "unit": "Tbsp" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Roast beets",
+      "text": "Wrap beets snugly in foil and roast about 100 min at 400°F until soft and tender. Cool, then peel."
+    },
+    {
+      "step": 2,
+      "title": "Shred",
+      "text": "Shred roasted beets on a coarse grater into a mixing bowl."
+    },
+    {
+      "step": 3,
+      "title": "Mix",
+      "text": "Add raisins. Press or finely grate garlic into the bowl. Stir in mayonnaise or Greek yogurt until well combined."
+    }
+  ],
+  "tips": [
+    "Roasted beets have a sweeter, deeper flavor than boiled.",
+    "Chill before serving for best texture.",
+    "Adjust garlic and yogurt-to-mayo ratio to taste."
+  ]
+},
+
+{
+  "id": 17,
+  "title": "Beshbarmak",
+  "category": "Main Dishes",
+  "story": "Traditional Kazakh feast dish of tender meat, dough sheets, and rich onion sauce. Similar meat-and-pasta traditions appear in Southern European cuisines too.",
+  "prepTime": "40 min",
+  "cookTime": "2.5 hrs",
+  "difficulty": "Medium",
+  "cuisine": "Kazakh / Central Asian",
+  "baseServings": 6,
+  "image": "assets/images/beshbarmak.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 650,
+    "protein": "40g",
+    "carbs": "55g",
+    "fat": "28g"
+  },
+  "ingredients": [
+    { "name": "all-purpose flour", "amount": 3, "unit": "cups" },
+    { "name": "salt for dough", "amount": 1, "unit": "Tbsp" },
+    { "name": "egg", "amount": 1, "unit": "" },
+    { "name": "water for dough", "amount": 0.5, "unit": "cup" },
+    { "name": "meat (beef and lamb, preferably on the bone)", "amount": 2.2, "unit": "lb (1 kg)" },
+    { "name": "tomato", "amount": 1, "unit": "" },
+    { "name": "cold water for broth", "amount": 1, "unit": "qt" },
+    { "name": "salt for broth", "amount": 1, "unit": "to 2 Tbsp" },
+    { "name": "potatoes, peeled and halved", "amount": 4, "unit": "to 5" },
+    { "name": "onions, medium (for sauce)", "amount": 2, "unit": "" },
+    { "name": "carrots (for sauce)", "amount": 2, "unit": "" },
+    { "name": "leeks, medium", "amount": 2, "unit": "" },
+    { "name": "bay leaves", "amount": 2, "unit": "" },
+    { "name": "ground black pepper", "amount": 1, "unit": "tsp" },
+    { "name": "lasagna sheets (optional quick alternative)", "amount": "", "unit": "" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Cook broth",
+      "text": "Bring water to a boil in a deep saucepan. Add meat and whole tomato; water should cover meat and bones. Once it returns to a boil, reduce heat immediately and skim foam. Simmer 2 hours until meat is tender."
+    },
+    {
+      "step": 2,
+      "title": "Alternative broth",
+      "text": "As an easier option, place cold water, meat, and tomato in a pressure cooker on slow-cook for 10–15 hours. Skim foam once cooking is finished."
+    },
+    {
+      "step": 3,
+      "title": "Cook potatoes",
+      "text": "Remove meat from broth. Add peeled, halved potatoes and cook in the broth 20–30 minutes until tender. Remove potatoes to a separate bowl."
+    },
+    {
+      "step": 4,
+      "title": "Make dough",
+      "text": "Combine flour, 1 Tbsp salt, egg, and 0.5 cup water into a firm dough. Knead until smooth, rest 20–30 minutes, then roll into thin sheets and cut into large rectangles."
+    },
+    {
+      "step": 5,
+      "title": "Cook dough in broth",
+      "text": "Cook the dough sheets (or lasagna sheets) briefly in the hot broth until just tender. Remove and drain."
+    },
+    {
+      "step": 6,
+      "title": "Tusdyk (sauce)",
+      "text": "In a separate saucepan, slice onions into half-rings, chop leeks and carrots. Add black pepper and bay leaves. Pour in about 2 cups of broth and simmer 10 minutes until vegetables soften."
+    },
+    {
+      "step": 7,
+      "title": "Assemble",
+      "text": "Slice cooked meat into pieces. On a large platter, first arrange dough sheets, then place potatoes in a circle. Put meat in the center and pour the hot onion-leek-carrot sauce over the top."
+    }
+  ],
+  "tips": [
+    "Lasagna sheets work as a quick dough alternative, but homemade dough has better texture.",
+    "Use a mix of beef and lamb with bones for deeper flavor."
+  ]
+},
+
+{
+  "id": 18,
+  "title": "Central Asian Plov (Pilaf)",
+  "category": "Main Dishes",
+  "story": "Classic Central Asian pilaf of meat, rice, carrots, and fragrant spices—perfect for feeding a crowd.",
+  "prepTime": "30 min",
+  "cookTime": "1.5–2 hrs",
+  "difficulty": "Medium",
+  "cuisine": "Central Asian",
+  "baseServings": 6,
+  "image": "assets/images/plov.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 720,
+    "protein": "32g",
+    "carbs": "80g",
+    "fat": "30g"
+  },
+  "ingredients": [
+    { "name": "boneless beef (or beef with some bone)", "amount": 2, "unit": "lb" },
+    { "name": "rice", "amount": 3, "unit": "cups" },
+    { "name": "onions", "amount": 2, "unit": "large" },
+    { "name": "carrots", "amount": 4, "unit": "large" },
+    { "name": "garlic heads, whole", "amount": 2, "unit": "" },
+    { "name": "dried apricots", "amount": 0.5, "unit": "cup" },
+    { "name": "raisins", "amount": 0.5, "unit": "cup" },
+    { "name": "salt", "amount": 2, "unit": "Tbsp (to taste)" },
+    { "name": "cumin seeds", "amount": 2, "unit": "Tbsp" },
+    { "name": "saffron (optional)", "amount": 1, "unit": "pinch" },
+    { "name": "neutral oil (or lamb fat)", "amount": 0.75, "unit": "cup" },
+    { "name": "whole chilies (optional)", "amount": 2, "unit": "" },
+    { "name": "water, hot", "amount": "", "unit": "as needed" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Prep rice and vegetables",
+      "text": "Rinse rice under running water until clear, then soak in cold water. Cut meat into matchbox-sized pieces. Cut carrots into 0.5×0.5 cm sticks. Slice onions into thin rings or half-rings. Clean garlic heads, removing roots and dirt, but keep heads whole."
+    },
+    {
+      "step": 2,
+      "title": "Brown meat",
+      "text": "Heat oil in a cauldron or Dutch oven over high heat. Deep-fry meat in 3–4 batches until golden-brown. Remove if needed between batches."
+    },
+    {
+      "step": 3,
+      "title": "Cook onions and carrots",
+      "text": "Add onions to the hot oil and cook until golden. Return meat, stir to prevent onions from burning. Add carrots and cook, stirring occasionally, 15–20 minutes until they start to wilt and lightly brown."
+    },
+    {
+      "step": 4,
+      "title": "Season and simmer",
+      "text": "Rub 2/3 of the cumin seeds between your palms to release aroma and add to the pot. Pour in hot water just to cover meat and vegetables. Add salt. Simmer 40–90 minutes (depending on meat) until most water evaporates and meat is tender. Do not stir."
+    },
+    {
+      "step": 5,
+      "title": "Add rice and aromatics",
+      "text": "Turn heat to high. Drain rice well and spread it evenly in one layer over the meat and vegetables. Nestle whole garlic heads and whole chilies into the rice. Carefully pour boiling water over a spoon or ladle held above the rice to avoid disturbing the layer, covering the rice by about 2 cm. Add a bit more salt so the water tastes slightly over-salted."
+    },
+    {
+      "step": 6,
+      "title": "Cook rice",
+      "text": "Boil rapidly until the water level drops to the surface of the rice and is absorbed; rice should be al dente. Use a spoon or chopstick to poke holes down to the bottom to check moisture and allow steam to escape."
+    },
+    {
+      "step": 7,
+      "title": "Steam and finish",
+      "text": "Reduce heat to very low, cover tightly, and steam 20 minutes. Turn off heat, remove garlic and chilies to a plate. Gently mix rice with meat and carrots. Adjust salt if needed and let stand 5 minutes."
+    },
+    {
+      "step": 8,
+      "title": "Serve",
+      "text": "Pile plov on a large warmed platter. Serve with garlic heads, chilies, and a simple salad of thinly sliced tomatoes, sweet onions, chili, and salt."
+    }
+  ],
+  "tips": [
+    "Use long-grain or plov-friendly rice that keeps shape.",
+    "Do not stir once rice is added; keep layers intact.",
+    "Dried fruits like apricots and raisins add a festive touch."
+  ]
+},
+
+    {
+      "id": 19,
       "title": "Manty",
       "category": "Main Dishes",
       "story": "Central Asian dumplings.",
@@ -996,7 +1335,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 20,
       "title": "Pelmeni",
       "category": "Main Dishes",
       "story": "Russian dumplings.",
@@ -1062,7 +1401,7 @@
       ]
     },
     {
-      "id": 16,
+      "id": 21,
       "title": "Kotlety",
       "category": "Main Dishes",
       "story": "Russian meatballs.",
@@ -1126,6 +1465,235 @@
       "tips": [
         "Two-step cooking"
       ]
+    },
+
+{
+  "id": 22,
+  "title": "Golubtzy (Cabbage Rolls)",
+  "category": "Main Dishes",
+  "story": "Classic cabbage rolls stuffed with savory ground beef and simmered in a tomato-based sauce.",
+  "prepTime": "30 min",
+  "cookTime": "50-60 min",
+  "difficulty": "Medium",
+  "cuisine": "Eastern European / Central Asian",
+  "baseServings": 6,
+  "image": "assets/images/golubtzy.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 480,
+    "protein": "28g",
+    "carbs": "20g",
+    "fat": "30g"
+  },
+  "ingredients": [
+    { "name": "white cabbage, medium", "amount": 1, "unit": "" },
+    { "name": "prepared ground beef mixture", "amount": 1.5, "unit": "lb" },
+    { "name": "water", "amount": 2, "unit": "cups" },
+    { "name": "carrot", "amount": 1, "unit": "large" },
+    { "name": "onion for ground beef", "amount": 1, "unit": "medium" },
+    { "name": "onion for sauce", "amount": 1, "unit": "medium" },
+    { "name": "oil", "amount": 3, "unit": "Tbsp" },
+    { "name": "black pepper", "amount": 1, "unit": "tsp" },
+    { "name": "salt", "amount": 1.5, "unit": "tsp" },
+    { "name": "fresh dill", "amount": 0.25, "unit": "cup, chopped" },
+    { "name": "tomato paste or tomato sauce (for sofrito/zazharka)", "amount": 3, "unit": "Tbsp" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Prep cabbage leaves",
+      "text": "Carefully separate cabbage leaves one by one. Soak them in a bowl of hot water to soften."
+    },
+    {
+      "step": 2,
+      "title": "Prepare filling",
+      "text": "Use your prepared ground beef base: mix ground beef with finely chopped onion, salt, pepper, and chopped dill."
+    },
+    {
+      "step": 3,
+      "title": "Make sofrito sauce",
+      "text": "In a pan, sauté the second onion and grated carrot in oil until soft and golden. Stir in tomato paste or tomato sauce and cook a few minutes to develop flavor."
+    },
+    {
+      "step": 4,
+      "title": "Stuff rolls",
+      "text": "Place a spoonful of ground beef mixture onto each softened cabbage leaf. Roll tightly, folding in sides to form neat rolls."
+    },
+    {
+      "step": 5,
+      "title": "Simmer",
+      "text": "Arrange cabbage rolls snugly in a pot over the sofrito. Add enough water to partially cover the rolls. Cover and simmer gently 50–60 minutes until cabbage and filling are tender."
     }
+  ],
+  "tips": [
+    "Flat cabbage from Asian stores is easier to roll.",
+    "Trim thick veins on cabbage leaves for easier rolling."
+  ]
+},
+
+{
+  "id": 23,
+  "title": "Chicken Tapaka",
+  "category": "Main Dishes",
+  "story": "Georgian-style spatchcocked chicken cooked under a heavy weight until crisp on the outside and juicy inside.",
+  "prepTime": "15 min",
+  "cookTime": "30 min",
+  "difficulty": "Easy",
+  "cuisine": "Georgian / Caucasian",
+  "baseServings": 3,
+  "image": "assets/images/chicken-tapaka.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 540,
+    "protein": "45g",
+    "carbs": "2g",
+    "fat": "38g"
+  },
+  "ingredients": [
+    { "name": "hen or small chicken", "amount": 1, "unit": "1–1.5 lb" },
+    { "name": "unsalted butter", "amount": 3, "unit": "Tbsp (50 g)" },
+    { "name": "salt", "amount": 0.5, "unit": "tsp" },
+    { "name": "water", "amount": 0.67, "unit": "cup (150 ml)" },
+    { "name": "garlic cloves", "amount": 3, "unit": "to 4" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Flatten chicken",
+      "text": "Cut the hen along the breastbone, open it like a book, and flatten on a board with a meat mallet until even and thinner."
+    },
+    {
+      "step": 2,
+      "title": "Season",
+      "text": "Rub the skin and flesh with salt."
+    },
+    {
+      "step": 3,
+      "title": "Brown",
+      "text": "Heat an iron skillet over medium-high and melt butter. Place chicken skin-side down and fry each side about 5 minutes until nicely browned."
+    },
+    {
+      "step": 4,
+      "title": "Add garlic and water",
+      "text": "Crush garlic cloves, mix with water, and pour over the chicken."
+    },
+    {
+      "step": 5,
+      "title": "Cook under weight",
+      "text": "Reduce heat to medium-low. Place a heavy lid or a plate with a weight on top of the chicken to press it down. Cover and cook 20 minutes on low heat until cooked through and very tender."
+    }
+  ],
+  "tips": [
+    "Cover chicken with plastic wrap or wax paper before pounding to avoid splatter.",
+    "Serve with gnocchi, potatoes, or simple vegetables."
+  ]
+},
+
+{
+  "id": 24,
+  "title": "Chicken (or Duck) in the Oven",
+  "category": "Main Dishes",
+  "story": "Simple whole bird roasted with garlic and butter until crisp on the outside and juicy inside.",
+  "prepTime": "15 min",
+  "cookTime": "1–1.5 hrs",
+  "difficulty": "Easy",
+  "cuisine": "Central Asian / European",
+  "baseServings": 4,
+  "image": "assets/images/roast-chicken-duck.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 600,
+    "protein": "45g",
+    "carbs": "2g",
+    "fat": "45g"
+  },
+  "ingredients": [
+    { "name": "hen or small chicken (or duck)", "amount": 1, "unit": "1–1.5 lb" },
+    { "name": "unsalted butter", "amount": 3, "unit": "Tbsp (50 g)" },
+    { "name": "salt", "amount": 0.5, "unit": "tsp" },
+    { "name": "water", "amount": 0.67, "unit": "cup (150 ml)" },
+    { "name": "garlic cloves", "amount": 3, "unit": "to 4" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Prep bird",
+      "text": "Preheat oven to 400°F (200°C). Pat the hen or duck dry with paper towels. Cut along the breast and flatten, or leave whole if preferred."
+    },
+    {
+      "step": 2,
+      "title": "Season",
+      "text": "Rub skin and cavity with salt."
+    },
+    {
+      "step": 3,
+      "title": "Garlic butter",
+      "text": "Crush garlic cloves and mix with softened or melted butter."
+    },
+    {
+      "step": 4,
+      "title": "Roast",
+      "text": "Place bird in a roasting pan. Brush with garlic butter, pour water into the bottom of the pan, and roast 50–70 minutes (depending on size), basting occasionally, until juices run clear."
+    }
+  ],
+  "tips": [
+    "Cover bird with foil if skin browns too quickly.",
+    "Let rest 10–15 minutes before carving. Serve with gnocchi or potatoes."
+  ]
+},
+
+{
+  "id": 25,
+  "title": "Roasted Leg of Lamb",
+  "category": "Main Dishes",
+  "story": "Festive roasted leg of lamb with simple seasoning—perfect centerpiece for a family meal.",
+  "prepTime": "20 min",
+  "cookTime": "1.5–2 hrs",
+  "difficulty": "Medium",
+  "cuisine": "Mediterranean / Central Asian",
+  "baseServings": 6,
+  "image": "assets/images/roasted-leg-of-lamb.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 680,
+    "protein": "48g",
+    "carbs": "4g",
+    "fat": "50g"
+  },
+  "ingredients": [
+    { "name": "leg of lamb, bone-in", "amount": 4, "unit": "lb" },
+    { "name": "garlic cloves", "amount": 4, "unit": "to 6" },
+    { "name": "salt", "amount": 1.5, "unit": "Tbsp" },
+    { "name": "black pepper", "amount": 1, "unit": "tsp" },
+    { "name": "olive oil", "amount": 3, "unit": "Tbsp" },
+    { "name": "fresh rosemary or thyme (optional)", "amount": 2, "unit": "Tbsp, chopped" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Prep lamb",
+      "text": "Bring lamb to room temperature 1 hour before cooking. Preheat oven to 400°F (200°C)."
+    },
+    {
+      "step": 2,
+      "title": "Season",
+      "text": "Make small slits in lamb and insert slivers of garlic. Rub lamb with olive oil, salt, pepper, and herbs if using."
+    },
+    {
+      "step": 3,
+      "title": "Roast",
+      "text": "Place lamb in a roasting pan. Roast 20 minutes, then lower heat to 350°F (175°C) and continue roasting 15–20 minutes per pound, until desired doneness."
+    },
+    {
+      "step": 4,
+      "title": "Rest",
+      "text": "Remove from oven, tent with foil, and rest 15–20 minutes before carving."
+    }
+  ],
+  "tips": [
+    "For medium-rare, internal temperature should reach about 135–140°F after resting.",
+    "Serve with potatoes or rice and a simple salad."
+  ]
+}
   ]
 }
