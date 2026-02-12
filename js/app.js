@@ -27,12 +27,10 @@ const ICONS = {
 
 // Category definitions for recipe index
 const CATEGORIES = {
-  'Appetizers & Side Dishes': { number: 'I', description: 'Start your meal right' },
-  'Soups & Stews': { number: 'II', description: 'Warming and hearty' },
-  'Main Courses': { number: 'III', description: 'The heart of the meal' },
-  'Dumplings & Pastries': { number: 'IV', description: 'Handmade with love' },
-  'Salads & Vegetables': { number: 'V', description: 'Fresh and vibrant' },
-  'Desserts & Sweets': { number: 'VI', description: 'Sweet endings' }
+  'Appetizers & Side Dishes': { number: 'I', description: 'Start your meal right', slug: 'appetizers-side-dishes' },
+  'Soups': { number: 'II', description: 'Warming and hearty', slug: 'soups' },
+  'Main Dishes': { number: 'III', description: 'The heart of the meal', slug: 'main-dishes' },
+  'Salads': { number: 'IV', description: 'Fresh and vibrant', slug: 'salads' }
 };
 
 // ═══════════════════════════════════════════════════════════════════
@@ -128,9 +126,8 @@ function populateRecipeIndex() {
   });
   
   // Render each category grid
-  Object.keys(CATEGORIES).forEach(categoryName => {
-    const categoryKey = categoryName.toLowerCase().replace(/\s+/g, '-').replace(/&/g, '');
-    const gridElement = document.getElementById(`${categoryKey}-grid`);
+  Object.entries(CATEGORIES).forEach(([categoryName, categoryInfo]) => {
+    const gridElement = document.getElementById(`${categoryInfo.slug}-grid`);
     if (!gridElement) return;
     
     const categoryRecipes = recipesByCategory[categoryName] || [];
