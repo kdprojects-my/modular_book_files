@@ -778,8 +778,90 @@
   ],
   "tips": ["Roast potatoes ahead. Keep dry/liquid separate in fridge for best texture."]
 },
+
+
+{
+  "id": 11,
+  "title": "Lentil Soup",
+  "category": "Soups",
+  "story": "Turkish classic from Karly's numerous trips to Turkey and her mother-in-law's kitchen.",
+  "prepTime": "30 min",
+  "cookTime": "2 hrs (or 30 min with ready broth)",
+  "difficulty": "Medium",
+  "cuisine": "Turkish",
+  "baseServings": 6,
+  "image": "assets/images/lentil-soup.jpg",
+  "dietary": ["Gluten-Free"],
+  "nutrition": {
+    "calories": 265,
+    "protein": "24g",
+    "carbs": "25g",
+    "fat": "8g"
+  },
+  "ingredients": [
+    {"name": "beef meat and ribs", "amount": 1, "unit": "lb"},
+    {"name": "water", "amount": 4, "unit": "liters"},
+    {"name": "potatoes, medium", "amount": 2, "unit": ""},
+    {"name": "onion, medium", "amount": 1, "unit": ""},
+    {"name": "garlic cloves", "amount": "2-3", "unit": ""},
+    {"name": "leek (or 1-2 celery sticks)", "amount": 1, "unit": "small"},
+    {"name": "red lentils", "amount": 1, "unit": "cup"},
+    {"name": "salt", "amount": 1, "unit": "Tbsp"},
+    {"name": "black pepper", "amount": 1, "unit": "pinch"},
+    {"name": "fresh lemon slices", "amount": "1-2", "unit": ""},
+    {"name": "olive oil (for sofrito)", "amount": "2", "unit": "Tbsp"},
+    {"name": "tomatoes, cubed (for sofrito)", "amount": 2, "unit": ""}
+  ],
+  "instructions": [
+    {"step": 1, "title": "Broth", "text": "Slow cook meat/ribs in 4L water for 1.5 hrs (or use pressure cooker 10-15 hrs)."},
+    {"step": 2, "title": "Sofrito", "text": "Chop onions/leeks/celery. Sauté with minced garlic and cubed tomatoes in olive oil until golden."},
+    {"step": 3, "title": "Prep lentils", "text": "Wash red lentils thoroughly."},
+    {"step": 4, "title": "Combine", "text": "Add potatoes, sofrito, and lentils to broth. Simmer covered 20 min on low-medium heat."},
+    {"step": 5, "title": "Season", "text": "Add salt/pepper. Serve with fresh lemon slices."}
+  ],
+  "tips": ["Use pressure cooker for broth to save time. Optional: blend finished soup for puree texture."]
+},
+
+{
+  "id": 12,
+  "title": "Avgolemono",
+  "category": "Soups",
+  "story": "Greek lemon-egg soup with orzo – bright and comforting.",
+  "prepTime": "15 min",
+  "cookTime": "2 hrs",
+  "difficulty": "Medium",
+  "cuisine": "Greek",
+  "baseServings": 6,
+  "image": "assets/images/avgolemono.jpg",
+  "dietary": ["Gluten-Free"],
+  "nutrition": {
+    "calories": 240,
+    "protein": "20g",
+    "carbs": "22g",
+    "fat": "9g"
+  },
+  "ingredients": [
+    {"name": "turkey or chicken bones", "amount": "", "unit": ""},
+    {"name": "water", "amount": 4, "unit": "liters"},
+    {"name": "orzo pasta", "amount": 1, "unit": "cup"},
+    {"name": "eggs", "amount": 2, "unit": ""},
+    {"name": "lemon juice", "amount": "1/3", "unit": "cup"},
+    {"name": "salt", "amount": "1/2", "unit": "Tbsp"},
+    {"name": "black pepper", "amount": 1, "unit": "pinch"}
+  ],
+  "instructions": [
+    {"step": 1, "title": "Broth", "text": "Boil water, add bones, simmer 2 hrs (or pressure cook 10-15 hrs)."},
+    {"step": 2, "title": "Orzo", "text": "When stock is ready, add orzo and cook until tender."},
+    {"step": 3, "title": "Egg mixture", "text": "Beat eggs until frothy. Add salt/pepper."},
+    {"step": 4, "title": "Temper eggs", "text": "Gradually add 1 cup hot broth to eggs by spoonfuls, whisking constantly."},
+    {"step": 5, "title": "Combine", "text": "Pour egg mixture back into pot, stirring constantly over very low heat."},
+    {"step": 6, "title": "Finish", "text": "Add lemon juice last to prevent curdling. Stir gently."}
+  ],
+  "tips": ["Turkey bones give richer flavor than chicken. Sub orzo with white rice. Use chicken feet with bones for extra gelatin."]
+},
+
     {
-      "id": 11,
+      "id": 13,
       "title": "Russian Vinaigrette",
       "category": "Salads",
       "story": "Beet salad classic.",
@@ -848,7 +930,7 @@
       ]
     },
     {
-      "id": 12,
+      "id": 14,
       "title": "Manty",
       "category": "Main Dishes",
       "story": "Central Asian dumplings.",
@@ -914,7 +996,7 @@
       ]
     },
     {
-      "id": 13,
+      "id": 15,
       "title": "Pelmeni",
       "category": "Main Dishes",
       "story": "Russian dumplings.",
@@ -980,7 +1062,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 16,
       "title": "Kotlety",
       "category": "Main Dishes",
       "story": "Russian meatballs.",
