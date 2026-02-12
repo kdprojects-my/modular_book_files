@@ -1700,7 +1700,7 @@
 {
   "id": 26,
   "title": "Beef Tongue",
-  "category": "specialty",
+  "category": "Specialty & Cultural Dishes",
   "story": "Exceptionally tender and mild-flavored, beef tongue makes an elegant appetizer served sliced and simply garnished.",
   "prepTime": "20 min",
   "cookTime": "2–3 hrs",
@@ -1749,7 +1749,7 @@
 {
   "id": 27,
   "title": "Kholodets (Meat Jelly)",
-  "category": "specialty",
+  "category": "Specialty & Cultural Dishes",
   "story": "Traditional meat jelly made from long-simmered beef feet and meat—rich, savory, and served cold in slices.",
   "prepTime": "30 min",
   "cookTime": "4.5–5 hrs",
@@ -1823,7 +1823,7 @@
 {
   "id": 28,
   "title": "Beef Liver with Onions, Garlic & Balsamic Glaze",
-  "category": "specialty",
+  "category": "Specialty & Cultural Dishes",
   "story": "Highly nutritious and rich in iron, this beef liver is soaked, quickly sautéed, and finished with a touch of balsamic glaze.",
   "prepTime": "30 min",
   "cookTime": "5–10 min",
