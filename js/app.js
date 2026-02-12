@@ -29,8 +29,10 @@ const ICONS = {
 const CATEGORIES = {
   'Appetizers & Side Dishes': { number: 'I', description: 'Start your meal right', slug: 'appetizers-side-dishes' },
   'Soups': { number: 'II', description: 'Warming and hearty', slug: 'soups' },
-  'Main Dishes': { number: 'III', description: 'The heart of the meal', slug: 'main-dishes' },
-  'Salads': { number: 'IV', description: 'Fresh and vibrant', slug: 'salads' }
+  'Salads': { number: 'III', description: 'Fresh and vibrant', slug: 'salads' },
+  'Main Dishes': { number: 'IV', description: 'The heart of the meal', slug: 'main-dishes' },
+  'Specialty & Cultural Dishes': { number: 'V', description: 'Unique recipes with rich cultural backgrounds', slug: 'specialty-cultural-dishes' },
+  'Baked Goods & Desserts': { number: 'V', description: 'Sweet treats and baked delights to end your meal', slug: 'baked-goods-desserts' }
 };
 
 // ═══════════════════════════════════════════════════════════════════
