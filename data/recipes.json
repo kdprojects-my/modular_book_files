@@ -696,7 +696,7 @@
     {"step": 5, "title": "Serve", "text": "Boil noodles separately in 1L water. Serve soup with noodles and fresh herbs."}
   ],
   "tips": ["Use udon noodles to save time, but homemade tastes better."]
-}
+},
 
 {
   "id": 9,
@@ -737,8 +737,7 @@
     {"step": 5, "title": "Finish", "text": "Add tofu/scallions/eggs. Stir gently, cook 3 min. Serve with rice."}
   ],
   "tips": ["Pressure cook broth to save time. Sub 0.5 lb green veg (broccoli/bok choy) for leeks."]
-}
-
+},
 {
   "id": 10,
   "title": "Okroshka",
@@ -778,8 +777,7 @@
     {"step": 5, "title": "Serve", "text": "Combine dry + liquid just before serving."}
   ],
   "tips": ["Roast potatoes ahead. Keep dry/liquid separate in fridge for best texture."]
-}
-
+},
     {
       "id": 11,
       "title": "Russian Vinaigrette",
