@@ -564,70 +564,7 @@
         "Roast beets in advance"
       ]
     },
-    {
-      "id": 7,
-      "title": "Roasted Vegetables (Vegan)",
-      "category": "Appetizers & Side Dishes",
-      "story": "Simple vegan side.",
-      "prepTime": "10 min",
-      "cookTime": "45 min",
-      "difficulty": "Easy",
-      "cuisine": "Mediterranean",
-      "baseServings": 4,
-      "image": "assets/images/roasted-vegetables-vegan.jpg",
-      "dietary": [
-        "Vegan",
-        "Gluten-Free"
-      ],
-      "nutrition": {
-        "calories": 135,
-        "protein": "3g",
-        "carbs": "15g",
-        "fat": "8g"
-      },
-      "ingredients": [
-        {
-          "name": "eggplants",
-          "amount": 2,
-          "unit": ""
-        },
-        {
-          "name": "bell pepper",
-          "amount": 1,
-          "unit": ""
-        },
-        {
-          "name": "zucchini",
-          "amount": 1,
-          "unit": ""
-        },
-        {
-          "name": "olive oil",
-          "amount": 4,
-          "unit": "Tbsp"
-        }
-      ],
-      "instructions": [
-        {
-          "step": 1,
-          "title": "Prep",
-          "text": "Slice vegetables."
-        },
-        {
-          "step": 2,
-          "title": "Season",
-          "text": "Brush with oil."
-        },
-        {
-          "step": 3,
-          "title": "Roast",
-          "text": "Roast 40 min at 400°F."
-        }
-      ],
-      "tips": [
-        "Meal prep friendly"
-      ]
-    },
+    
     {
       "id": 8,
       "title": "Borscht",
@@ -787,7 +724,7 @@
     },
     {
       "id": 10,
-      "title": "Manti",
+      "title": "Manty",
       "category": "Main Dishes",
       "story": "Central Asian dumplings.",
       "prepTime": "45 min",
@@ -795,7 +732,7 @@
       "difficulty": "Medium",
       "cuisine": "Central Asian",
       "baseServings": 6,
-      "image": "assets/images/manti.jpg",
+      "image": "assets/images/manty.jpg",
       "dietary": [],
       "nutrition": {
         "calories": 380,
