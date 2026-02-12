@@ -1694,6 +1694,687 @@
     "For medium-rare, internal temperature should reach about 135–140°F after resting.",
     "Serve with potatoes or rice and a simple salad."
   ]
+},
+
+
+{
+  "id": 26,
+  "title": "Beef Tongue",
+  "category": "Specialty",
+  "story": "Exceptionally tender and mild-flavored, beef tongue makes an elegant appetizer served sliced and simply garnished.",
+  "prepTime": "20 min",
+  "cookTime": "2–3 hrs",
+  "difficulty": "Medium",
+  "cuisine": "Eastern European / Central Asian",
+  "baseServings": 8,
+  "image": "assets/images/beef-tongue.jpg",
+  "dietary": ["Gluten-Free"],
+  "nutrition": {
+    "calories": 280,
+    "protein": "24g",
+    "carbs": "0g",
+    "fat": "20g"
+  },
+  "ingredients": [
+    { "name": "beef tongue", "amount": 1, "unit": "whole" },
+    { "name": "salt", "amount": 1, "unit": "Tbsp (to taste)" },
+    { "name": "parsley or dill, chopped", "amount": 0.25, "unit": "cup" },
+    { "name": "sesame seeds (optional)", "amount": 1, "unit": "Tbsp" },
+    { "name": "soy sauce (optional)", "amount": 2, "unit": "Tbsp" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Simmer tongue",
+      "text": "Place beef tongue in a large pot, cover with water, and bring to a gentle boil. Add salt, reduce heat, and simmer 2–3 hours until very tender and a knife slides in easily."
+    },
+    {
+      "step": 2,
+      "title": "Peel",
+      "text": "Remove tongue from pot and let cool slightly. While still warm, peel off the tough outer skin; it should come off easily."
+    },
+    {
+      "step": 3,
+      "title": "Slice and serve",
+      "text": "Slice tongue across the grain into 0.5-inch pieces. Arrange on a serving plate, garnish with parsley or dill. Serve warm or at room temperature."
+    }
+  ],
+  "tips": [
+    "Slow, gentle cooking is key for a delicate texture.",
+    "For a variation, drizzle with sesame oil, sprinkle sesame seeds, and serve with a splash of soy sauce.",
+    "You can cook tongue in a pressure cooker until fully tender to save time."
+  ]
+},
+
+{
+  "id": 27,
+  "title": "Kholodets (Meat Jelly)",
+  "category": "Specialty",
+  "story": "Traditional meat jelly made from long-simmered beef feet and meat—rich, savory, and served cold in slices.",
+  "prepTime": "30 min",
+  "cookTime": "4.5–5 hrs",
+  "difficulty": "Hard",
+  "cuisine": "Russian / Eastern European",
+  "baseServings": 10,
+  "image": "assets/images/kholodets.jpg",
+  "dietary": ["Gluten-Free"],
+  "nutrition": {
+    "calories": 260,
+    "protein": "24g",
+    "carbs": "3g",
+    "fat": "16g"
+  },
+  "ingredients": [
+    { "name": "beef feet", "amount": 2, "unit": "lb" },
+    { "name": "beef fillet or stew meat", "amount": 1.5, "unit": "lb" },
+    { "name": "onion, unpeeled", "amount": 1, "unit": "" },
+    { "name": "carrots", "amount": 2, "unit": "" },
+    { "name": "celery root", "amount": 1, "unit": "small" },
+    { "name": "black pepper (whole or ground)", "amount": 1, "unit": "tsp" },
+    { "name": "salt", "amount": 1.5, "unit": "Tbsp (to taste)" },
+    { "name": "cilantro or parsley", "amount": 0.25, "unit": "cup, chopped" },
+    { "name": "bay leaves", "amount": 2, "unit": "" },
+    { "name": "garlic bulb", "amount": 1, "unit": "whole" },
+    { "name": "water", "amount": "", "unit": "as needed to barely cover" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Soak bones",
+      "text": "Soak beef feet in cold water 2–3 hours. Drain and rinse."
+    },
+    {
+      "step": 2,
+      "title": "Start broth",
+      "text": "Place feet in a pot, cover with water, and bring to a boil. Once it boils, discard the water. Refill with fresh water just to barely cover the meat—do not add too much or the jelly will not set. Bring to a boil again, add salt, then reduce to a gentle simmer for about 3 hours."
+    },
+    {
+      "step": 3,
+      "title": "Add meat and onion",
+      "text": "After 3 hours, add beef fillet and whole unpeeled onion. Simmer together another 1.5 hours."
+    },
+    {
+      "step": 4,
+      "title": "Add vegetables",
+      "text": "Add whole carrots and celery root. Cook until vegetables are tender."
+    },
+    {
+      "step": 5,
+      "title": "Prepare meat",
+      "text": "Remove meat and bones. Separate meat from bones and cut into small pieces. Return meat pieces to the broth."
+    },
+    {
+      "step": 6,
+      "title": "Season",
+      "text": "Add black pepper and bay leaves and simmer 5–10 minutes. Skim off excess fat from the surface."
+    },
+    {
+      "step": 7,
+      "title": "Finish and set",
+      "text": "Grate the whole garlic bulb and chop cilantro or parsley. Stir into hot broth with meat. Remove bay leaves. Pour into molds or dishes and let cool; refrigerate until fully set."
+    }
+  ],
+  "tips": [
+    "The broth should be rich and concentrated; too much water will prevent it from setting.",
+    "Serve cold, sliced, with mustard or horseradish if desired."
+  ]
+},
+
+{
+  "id": 28,
+  "title": "Beef Liver with Onions, Garlic & Balsamic Glaze",
+  "category": "Specialty",
+  "story": "Highly nutritious and rich in iron, this beef liver is soaked, quickly sautéed, and finished with a touch of balsamic glaze.",
+  "prepTime": "30 min",
+  "cookTime": "5–10 min",
+  "difficulty": "Easy",
+  "cuisine": "Eastern European / Central Asian",
+  "baseServings": 4,
+  "image": "assets/images/beef-liver.jpg",
+  "dietary": ["Gluten-Free"],
+  "nutrition": {
+    "calories": 310,
+    "protein": "32g",
+    "carbs": "10g",
+    "fat": "15g"
+  },
+  "ingredients": [
+    { "name": "beef liver", "amount": 1.5, "unit": "to 2 lb" },
+    { "name": "milk (for soaking)", "amount": 1, "unit": "cup or as needed" },
+    { "name": "onion, large", "amount": 1, "unit": "" },
+    { "name": "olive oil", "amount": 1, "unit": "Tbsp" },
+    { "name": "garlic cloves", "amount": 4, "unit": "" },
+    { "name": "salt", "amount": 0.5, "unit": "tsp" },
+    { "name": "black pepper", "amount": 0.25, "unit": "tsp" },
+    { "name": "balsamic glaze", "amount": 2, "unit": "Tbsp" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Prep liver",
+      "text": "Remove the thin membrane from the liver. Soak liver in milk about 30 minutes to tenderize and reduce bitterness."
+    },
+    {
+      "step": 2,
+      "title": "Season",
+      "text": "Pat liver dry, slice into pieces if needed, and season lightly with salt and pepper. Let sit a few minutes."
+    },
+    {
+      "step": 3,
+      "title": "Sauté aromatics",
+      "text": "Slice onion and mince garlic. In a frying pan, heat olive oil over medium heat and sauté onions and garlic until soft and fragrant."
+    },
+    {
+      "step": 4,
+      "title": "Cook liver",
+      "text": "Add liver pieces to the pan, lower heat, and cook gently about 5 minutes, just until cooked through. Do not overcook—liver should stay tender."
+    },
+    {
+      "step": 5,
+      "title": "Serve",
+      "text": "Transfer to a plate and lightly drizzle with balsamic glaze."
+    }
+  ],
+  "tips": [
+    "Removing the membrane and soaking in milk are key to tenderness and mild flavor.",
+    "The biggest secret is short, gentle cooking; overcooked liver becomes tough.",
+    "Serve immediately for best texture."
+  ]
+},
+
+
+{
+  "id": 29,
+  "title": "Baursak (Kazakh Puffy Bread)",
+  "category": "Baked Goods & Desserts",
+  "story": "Traditional Kazakh puffy fried dough, often served with tea during holidays and family gatherings.",
+  "prepTime": "20 min",
+  "cookTime": "30 min",
+  "difficulty": "Easy",
+  "cuisine": "Kazakh / Central Asian",
+  "baseServings": 6,
+  "image": "assets/images/baursak.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 260,
+    "protein": "6g",
+    "carbs": "30g",
+    "fat": "12g"
+  },
+  "ingredients": [
+    { "name": "flour", "amount": 2, "unit": "cups" },
+    { "name": "yeast", "amount": 1, "unit": "Tbsp" },
+    { "name": "warm water", "amount": 0.25, "unit": "cup" },
+    { "name": "egg", "amount": 1, "unit": "" },
+    { "name": "butter, softened", "amount": 1, "unit": "Tbsp" },
+    { "name": "sugar", "amount": 1, "unit": "Tbsp" },
+    { "name": "salt", "amount": 0.25, "unit": "tsp" },
+    { "name": "vegetable oil for frying", "amount": 2, "unit": "cups" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Make dough",
+      "text": "Combine flour, yeast, warm water, egg, butter, sugar, and salt in a large bowl to form a soft dough."
+    },
+    {
+      "step": 2,
+      "title": "Knead and rise",
+      "text": "Knead dough on a floured surface until smooth. Return to bowl, cover with a towel, and let rise about 30 minutes."
+    },
+    {
+      "step": 3,
+      "title": "Heat oil",
+      "text": "Heat vegetable oil in a deep skillet over high or medium-high heat."
+    },
+    {
+      "step": 4,
+      "title": "Shape",
+      "text": "Pinch off tablespoon-sized pieces of dough and roll into balls. Press down slightly."
+    },
+    {
+      "step": 5,
+      "title": "Fry",
+      "text": "Carefully drop dough pieces into hot oil and fry until golden brown on all sides. Drain on paper towels."
+    }
+  ],
+  "tips": [
+    "Serve warm with Kazakh chai, honey, or a sprinkle of sugar.",
+    "Do not overcrowd the pan; fry in batches for even browning."
+  ]
+},
+
+{
+  "id": 30,
+  "title": "Blintchiki (Crepes)",
+  "category": "Baked Goods & Desserts",
+  "story": "Thin, tender crepes perfect for breakfast or dessert, ready to fill with jam, cheese, or sour cream.",
+  "prepTime": "15 min",
+  "cookTime": "25 min",
+  "difficulty": "Easy",
+  "cuisine": "Russian / Eastern European",
+  "baseServings": 4,
+  "image": "assets/images/blintchiki.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 220,
+    "protein": "8g",
+    "carbs": "28g",
+    "fat": "8g"
+  },
+  "ingredients": [
+    { "name": "eggs", "amount": 2, "unit": "" },
+    { "name": "sugar", "amount": 2, "unit": "Tbsp" },
+    { "name": "salt", "amount": 1, "unit": "tsp" },
+    { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+    { "name": "whole milk", "amount": 2, "unit": "cups" },
+    { "name": "cognac or whiskey", "amount": 1, "unit": "Tbsp" },
+    { "name": "water", "amount": 1, "unit": "cup" },
+    { "name": "flour", "amount": 2, "unit": "cups" },
+    { "name": "olive oil", "amount": 1, "unit": "Tbsp" },
+    { "name": "baking powder", "amount": 0.5, "unit": "tsp" },
+    { "name": "butter (for pan and layering)", "amount": 2, "unit": "Tbsp" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Start batter",
+      "text": "In a bowl whisk eggs with sugar and salt. Add 1 cup of milk and mix well."
+    },
+    {
+      "step": 2,
+      "title": "Combine dry ingredients",
+      "text": "In a separate bowl mix flour and baking powder. Gradually whisk dry ingredients into the egg mixture, alternating with the remaining milk and water until smooth."
+    },
+    {
+      "step": 3,
+      "title": "Finish batter",
+      "text": "Stir in vanilla, cognac or whiskey, and olive oil. Batter should be thin and pourable."
+    },
+    {
+      "step": 4,
+      "title": "Cook crepes",
+      "text": "Heat a 12-inch nonstick skillet over medium heat and lightly coat with butter. Pour in a small amount of batter, swirling to cover the bottom. Cook 2–3 minutes until underside is golden."
+    },
+    {
+      "step": 5,
+      "title": "Flip",
+      "text": "Loosen edge with a spatula and flip. Cook 1–2 minutes more. Transfer to a plate, spread with a thin layer of butter, and cover with a lid while you cook remaining crepes, buttering the pan as needed."
+    }
+  ],
+  "tips": [
+    "Let batter rest 10–15 minutes if you have time for more tender crepes.",
+    "Adjust with a splash of milk or water if batter becomes too thick."
+  ]
+},
+
+{
+  "id": 31,
+  "title": "Börek with Feta & Greens",
+  "category": "Baked Goods & Desserts",
+  "story": "Savory layered filo pie filled with feta, spinach, and herbs—perfect for brunch or as a light main.",
+  "prepTime": "25 min",
+  "cookTime": "50 min",
+  "difficulty": "Medium",
+  "cuisine": "Turkish / Mediterranean",
+  "baseServings": 6,
+  "image": "assets/images/borek.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 380,
+    "protein": "14g",
+    "carbs": "30g",
+    "fat": "22g"
+  },
+  "ingredients": [
+    { "name": "feta cheese", "amount": 300, "unit": "g" },
+    { "name": "filo dough (phyllo), 1 pack", "amount": 1, "unit": "pack" },
+    { "name": "sour cream", "amount": 0.5, "unit": "cup" },
+    { "name": "spinach, chopped", "amount": 2, "unit": "cups" },
+    { "name": "parsley, chopped", "amount": 0.5, "unit": "cup" },
+    { "name": "egg", "amount": 1, "unit": "" },
+    { "name": "butter, melted", "amount": 0.5, "unit": "cup" },
+    { "name": "milk", "amount": 0.5, "unit": "cup" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Soak feta",
+      "text": "Soak feta cheese in cold water 25–30 minutes to remove excess salt, then drain and crumble."
+    },
+    {
+      "step": 2,
+      "title": "Make filling",
+      "text": "Chop spinach and parsley. Mix with egg, sour cream, and crumbled feta to form the filling."
+    },
+    {
+      "step": 3,
+      "title": "Butter mixture",
+      "text": "In a separate bowl melt butter and mix with milk."
+    },
+    {
+      "step": 4,
+      "title": "Layer filo",
+      "text": "Preheat oven to 360°F (180°C). Brush a baking pan with butter-milk mixture. Lay down half of the filo sheets one by one, brushing each sheet lightly with the butter-milk mixture."
+    },
+    {
+      "step": 5,
+      "title": "Add filling",
+      "text": "Spread the filling evenly over the layered filo. Cover with remaining filo sheets, brushing each with butter-milk mixture."
+    },
+    {
+      "step": 6,
+      "title": "Score and bake",
+      "text": "Pre-cut the top into pieces with a sharp knife. Bake 40 minutes at 360°F, then reduce to 280°F (140°C) and bake 10 minutes more."
+    }
+  ],
+  "tips": [
+    "Keep filo sheets covered with a damp towel while working so they do not dry out.",
+    "Let börek rest 10–15 minutes before cutting to keep layers intact."
+  ]
+},
+
+{
+  "id": 32,
+  "title": "Cake Tvorozhniy",
+  "category": "Baked Goods & Desserts",
+  "story": "Soft vanilla cake with a tangy tvorog/ricotta topping—simple, tender, and perfect with tea.",
+  "prepTime": "20 min",
+  "cookTime": "35–40 min",
+  "difficulty": "Easy",
+  "cuisine": "Eastern European",
+  "baseServings": 8,
+  "image": "assets/images/cake-tvorozhniy.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 320,
+    "protein": "8g",
+    "carbs": "38g",
+    "fat": "15g"
+  },
+  "ingredients": [
+    { "name": "buttermilk, lukewarm", "amount": 1, "unit": "cup" },
+    { "name": "baking soda", "amount": 0.33, "unit": "tsp" },
+    { "name": "egg", "amount": 1, "unit": "" },
+    { "name": "sugar", "amount": 0.67, "unit": "cup" },
+    { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+    { "name": "vegetable oil", "amount": 0.5, "unit": "cup" },
+    { "name": "all-purpose flour", "amount": 1.25, "unit": "cups" },
+    { "name": "baking powder", "amount": 1, "unit": "tsp" }
+  ],
+  "topping": [
+    { "name": "egg", "amount": 1, "unit": "" },
+    { "name": "ricotta cheese or twarog", "amount": 1, "unit": "cup" },
+    { "name": "sugar", "amount": 3, "unit": "Tbsp" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Activate soda",
+      "text": "Mix buttermilk and baking soda in a bowl. Let rest 10 minutes."
+    },
+    {
+      "step": 2,
+      "title": "Egg mixture",
+      "text": "In a second bowl whisk egg with 2/3 cup sugar and vanilla."
+    },
+    {
+      "step": 3,
+      "title": "Combine wet",
+      "text": "Combine the buttermilk mixture with the egg mixture. Add vegetable oil and stir until smooth."
+    },
+    {
+      "step": 4,
+      "title": "Add dry",
+      "text": "In a third bowl mix flour and baking powder. Gently fold dry ingredients into wet until just combined."
+    },
+    {
+      "step": 5,
+      "title": "Prepare topping",
+      "text": "In a small bowl whisk 1 egg with ricotta (or twarog) and 3 Tbsp sugar until smooth."
+    },
+    {
+      "step": 6,
+      "title": "Bake",
+      "text": "Preheat oven to 350°F (175°C). Pour batter into a greased pan. Spoon or spread the cheese topping over the batter. Bake 30–40 minutes, until a toothpick in the cake (not topping) comes out clean."
+    }
+  ],
+  "tips": [
+    "Let cake cool slightly before slicing so topping can set.",
+    "Use well-drained ricotta/twarog so the topping is not too runny."
+  ]
+},
+
+{
+  "id": 33,
+  "title": "Apricot Pie",
+  "category": "Baked Goods & Desserts",
+  "story": "Moist apricot cake soaked with sweet sour-cream glaze—an old-fashioned teacake style dessert.",
+  "prepTime": "20 min",
+  "cookTime": "90 min",
+  "difficulty": "Medium",
+  "cuisine": "Eastern European",
+  "baseServings": 8,
+  "image": "assets/images/apricot-pie.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 380,
+    "protein": "7g",
+    "carbs": "45g",
+    "fat": "18g"
+  },
+  "ingredients": [
+    { "name": "eggs", "amount": 4, "unit": "" },
+    { "name": "sugar", "amount": 1, "unit": "cup" },
+    { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+    { "name": "butter, melted", "amount": 1.33, "unit": "sticks (200 g)" },
+    { "name": "baking powder", "amount": 1, "unit": "tsp" },
+    { "name": "all-purpose flour", "amount": 1.25, "unit": "cups" }
+  ],
+  "topping": [
+    { "name": "jarred apricots with syrup", "amount": 1, "unit": "450 ml jar" },
+    { "name": "sour cream", "amount": 200, "unit": "g" },
+    { "name": "sugar", "amount": 1, "unit": "cup" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Make batter",
+      "text": "Mix eggs, 1 cup sugar, and vanilla with melted butter until smooth."
+    },
+    {
+      "step": 2,
+      "title": "Add dry",
+      "text": "Mix baking powder with flour and fold into the batter until just combined."
+    },
+    {
+      "step": 3,
+      "title": "Layer apricots",
+      "text": "Preheat oven to 360°F (180°C). Lightly grease a baking pan. Arrange half of the apricots on the bottom."
+    },
+    {
+      "step": 4,
+      "title": "Bake cake",
+      "text": "Pour batter over the apricots. Arrange remaining apricots on top and let them sink slightly. Bake 40 minutes at 360°F, then lower to 340°F (170°C) and bake another 40 minutes."
+    },
+    {
+      "step": 5,
+      "title": "Sour-cream glaze",
+      "text": "Mix warm sour cream with 1 cup sugar until smooth. Pour over the warm cake in an even layer and return to the oven for 10 minutes."
+    }
+  ],
+  "tips": [
+    "Cool before slicing so the glaze can set.",
+    "Use good-quality jarred apricots in light syrup for best flavor."
+  ]
+},
+{
+  "id": 34,
+  "title": "Tchak-tchak",
+  "category": "Baked Goods & Desserts",
+  "story": "Crispy fried dough pieces coated in honey or caramel-like syrup, a beloved Tatar dessert often served at celebrations.",
+  "prepTime": "1 hr 15 min (including rest)",
+  "cookTime": "20–30 min",
+  "difficulty": "Medium",
+  "cuisine": "Tatar / Central Asian",
+  "baseServings": 8,
+  "image": "assets/images/tchak-tchak.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 420,
+    "protein": "8g",
+    "carbs": "55g",
+    "fat": "18g"
+  },
+  "ingredients": [
+    { "name": "eggs", "amount": 3, "unit": "" },
+    { "name": "sugar", "amount": 0.25, "unit": "cup" },
+    { "name": "salt", "amount": 0.25, "unit": "tsp" },
+    { "name": "milk", "amount": 0.5, "unit": "cup" },
+    { "name": "vodka or cognac", "amount": 1, "unit": "Tbsp" },
+    { "name": "baking powder", "amount": 0.5, "unit": "tsp" },
+    { "name": "flour (approximate, enough for soft dough)", "amount": 2.5, "unit": "to 3 cups" },
+    { "name": "vegetable oil for frying", "amount": 2, "unit": "cups" },
+    { "name": "walnuts, chopped", "amount": 0.5, "unit": "cup" },
+    { "name": "pecans, chopped (optional)", "amount": 0.25, "unit": "cup" }
+  ],
+  "syrupOptions": [
+    {
+      "name": "Option 1: Honey syrup",
+      "ingredients": [
+        { "name": "honey", "amount": 12, "unit": "oz" },
+        { "name": "sugar", "amount": 9, "unit": "oz (~1 cup)" }
+      ]
+    },
+    {
+      "name": "Option 2: Honey + dulce de leche",
+      "ingredients": [
+        { "name": "honey", "amount": 8, "unit": "oz" },
+        { "name": "dulce de leche", "amount": 8, "unit": "oz" }
+      ]
+    },
+    {
+      "name": "Option 3: Sweetened condensed milk",
+      "ingredients": [
+        { "name": "sweetened condensed milk", "amount": 14, "unit": "oz can" }
+      ]
+    }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Make dough",
+      "text": "Beat eggs with sugar, salt, milk, and vodka/cognac. Add baking powder and enough flour to make a soft, pliable dough. Cover and rest 1 hour."
+    },
+    {
+      "step": 2,
+      "title": "Shape",
+      "text": "Roll out dough very thin and cut into small thin strips or pieces."
+    },
+    {
+      "step": 3,
+      "title": "Fry",
+      "text": "Heat oil in a saucepan. Fry dough pieces in small batches until golden, usually under 1 minute. Drain on paper towels."
+    },
+    {
+      "step": 4,
+      "title": "Add nuts",
+      "text": "Grind or chop walnuts (and pecans if using) and mix with the fried dough pieces in a large bowl."
+    },
+    {
+      "step": 5,
+      "title": "Make syrup (choose one option)",
+      "text": "For honey syrup: gently heat honey and sugar, stirring until sugar dissolves. For honey + dulce de leche: heat and stir together until smooth. For condensed milk: warm slightly if needed to loosen."
+    },
+    {
+      "step": 6,
+      "title": "Coat and shape",
+      "text": "Pour hot syrup over the fried dough and nuts. Mix carefully until evenly coated. Shape on a flat plate or in a mold and let cool. Decorate with extra pecans if desired."
+    }
+  ],
+  "tips": [
+    "Work in small frying batches so pieces do not stick.",
+    "Shape while syrup is still warm; it sets as it cools.",
+    "Light alcohol in the dough helps keep pieces crisp and airy."
+  ]
+},
+
+{
+  "id": 35,
+  "title": "Lemon Cherry Pie",
+  "category": "Baked Goods & Desserts",
+  "story": "Bright lemon-scented cake studded with cherries, apples, and crunchy pecans.",
+  "prepTime": "20 min",
+  "cookTime": "1.5 hrs",
+  "difficulty": "Medium",
+  "cuisine": "European",
+  "baseServings": 8,
+  "image": "assets/images/lemon-cherry-pie.jpg",
+  "dietary": [],
+  "nutrition": {
+    "calories": 370,
+    "protein": "6g",
+    "carbs": "45g",
+    "fat": "18g"
+  },
+  "ingredients": [
+    { "name": "eggs", "amount": 3, "unit": "" },
+    { "name": "brown sugar", "amount": 0.25, "unit": "cup" },
+    { "name": "salt", "amount": 0.33, "unit": "tsp" },
+    { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
+    { "name": "liquor (e.g., cognac)", "amount": 1, "unit": "Tbsp" },
+    { "name": "butter, melted", "amount": 1, "unit": "stick (113 g)" },
+    { "name": "baking powder", "amount": 2, "unit": "tsp" },
+    { "name": "all-purpose flour", "amount": 1, "unit": "cup" }
+  ],
+  "topping": [
+    { "name": "lemon or orange peel, simmered and chopped", "amount": 2, "unit": "to 3 Tbsp" },
+    { "name": "frozen cherries", "amount": 1, "unit": "cup" },
+    { "name": "apple, peeled and sliced", "amount": 1, "unit": "" },
+    { "name": "pecan nuts, crushed (optional)", "amount": 0.5, "unit": "cup" }
+  ],
+  "instructions": [
+    {
+      "step": 1,
+      "title": "Prep peel",
+      "text": "Simmer lemon or orange peel in water 10 minutes, then drain and cut into small pieces."
+    },
+    {
+      "step": 2,
+      "title": "Make batter",
+      "text": "Mix eggs with salt, then add brown sugar and whisk well."
+    },
+    {
+      "step": 3,
+      "title": "Add flavorings",
+      "text": "Stir in vanilla, liquor, and melted butter until smooth."
+    },
+    {
+      "step": 4,
+      "title": "Add dry",
+      "text": "Mix baking powder with flour and fold into batter until just combined."
+    },
+    {
+      "step": 5,
+      "title": "Add peel",
+      "text": "Stir chopped lemon/orange peel into the batter."
+    },
+    {
+      "step": 6,
+      "title": "Assemble",
+      "text": "Pour batter into a greased pan. Scatter frozen cherries over the top and let them sink slightly. Arrange apple slices on top and let them sink. Sprinkle with crushed pecans, if using."
+    },
+    {
+      "step": 7,
+      "title": "Bake",
+      "text": "Bake in a preheated oven 50 minutes at 375°F (190°C), then lower heat to 340°F (170°C) and bake another 40 minutes, until a toothpick comes out clean."
+    }
+  ],
+  "tips": [
+    "Simmering the citrus peel removes bitterness and softens it.",
+    "Use frozen cherries straight from the freezer; they will sink into the batter as it bakes."
+  ]
 }
+
   ]
 }
