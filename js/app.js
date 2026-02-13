@@ -298,35 +298,17 @@ function toggleSection(sectionId) {
 // ═══════════════════════════════════════════════════════════════════
 // CULTURAL INFO
 // ═══════════════════════════════════════════════════════════════════
-async function fetchCulture() {
+function fetchCulture() {
   const recipe = recipes[currentRecipeId];
   const fact = document.getElementById('cultureFact');
   const btn = document.getElementById('btnCulture');
   
   fact.classList.add('visible');
-  fact.innerHTML = '<p class="loading">Loading…</p>';
   btn.style.display = 'none';
   
-  try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 300,
-        messages: [{
-          role: 'user',
-          content: `Share a brief cultural fact about the dish "${recipe.title}" from ${recipe.cuisine} cuisine. Keep it to 2-3 sentences.`
-        }]
-      })
-    });
-    
-    const data = await response.json();
-    const textBlock = (data.content || []).find(b => b.type === 'text');
-    fact.innerHTML = `<p>${textBlock ? textBlock.text : 'This dish has deep cultural roots.'}</p>`;
-  } catch (error) {
-    fact.innerHTML = '<p>This beloved dish represents generations of culinary tradition.</p>';
-  }
+  // Use custom cultural background from recipe data, or default text if not available
+  const culturalText = recipe.culturalBackground || 'This beloved dish represents generations of culinary tradition.';
+  fact.innerHTML = `<p>${culturalText}</p>`;
 }
 
 // ═══════════════════════════════════════════════════════════════════

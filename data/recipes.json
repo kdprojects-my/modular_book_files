@@ -102,7 +102,8 @@
         "For egg-free option, use Greek yogurt with salt instead of mayo",
         "Can be made in advance and refrigerated for a couple of days",
         "Garnish with parsley, dill or cilantro"
-      ]
+      ],
+      "culturalBackground": "The name 'Tyeshin Yazyk' literally means 'mother-in-law's tongue' in Russian—a playful reference to the dish's sharp, garlicky bite. This appetizer is a staple of Soviet-era entertaining, where families would transform humble vegetables into elegant zakuski (small appetizers) for special occasions."
     },
     {
       "id": 1,
@@ -192,7 +193,8 @@
       "tips": [
         "Roast in advance",
         "Use fresh herbs"
-      ]
+      ],
+      "culturalBackground": "This colorful Mediterranean dish embodies the Greek tradition of using simple, fresh vegetables to create vibrant meze platters. The combination of feta cheese and balsamic glaze reflects the modern fusion of traditional Greek ingredients with contemporary European flavors."
     },
     {
       "id": 2,
@@ -281,7 +283,8 @@
       ],
       "tips": [
         "Great for meal prep"
-      ]
+      ],
+      "culturalBackground": "This Kazakh preserving tradition emerged from the practical need to store summer's bounty through harsh Central Asian winters. The name 'Desyatka' (meaning 'group of ten') reflects the systematic approach to balanced nutrition that characterizes nomadic culinary wisdom."
     },
     {
       "id": 3,
@@ -350,7 +353,8 @@
       ],
       "tips": [
         "Beautiful golden color"
-      ]
+      ],
+      "culturalBackground": "This beloved dish represents generations of culinary tradition, carrying the flavors and techniques passed down through family kitchens."
     },
     {
       "id": 4,
@@ -414,7 +418,8 @@
       ],
       "tips": [
         "Perfect for breakfast"
-      ]
+      ],
+      "culturalBackground": "This beloved dish represents generations of culinary tradition, carrying the flavors and techniques passed down through family kitchens."
     },
     {
       "id": 5,
@@ -488,7 +493,8 @@
       ],
       "tips": [
         "Serve cold"
-      ]
+      ],
+      "culturalBackground": "This beloved dish represents generations of culinary tradition, carrying the flavors and techniques passed down through family kitchens."
     },
     {
       "id": 6,
@@ -562,9 +568,9 @@
       ],
       "tips": [
         "Roast beets in advance"
-      ]
+      ],
+      "culturalBackground": "A testament to Eastern European home baking traditions, this recipe showcases the region's love for sweet, comforting desserts that bring families together."
     },
-    
     {
       "id": 7,
       "title": "Borscht",
@@ -651,215 +657,560 @@
       ],
       "tips": [
         "Use pressure cooker"
-      ]
+      ],
+      "culturalBackground": "A classic from Russian and Soviet-era home cooking, this dish showcases the resourcefulness and hospitality that defined family gatherings across the former USSR."
     },
     {
-  "id": 8,
-  "title": "Lagman (Noodle Soup)",
-  "category": "Soups",
-  "story": "A staple in southern Central Asia with Uzbek, Uyghur, and Chinese variations. Found in countless cafes across the region.",
-  "prepTime": "30 min",
-  "cookTime": "1 hr",
-  "difficulty": "Medium",
-  "cuisine": "Central Asian",
-  "baseServings": 6,
-  "image": "assets/images/lagman.jpg",
-  "dietary": ["Gluten-Free"],
-  "nutrition": {
-    "calories": 320,
-    "protein": "25g",
-    "carbs": "35g",
-    "fat": "12g"
-  },
-  "ingredients": [
-    {"name": "beef stew meat and ribs", "amount": 1, "unit": "lb"},
-    {"name": "water", "amount": 4, "unit": "liters"},
-    {"name": "potatoes, medium", "amount": 2, "unit": ""},
-    {"name": "daikon radish", "amount": 6, "unit": "oz (200g)"},
-    {"name": "tomatoes, medium", "amount": 2, "unit": ""},
-    {"name": "red bell pepper, large", "amount": 1, "unit": ""},
-    {"name": "onion", "amount": 1, "unit": ""},
-    {"name": "carrots, skinny sticks", "amount": "1-2", "unit": ""},
-    {"name": "tomato or Turkish sweet pepper paste", "amount": "1-2", "unit": "Tbsp"},
-    {"name": "olive oil", "amount": "2-3", "unit": "Tbsp"},
-    {"name": "salt", "amount": "1-2", "unit": "tsp"},
-    {"name": "ground black pepper", "amount": 1, "unit": "pinch"},
-    {"name": "fresh herbs (dill or cilantro)", "amount": "", "unit": ""},
-    {"name": "water for noodles", "amount": 1, "unit": "liter"},
-    {"name": "thick noodles (e.g., udon)", "amount": "", "unit": ""}
-  ],
-  "instructions": [
-    {"step": 1, "title": "Prep", "text": "Cut meat into small-medium cubes. Wash and cut vegetables: onions/carrots/daikon into strings, bell pepper/tomatoes/potatoes into cubes."},
-    {"step": 2, "title": "Brown meat", "text": "Fry meat with salt and pepper in olive oil 5-7 min until golden."},
-    {"step": 3, "title": "Add vegetables", "text": "Add onion and carrots (5 min), then bell pepper (3-4 min). Add tomatoes and paste, sauté."},
-    {"step": 4, "title": "Simmer", "text": "Add 4L water, slow cook 40 min."},
-    {"step": 5, "title": "Serve", "text": "Boil noodles separately in 1L water. Serve soup with noodles and fresh herbs."}
-  ],
-  "tips": ["Use udon noodles to save time, but homemade tastes better."]
-},
-
-{
-  "id": 9,
-  "title": "Puk Tiai (Doenjang Jjigae)",
-  "category": "Soups",
-  "story": "Central Asian 'soul food' – a Korean soybean paste soup. Large Korean diaspora from Stalin-era deportations. Karly's memory: warm bowls during 1990s winter blackouts.",
-  "prepTime": "30 min",
-  "cookTime": "2 hrs",
-  "difficulty": "Medium",
-  "cuisine": "Korean / Central Asian",
-  "baseServings": 6,
-  "image": "assets/images/puk-tiai.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 280,
-    "protein": "28g",
-    "carbs": "20g",
-    "fat": "11g"
-  },
-  "ingredients": [
-    {"name": "beef meat and ribs", "amount": 1, "unit": "lb"},
-    {"name": "water", "amount": 4, "unit": "liters"},
-    {"name": "potatoes, medium", "amount": 2, "unit": ""},
-    {"name": "leeks", "amount": 2, "unit": ""},
-    {"name": "cauliflower florets", "amount": "2-3", "unit": ""},
-    {"name": "firm tofu", "amount": "5-6", "unit": "oz"},
-    {"name": "scallions", "amount": 4, "unit": "bunches"},
-    {"name": "eggs", "amount": "4-5", "unit": ""},
-    {"name": "soybean paste", "amount": 4, "unit": "Tbsp"},
-    {"name": "gochujang (Korean red pepper paste)", "amount": "1-2", "unit": "Tbsp"},
-    {"name": "white rice, steamed", "amount": "", "unit": ""}
-  ],
-  "instructions": [
-    {"step": 1, "title": "Broth", "text": "Slow cook meat/ribs in 4L water for 1.5 hrs."},
-    {"step": 2, "title": "Prep veg", "text": "Cube potatoes/leeks/cauliflower/tofu. Cut scallions into 2-inch pieces."},
-    {"step": 3, "title": "Add veg", "text": "Add potatoes/leeks/cauliflower to broth."},
-    {"step": 4, "title": "Season", "text": "Stir in soybean paste and gochujang. Simmer covered 20 min on medium heat."},
-    {"step": 5, "title": "Finish", "text": "Add tofu/scallions/eggs. Stir gently, cook 3 min. Serve with rice."}
-  ],
-  "tips": ["Pressure cook broth to save time. Sub 0.5 lb green veg (broccoli/bok choy) for leeks."]
-},
-{
-  "id": 10,
-  "title": "Okroshka",
-  "category": "Soups",
-  "story": "Cheerful summer soup – light and fresh, perfect for hot days. Serve with sour cream.",
-  "prepTime": "30 min",
-  "cookTime": "1 hr",
-  "difficulty": "Easy",
-  "cuisine": "Russian / Central Asian",
-  "baseServings": 6,
-  "image": "assets/images/okroshka.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 210,
-    "protein": "12g",
-    "carbs": "18g",
-    "fat": "10g"
-  },
-  "ingredients": [
-    {"name": "potatoes (no skin)", "amount": 1, "unit": "lb"},
-    {"name": "eggs, boiled", "amount": 4, "unit": ""},
-    {"name": "beef sausage (e.g., Hebrew National salami)", "amount": 0.5, "unit": "lb"},
-    {"name": "cucumbers, fresh", "amount": "2-3 (8 oz)", "unit": ""},
-    {"name": "red radishes", "amount": "4-5 (5 oz)", "unit": ""},
-    {"name": "scallions", "amount": 4, "unit": "bunches (1 oz)"},
-    {"name": "fresh dill", "amount": 1, "unit": "oz"},
-    {"name": "buttermilk", "amount": 500, "unit": "ml"},
-    {"name": "sparkling water", "amount": 500, "unit": "ml"},
-    {"name": "salt", "amount": 1, "unit": "tsp"},
-    {"name": "black pepper", "amount": 1, "unit": "pinch"}
-  ],
-  "instructions": [
-    {"step": 1, "title": "Roast potatoes", "text": "Brush with oil, salt/pepper. Roast at 390°F ~1 hr."},
-    {"step": 2, "title": "Prep", "text": "Hard boil eggs. Cube all: potatoes/sausage/cucumbers/radishes/eggs."},
-    {"step": 3, "title": "Mix dry", "text": "Combine cubes with chopped scallions/dill."},
-    {"step": 4, "title": "Liquid", "text": "Mix buttermilk/sparkling water + salt/pepper."},
-    {"step": 5, "title": "Serve", "text": "Combine dry + liquid just before serving."}
-  ],
-  "tips": ["Roast potatoes ahead. Keep dry/liquid separate in fridge for best texture."]
-},
-
-
-{
-  "id": 11,
-  "title": "Lentil Soup",
-  "category": "Soups",
-  "story": "Turkish classic from Karly's numerous trips to Turkey and her mother-in-law's kitchen.",
-  "prepTime": "30 min",
-  "cookTime": "2 hrs (or 30 min with ready broth)",
-  "difficulty": "Medium",
-  "cuisine": "Turkish",
-  "baseServings": 6,
-  "image": "assets/images/lentil-soup.jpg",
-  "dietary": ["Gluten-Free"],
-  "nutrition": {
-    "calories": 265,
-    "protein": "24g",
-    "carbs": "25g",
-    "fat": "8g"
-  },
-  "ingredients": [
-    {"name": "beef meat and ribs", "amount": 1, "unit": "lb"},
-    {"name": "water", "amount": 4, "unit": "liters"},
-    {"name": "potatoes, medium", "amount": 2, "unit": ""},
-    {"name": "onion, medium", "amount": 1, "unit": ""},
-    {"name": "garlic cloves", "amount": "2-3", "unit": ""},
-    {"name": "leek (or 1-2 celery sticks)", "amount": 1, "unit": "small"},
-    {"name": "red lentils", "amount": 1, "unit": "cup"},
-    {"name": "salt", "amount": 1, "unit": "Tbsp"},
-    {"name": "black pepper", "amount": 1, "unit": "pinch"},
-    {"name": "fresh lemon slices", "amount": "1-2", "unit": ""},
-    {"name": "olive oil (for sofrito)", "amount": "2", "unit": "Tbsp"},
-    {"name": "tomatoes, cubed (for sofrito)", "amount": 2, "unit": ""}
-  ],
-  "instructions": [
-    {"step": 1, "title": "Broth", "text": "Slow cook meat/ribs in 4L water for 1.5 hrs (or use pressure cooker 10-15 hrs)."},
-    {"step": 2, "title": "Sofrito", "text": "Chop onions/leeks/celery. Sauté with minced garlic and cubed tomatoes in olive oil until golden."},
-    {"step": 3, "title": "Prep lentils", "text": "Wash red lentils thoroughly."},
-    {"step": 4, "title": "Combine", "text": "Add potatoes, sofrito, and lentils to broth. Simmer covered 20 min on low-medium heat."},
-    {"step": 5, "title": "Season", "text": "Add salt/pepper. Serve with fresh lemon slices."}
-  ],
-  "tips": ["Use pressure cooker for broth to save time. Optional: blend finished soup for puree texture."]
-},
-
-{
-  "id": 12,
-  "title": "Avgolemono",
-  "category": "Soups",
-  "story": "Greek lemon-egg soup with orzo – bright and comforting.",
-  "prepTime": "15 min",
-  "cookTime": "2 hrs",
-  "difficulty": "Medium",
-  "cuisine": "Greek",
-  "baseServings": 6,
-  "image": "assets/images/avgolemono.jpg",
-  "dietary": ["Gluten-Free"],
-  "nutrition": {
-    "calories": 240,
-    "protein": "20g",
-    "carbs": "22g",
-    "fat": "9g"
-  },
-  "ingredients": [
-    {"name": "turkey or chicken bones", "amount": "", "unit": ""},
-    {"name": "water", "amount": 4, "unit": "liters"},
-    {"name": "orzo pasta", "amount": 1, "unit": "cup"},
-    {"name": "eggs", "amount": 2, "unit": ""},
-    {"name": "lemon juice", "amount": "1/3", "unit": "cup"},
-    {"name": "salt", "amount": "1/2", "unit": "Tbsp"},
-    {"name": "black pepper", "amount": 1, "unit": "pinch"}
-  ],
-  "instructions": [
-    {"step": 1, "title": "Broth", "text": "Boil water, add bones, simmer 2 hrs (or pressure cook 10-15 hrs)."},
-    {"step": 2, "title": "Orzo", "text": "When stock is ready, add orzo and cook until tender."},
-    {"step": 3, "title": "Egg mixture", "text": "Beat eggs until frothy. Add salt/pepper."},
-    {"step": 4, "title": "Temper eggs", "text": "Gradually add 1 cup hot broth to eggs by spoonfuls, whisking constantly."},
-    {"step": 5, "title": "Combine", "text": "Pour egg mixture back into pot, stirring constantly over very low heat."},
-    {"step": 6, "title": "Finish", "text": "Add lemon juice last to prevent curdling. Stir gently."}
-  ],
-  "tips": ["Turkey bones give richer flavor than chicken. Sub orzo with white rice. Use chicken feet with bones for extra gelatin."]
-},
-
+      "id": 8,
+      "title": "Lagman (Noodle Soup)",
+      "category": "Soups",
+      "story": "A staple in southern Central Asia with Uzbek, Uyghur, and Chinese variations. Found in countless cafes across the region.",
+      "prepTime": "30 min",
+      "cookTime": "1 hr",
+      "difficulty": "Medium",
+      "cuisine": "Central Asian",
+      "baseServings": 6,
+      "image": "assets/images/lagman.jpg",
+      "dietary": [
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 320,
+        "protein": "25g",
+        "carbs": "35g",
+        "fat": "12g"
+      },
+      "ingredients": [
+        {
+          "name": "beef stew meat and ribs",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "water",
+          "amount": 4,
+          "unit": "liters"
+        },
+        {
+          "name": "potatoes, medium",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "daikon radish",
+          "amount": 6,
+          "unit": "oz (200g)"
+        },
+        {
+          "name": "tomatoes, medium",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "red bell pepper, large",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "onion",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "carrots, skinny sticks",
+          "amount": "1-2",
+          "unit": ""
+        },
+        {
+          "name": "tomato or Turkish sweet pepper paste",
+          "amount": "1-2",
+          "unit": "Tbsp"
+        },
+        {
+          "name": "olive oil",
+          "amount": "2-3",
+          "unit": "Tbsp"
+        },
+        {
+          "name": "salt",
+          "amount": "1-2",
+          "unit": "tsp"
+        },
+        {
+          "name": "ground black pepper",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "name": "fresh herbs (dill or cilantro)",
+          "amount": "",
+          "unit": ""
+        },
+        {
+          "name": "water for noodles",
+          "amount": 1,
+          "unit": "liter"
+        },
+        {
+          "name": "thick noodles (e.g., udon)",
+          "amount": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep",
+          "text": "Cut meat into small-medium cubes. Wash and cut vegetables: onions/carrots/daikon into strings, bell pepper/tomatoes/potatoes into cubes."
+        },
+        {
+          "step": 2,
+          "title": "Brown meat",
+          "text": "Fry meat with salt and pepper in olive oil 5-7 min until golden."
+        },
+        {
+          "step": 3,
+          "title": "Add vegetables",
+          "text": "Add onion and carrots (5 min), then bell pepper (3-4 min). Add tomatoes and paste, sauté."
+        },
+        {
+          "step": 4,
+          "title": "Simmer",
+          "text": "Add 4L water, slow cook 40 min."
+        },
+        {
+          "step": 5,
+          "title": "Serve",
+          "text": "Boil noodles separately in 1L water. Serve soup with noodles and fresh herbs."
+        }
+      ],
+      "tips": [
+        "Use udon noodles to save time, but homemade tastes better."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
+    },
+    {
+      "id": 9,
+      "title": "Puk Tiai (Doenjang Jjigae)",
+      "category": "Soups",
+      "story": "Central Asian 'soul food' – a Korean soybean paste soup. Large Korean diaspora from Stalin-era deportations. Karly's memory: warm bowls during 1990s winter blackouts.",
+      "prepTime": "30 min",
+      "cookTime": "2 hrs",
+      "difficulty": "Medium",
+      "cuisine": "Korean / Central Asian",
+      "baseServings": 6,
+      "image": "assets/images/puk-tiai.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 280,
+        "protein": "28g",
+        "carbs": "20g",
+        "fat": "11g"
+      },
+      "ingredients": [
+        {
+          "name": "beef meat and ribs",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "water",
+          "amount": 4,
+          "unit": "liters"
+        },
+        {
+          "name": "potatoes, medium",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "leeks",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "cauliflower florets",
+          "amount": "2-3",
+          "unit": ""
+        },
+        {
+          "name": "firm tofu",
+          "amount": "5-6",
+          "unit": "oz"
+        },
+        {
+          "name": "scallions",
+          "amount": 4,
+          "unit": "bunches"
+        },
+        {
+          "name": "eggs",
+          "amount": "4-5",
+          "unit": ""
+        },
+        {
+          "name": "soybean paste",
+          "amount": 4,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "gochujang (Korean red pepper paste)",
+          "amount": "1-2",
+          "unit": "Tbsp"
+        },
+        {
+          "name": "white rice, steamed",
+          "amount": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Broth",
+          "text": "Slow cook meat/ribs in 4L water for 1.5 hrs."
+        },
+        {
+          "step": 2,
+          "title": "Prep veg",
+          "text": "Cube potatoes/leeks/cauliflower/tofu. Cut scallions into 2-inch pieces."
+        },
+        {
+          "step": 3,
+          "title": "Add veg",
+          "text": "Add potatoes/leeks/cauliflower to broth."
+        },
+        {
+          "step": 4,
+          "title": "Season",
+          "text": "Stir in soybean paste and gochujang. Simmer covered 20 min on medium heat."
+        },
+        {
+          "step": 5,
+          "title": "Finish",
+          "text": "Add tofu/scallions/eggs. Stir gently, cook 3 min. Serve with rice."
+        }
+      ],
+      "tips": [
+        "Pressure cook broth to save time. Sub 0.5 lb green veg (broccoli/bok choy) for leeks."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
+    },
+    {
+      "id": 10,
+      "title": "Okroshka",
+      "category": "Soups",
+      "story": "Cheerful summer soup – light and fresh, perfect for hot days. Serve with sour cream.",
+      "prepTime": "30 min",
+      "cookTime": "1 hr",
+      "difficulty": "Easy",
+      "cuisine": "Russian / Central Asian",
+      "baseServings": 6,
+      "image": "assets/images/okroshka.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 210,
+        "protein": "12g",
+        "carbs": "18g",
+        "fat": "10g"
+      },
+      "ingredients": [
+        {
+          "name": "potatoes (no skin)",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "eggs, boiled",
+          "amount": 4,
+          "unit": ""
+        },
+        {
+          "name": "beef sausage (e.g., Hebrew National salami)",
+          "amount": 0.5,
+          "unit": "lb"
+        },
+        {
+          "name": "cucumbers, fresh",
+          "amount": "2-3 (8 oz)",
+          "unit": ""
+        },
+        {
+          "name": "red radishes",
+          "amount": "4-5 (5 oz)",
+          "unit": ""
+        },
+        {
+          "name": "scallions",
+          "amount": 4,
+          "unit": "bunches (1 oz)"
+        },
+        {
+          "name": "fresh dill",
+          "amount": 1,
+          "unit": "oz"
+        },
+        {
+          "name": "buttermilk",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "sparkling water",
+          "amount": 500,
+          "unit": "ml"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "pinch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Roast potatoes",
+          "text": "Brush with oil, salt/pepper. Roast at 390°F ~1 hr."
+        },
+        {
+          "step": 2,
+          "title": "Prep",
+          "text": "Hard boil eggs. Cube all: potatoes/sausage/cucumbers/radishes/eggs."
+        },
+        {
+          "step": 3,
+          "title": "Mix dry",
+          "text": "Combine cubes with chopped scallions/dill."
+        },
+        {
+          "step": 4,
+          "title": "Liquid",
+          "text": "Mix buttermilk/sparkling water + salt/pepper."
+        },
+        {
+          "step": 5,
+          "title": "Serve",
+          "text": "Combine dry + liquid just before serving."
+        }
+      ],
+      "tips": [
+        "Roast potatoes ahead. Keep dry/liquid separate in fridge for best texture."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
+    },
+    {
+      "id": 11,
+      "title": "Lentil Soup",
+      "category": "Soups",
+      "story": "Turkish classic from Karly's numerous trips to Turkey and her mother-in-law's kitchen.",
+      "prepTime": "30 min",
+      "cookTime": "2 hrs (or 30 min with ready broth)",
+      "difficulty": "Medium",
+      "cuisine": "Turkish",
+      "baseServings": 6,
+      "image": "assets/images/lentil-soup.jpg",
+      "dietary": [
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 265,
+        "protein": "24g",
+        "carbs": "25g",
+        "fat": "8g"
+      },
+      "ingredients": [
+        {
+          "name": "beef meat and ribs",
+          "amount": 1,
+          "unit": "lb"
+        },
+        {
+          "name": "water",
+          "amount": 4,
+          "unit": "liters"
+        },
+        {
+          "name": "potatoes, medium",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "onion, medium",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "garlic cloves",
+          "amount": "2-3",
+          "unit": ""
+        },
+        {
+          "name": "leek (or 1-2 celery sticks)",
+          "amount": 1,
+          "unit": "small"
+        },
+        {
+          "name": "red lentils",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "name": "fresh lemon slices",
+          "amount": "1-2",
+          "unit": ""
+        },
+        {
+          "name": "olive oil (for sofrito)",
+          "amount": "2",
+          "unit": "Tbsp"
+        },
+        {
+          "name": "tomatoes, cubed (for sofrito)",
+          "amount": 2,
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Broth",
+          "text": "Slow cook meat/ribs in 4L water for 1.5 hrs (or use pressure cooker 10-15 hrs)."
+        },
+        {
+          "step": 2,
+          "title": "Sofrito",
+          "text": "Chop onions/leeks/celery. Sauté with minced garlic and cubed tomatoes in olive oil until golden."
+        },
+        {
+          "step": 3,
+          "title": "Prep lentils",
+          "text": "Wash red lentils thoroughly."
+        },
+        {
+          "step": 4,
+          "title": "Combine",
+          "text": "Add potatoes, sofrito, and lentils to broth. Simmer covered 20 min on low-medium heat."
+        },
+        {
+          "step": 5,
+          "title": "Season",
+          "text": "Add salt/pepper. Serve with fresh lemon slices."
+        }
+      ],
+      "tips": [
+        "Use pressure cooker for broth to save time. Optional: blend finished soup for puree texture."
+      ],
+      "culturalBackground": "This beloved dish represents generations of culinary tradition, carrying the flavors and techniques passed down through family kitchens."
+    },
+    {
+      "id": 12,
+      "title": "Avgolemono",
+      "category": "Soups",
+      "story": "Greek lemon-egg soup with orzo – bright and comforting.",
+      "prepTime": "15 min",
+      "cookTime": "2 hrs",
+      "difficulty": "Medium",
+      "cuisine": "Greek",
+      "baseServings": 6,
+      "image": "assets/images/avgolemono.jpg",
+      "dietary": [
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 240,
+        "protein": "20g",
+        "carbs": "22g",
+        "fat": "9g"
+      },
+      "ingredients": [
+        {
+          "name": "turkey or chicken bones",
+          "amount": "",
+          "unit": ""
+        },
+        {
+          "name": "water",
+          "amount": 4,
+          "unit": "liters"
+        },
+        {
+          "name": "orzo pasta",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "eggs",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "lemon juice",
+          "amount": "1/3",
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "amount": "1/2",
+          "unit": "Tbsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "pinch"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Broth",
+          "text": "Boil water, add bones, simmer 2 hrs (or pressure cook 10-15 hrs)."
+        },
+        {
+          "step": 2,
+          "title": "Orzo",
+          "text": "When stock is ready, add orzo and cook until tender."
+        },
+        {
+          "step": 3,
+          "title": "Egg mixture",
+          "text": "Beat eggs until frothy. Add salt/pepper."
+        },
+        {
+          "step": 4,
+          "title": "Temper eggs",
+          "text": "Gradually add 1 cup hot broth to eggs by spoonfuls, whisking constantly."
+        },
+        {
+          "step": 5,
+          "title": "Combine",
+          "text": "Pour egg mixture back into pot, stirring constantly over very low heat."
+        },
+        {
+          "step": 6,
+          "title": "Finish",
+          "text": "Add lemon juice last to prevent curdling. Stir gently."
+        }
+      ],
+      "tips": [
+        "Turkey bones give richer flavor than chicken. Sub orzo with white rice. Use chicken feet with bones for extra gelatin."
+      ],
+      "culturalBackground": "Rooted in Mediterranean tradition, this recipe celebrates the region's emphasis on fresh vegetables, olive oil, and simple preparations that let quality ingredients shine."
+    },
     {
       "id": 13,
       "title": "Russian Vinaigrette",
@@ -927,347 +1278,552 @@
       ],
       "tips": [
         "Roast beets ahead"
-      ]
-    },
-
-    {
-  "id": 14,
-  "title": "Russian Salad \"Olivier\"",
-  "category": "Salads",
-  "story": "A timeless classic and the crown jewel of New Year's tables across post-Soviet countries.",
-  "prepTime": "40 min",
-  "cookTime": "20-30 min",
-  "difficulty": "Easy",
-  "cuisine": "Russian / Central Asian",
-  "baseServings": 4,
-  "image": "assets/images/olivier-salad.jpg",
-  "dietary": ["Gluten-Free"],
-  "nutrition": {
-    "calories": 320,
-    "protein": "14g",
-    "carbs": "26g",
-    "fat": "18g"
-  },
-  "ingredients": [
-    { "name": "potatoes, medium, boiled with skin on", "amount": 2, "unit": "" },
-    { "name": "carrots, medium, boiled", "amount": 2, "unit": "" },
-    { "name": "eggs, hard-boiled", "amount": 4, "unit": "to 5" },
-    { "name": "beef salami (e.g., Hebrew National)", "amount": 3, "unit": "oz" },
-    { "name": "baby dill pickles", "amount": 0.5, "unit": "cup" },
-    { "name": "green peas, frozen", "amount": 0.5, "unit": "cup" },
-    { "name": "mayonnaise", "amount": 4, "unit": "Tbsp" },
-    { "name": "kosher salt", "amount": 0.5, "unit": "tsp" },
-    { "name": "freshly ground black pepper", "amount": 1, "unit": "pinch" },
-    { "name": "fresh dill or parsley (or both)", "amount": "", "unit": "" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Cook vegetables",
-      "text": "Boil potatoes and carrots 20-30 min until cooked but firm, or steam. Cool slightly and peel."
+      ],
+      "culturalBackground": "A classic from Russian and Soviet-era home cooking, this dish showcases the resourcefulness and hospitality that defined family gatherings across the former USSR."
     },
     {
-      "step": 2,
-      "title": "Boil eggs",
-      "text": "Hard-boil eggs, cool, and peel."
+      "id": 14,
+      "title": "Russian Salad \"Olivier\"",
+      "category": "Salads",
+      "story": "A timeless classic and the crown jewel of New Year's tables across post-Soviet countries.",
+      "prepTime": "40 min",
+      "cookTime": "20-30 min",
+      "difficulty": "Easy",
+      "cuisine": "Russian / Central Asian",
+      "baseServings": 4,
+      "image": "assets/images/olivier-salad.jpg",
+      "dietary": [
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 320,
+        "protein": "14g",
+        "carbs": "26g",
+        "fat": "18g"
+      },
+      "ingredients": [
+        {
+          "name": "potatoes, medium, boiled with skin on",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "carrots, medium, boiled",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "eggs, hard-boiled",
+          "amount": 4,
+          "unit": "to 5"
+        },
+        {
+          "name": "beef salami (e.g., Hebrew National)",
+          "amount": 3,
+          "unit": "oz"
+        },
+        {
+          "name": "baby dill pickles",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "green peas, frozen",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "mayonnaise",
+          "amount": 4,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "kosher salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "freshly ground black pepper",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "name": "fresh dill or parsley (or both)",
+          "amount": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Cook vegetables",
+          "text": "Boil potatoes and carrots 20-30 min until cooked but firm, or steam. Cool slightly and peel."
+        },
+        {
+          "step": 2,
+          "title": "Boil eggs",
+          "text": "Hard-boil eggs, cool, and peel."
+        },
+        {
+          "step": 3,
+          "title": "Dice",
+          "text": "Dice potatoes into 0.5 inch cubes into a medium bowl. Dice carrots, eggs, pickles, and salami the same size."
+        },
+        {
+          "step": 4,
+          "title": "Add peas",
+          "text": "Thaw green peas briefly in hot water, drain well, and add to the bowl."
+        },
+        {
+          "step": 5,
+          "title": "Dress",
+          "text": "Add mayonnaise, salt, and black pepper. Mix gently to combine."
+        },
+        {
+          "step": 6,
+          "title": "Garnish",
+          "text": "Garnish with chopped dill and/or parsley before serving."
+        }
+      ],
+      "tips": [
+        "Do not overcook vegetables; they should hold their shape.",
+        "Chill before serving for best flavor and texture."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
     },
     {
-      "step": 3,
-      "title": "Dice",
-      "text": "Dice potatoes into 0.5 inch cubes into a medium bowl. Dice carrots, eggs, pickles, and salami the same size."
+      "id": 15,
+      "title": "Herring Under Fur",
+      "category": "Salads",
+      "story": "Layered 'dressed herring' salad with beets, potatoes, carrots, eggs, onions, and herring – another New Year symbol in post-Soviet countries.",
+      "prepTime": "30 min",
+      "cookTime": "50-60 min",
+      "difficulty": "Medium",
+      "cuisine": "Russian / Central Asian",
+      "baseServings": 4,
+      "image": "assets/images/herring-under-fur.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 350,
+        "protein": "16g",
+        "carbs": "30g",
+        "fat": "18g"
+      },
+      "ingredients": [
+        {
+          "name": "beet roots, roasted",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "potatoes, medium, boiled with skin on",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "carrots, medium, boiled",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "name": "eggs, hard-boiled",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "name": "marinated herring",
+          "amount": 3,
+          "unit": "oz"
+        },
+        {
+          "name": "red onion, chopped",
+          "amount": 0.5,
+          "unit": "medium"
+        },
+        {
+          "name": "mayonnaise",
+          "amount": 5,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "fresh dill or parsley (or both)",
+          "amount": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Roast beets",
+          "text": "Wrap beets snugly in foil and roast about 100 min at 400°F until soft and tender. Cool, then peel."
+        },
+        {
+          "step": 2,
+          "title": "Cook vegetables and eggs",
+          "text": "Boil potatoes and carrots 20-30 min until cooked but firm; cool and peel. Hard-boil eggs and peel."
+        },
+        {
+          "step": 3,
+          "title": "Grate and chop",
+          "text": "Grate potatoes, carrots, beets, and eggs into separate bowls. Finely chop onion and herring separately."
+        },
+        {
+          "step": 4,
+          "title": "Layer salad",
+          "text": "On a serving plate, create layers in this order: herring, onions, potatoes (spread with a thin layer of mayonnaise), carrots, eggs (add another thin layer of mayonnaise), and beets on top. Repeat layers if desired."
+        },
+        {
+          "step": 5,
+          "title": "Finish",
+          "text": "Smooth the top layer of beets and decorate with chopped dill or parsley. Chill before serving."
+        }
+      ],
+      "tips": [
+        "Roasted beets give deeper flavor than boiled.",
+        "Do not overcook potatoes and carrots.",
+        "For a molded look, you can assemble in reverse order in a bowl and flip onto a serving plate."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
     },
     {
-      "step": 4,
-      "title": "Add peas",
-      "text": "Thaw green peas briefly in hot water, drain well, and add to the bowl."
+      "id": 16,
+      "title": "Beet Salad with Garlic, Yogurt & Raisins",
+      "category": "Salads",
+      "story": "Easy way to use leftover roasted beets. Sweet beets and raisins balanced by garlic and creamy dressing.",
+      "prepTime": "15 min (if beets are ready)",
+      "cookTime": "100 min (for roasting beets)",
+      "difficulty": "Easy",
+      "cuisine": "Eastern European / Central Asian",
+      "baseServings": 4,
+      "image": "assets/images/beet-garlic-yogurt-raisins-salad.jpg",
+      "dietary": [
+        "Gluten-Free",
+        "Vegetarian"
+      ],
+      "nutrition": {
+        "calories": 260,
+        "protein": "6g",
+        "carbs": "34g",
+        "fat": "11g"
+      },
+      "ingredients": [
+        {
+          "name": "beet roots, roasted",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "raisins",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "garlic cloves",
+          "amount": "1-2",
+          "unit": ""
+        },
+        {
+          "name": "mayonnaise or Greek yogurt",
+          "amount": 5,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Roast beets",
+          "text": "Wrap beets snugly in foil and roast about 100 min at 400°F until soft and tender. Cool, then peel."
+        },
+        {
+          "step": 2,
+          "title": "Shred",
+          "text": "Shred roasted beets on a coarse grater into a mixing bowl."
+        },
+        {
+          "step": 3,
+          "title": "Mix",
+          "text": "Add raisins. Press or finely grate garlic into the bowl. Stir in mayonnaise or Greek yogurt until well combined."
+        }
+      ],
+      "tips": [
+        "Roasted beets have a sweeter, deeper flavor than boiled.",
+        "Chill before serving for best texture.",
+        "Adjust garlic and yogurt-to-mayo ratio to taste."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
     },
     {
-      "step": 5,
-      "title": "Dress",
-      "text": "Add mayonnaise, salt, and black pepper. Mix gently to combine."
+      "id": 17,
+      "title": "Beshbarmak",
+      "category": "Main Dishes",
+      "story": "Traditional Kazakh feast dish of tender meat, dough sheets, and rich onion sauce. Similar meat-and-pasta traditions appear in Southern European cuisines too.",
+      "prepTime": "40 min",
+      "cookTime": "2.5 hrs",
+      "difficulty": "Medium",
+      "cuisine": "Kazakh / Central Asian",
+      "baseServings": 6,
+      "image": "assets/images/beshbarmak.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 650,
+        "protein": "40g",
+        "carbs": "55g",
+        "fat": "28g"
+      },
+      "ingredients": [
+        {
+          "name": "all-purpose flour",
+          "amount": 3,
+          "unit": "cups"
+        },
+        {
+          "name": "salt for dough",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "water for dough",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "meat (beef and lamb, preferably on the bone)",
+          "amount": 2.2,
+          "unit": "lb (1 kg)"
+        },
+        {
+          "name": "tomato",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "cold water for broth",
+          "amount": 1,
+          "unit": "qt"
+        },
+        {
+          "name": "salt for broth",
+          "amount": 1,
+          "unit": "to 2 Tbsp"
+        },
+        {
+          "name": "potatoes, peeled and halved",
+          "amount": 4,
+          "unit": "to 5"
+        },
+        {
+          "name": "onions, medium (for sauce)",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "carrots (for sauce)",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "leeks, medium",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "bay leaves",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "ground black pepper",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "lasagna sheets (optional quick alternative)",
+          "amount": "",
+          "unit": ""
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Cook broth",
+          "text": "Bring water to a boil in a deep saucepan. Add meat and whole tomato; water should cover meat and bones. Once it returns to a boil, reduce heat immediately and skim foam. Simmer 2 hours until meat is tender."
+        },
+        {
+          "step": 2,
+          "title": "Alternative broth",
+          "text": "As an easier option, place cold water, meat, and tomato in a pressure cooker on slow-cook for 10–15 hours. Skim foam once cooking is finished."
+        },
+        {
+          "step": 3,
+          "title": "Cook potatoes",
+          "text": "Remove meat from broth. Add peeled, halved potatoes and cook in the broth 20–30 minutes until tender. Remove potatoes to a separate bowl."
+        },
+        {
+          "step": 4,
+          "title": "Make dough",
+          "text": "Combine flour, 1 Tbsp salt, egg, and 0.5 cup water into a firm dough. Knead until smooth, rest 20–30 minutes, then roll into thin sheets and cut into large rectangles."
+        },
+        {
+          "step": 5,
+          "title": "Cook dough in broth",
+          "text": "Cook the dough sheets (or lasagna sheets) briefly in the hot broth until just tender. Remove and drain."
+        },
+        {
+          "step": 6,
+          "title": "Tusdyk (sauce)",
+          "text": "In a separate saucepan, slice onions into half-rings, chop leeks and carrots. Add black pepper and bay leaves. Pour in about 2 cups of broth and simmer 10 minutes until vegetables soften."
+        },
+        {
+          "step": 7,
+          "title": "Assemble",
+          "text": "Slice cooked meat into pieces. On a large platter, first arrange dough sheets, then place potatoes in a circle. Put meat in the center and pour the hot onion-leek-carrot sauce over the top."
+        }
+      ],
+      "tips": [
+        "Lasagna sheets work as a quick dough alternative, but homemade dough has better texture.",
+        "Use a mix of beef and lamb with bones for deeper flavor."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
     },
     {
-      "step": 6,
-      "title": "Garnish",
-      "text": "Garnish with chopped dill and/or parsley before serving."
-    }
-  ],
-  "tips": [
-    "Do not overcook vegetables; they should hold their shape.",
-    "Chill before serving for best flavor and texture."
-  ]
-},
-
-{
-  "id": 15,
-  "title": "Herring Under Fur",
-  "category": "Salads",
-  "story": "Layered 'dressed herring' salad with beets, potatoes, carrots, eggs, onions, and herring – another New Year symbol in post-Soviet countries.",
-  "prepTime": "30 min",
-  "cookTime": "50-60 min",
-  "difficulty": "Medium",
-  "cuisine": "Russian / Central Asian",
-  "baseServings": 4,
-  "image": "assets/images/herring-under-fur.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 350,
-    "protein": "16g",
-    "carbs": "30g",
-    "fat": "18g"
-  },
-  "ingredients": [
-    { "name": "beet roots, roasted", "amount": 2, "unit": "" },
-    { "name": "potatoes, medium, boiled with skin on", "amount": 2, "unit": "" },
-    { "name": "carrots, medium, boiled", "amount": 3, "unit": "" },
-    { "name": "eggs, hard-boiled", "amount": 3, "unit": "" },
-    { "name": "marinated herring", "amount": 3, "unit": "oz" },
-    { "name": "red onion, chopped", "amount": 0.5, "unit": "medium" },
-    { "name": "mayonnaise", "amount": 5, "unit": "Tbsp" },
-    { "name": "fresh dill or parsley (or both)", "amount": "", "unit": "" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Roast beets",
-      "text": "Wrap beets snugly in foil and roast about 100 min at 400°F until soft and tender. Cool, then peel."
+      "id": 18,
+      "title": "Central Asian Plov (Pilaf)",
+      "category": "Main Dishes",
+      "story": "Classic Central Asian pilaf of meat, rice, carrots, and fragrant spices—perfect for feeding a crowd.",
+      "prepTime": "30 min",
+      "cookTime": "1.5–2 hrs",
+      "difficulty": "Medium",
+      "cuisine": "Central Asian",
+      "baseServings": 6,
+      "image": "assets/images/plov.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 720,
+        "protein": "32g",
+        "carbs": "80g",
+        "fat": "30g"
+      },
+      "ingredients": [
+        {
+          "name": "boneless beef (or beef with some bone)",
+          "amount": 2,
+          "unit": "lb"
+        },
+        {
+          "name": "rice",
+          "amount": 3,
+          "unit": "cups"
+        },
+        {
+          "name": "onions",
+          "amount": 2,
+          "unit": "large"
+        },
+        {
+          "name": "carrots",
+          "amount": 4,
+          "unit": "large"
+        },
+        {
+          "name": "garlic heads, whole",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "dried apricots",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "raisins",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "amount": 2,
+          "unit": "Tbsp (to taste)"
+        },
+        {
+          "name": "cumin seeds",
+          "amount": 2,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "saffron (optional)",
+          "amount": 1,
+          "unit": "pinch"
+        },
+        {
+          "name": "neutral oil (or lamb fat)",
+          "amount": 0.75,
+          "unit": "cup"
+        },
+        {
+          "name": "whole chilies (optional)",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "water, hot",
+          "amount": "",
+          "unit": "as needed"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep rice and vegetables",
+          "text": "Rinse rice under running water until clear, then soak in cold water. Cut meat into matchbox-sized pieces. Cut carrots into 0.5×0.5 cm sticks. Slice onions into thin rings or half-rings. Clean garlic heads, removing roots and dirt, but keep heads whole."
+        },
+        {
+          "step": 2,
+          "title": "Brown meat",
+          "text": "Heat oil in a cauldron or Dutch oven over high heat. Deep-fry meat in 3–4 batches until golden-brown. Remove if needed between batches."
+        },
+        {
+          "step": 3,
+          "title": "Cook onions and carrots",
+          "text": "Add onions to the hot oil and cook until golden. Return meat, stir to prevent onions from burning. Add carrots and cook, stirring occasionally, 15–20 minutes until they start to wilt and lightly brown."
+        },
+        {
+          "step": 4,
+          "title": "Season and simmer",
+          "text": "Rub 2/3 of the cumin seeds between your palms to release aroma and add to the pot. Pour in hot water just to cover meat and vegetables. Add salt. Simmer 40–90 minutes (depending on meat) until most water evaporates and meat is tender. Do not stir."
+        },
+        {
+          "step": 5,
+          "title": "Add rice and aromatics",
+          "text": "Turn heat to high. Drain rice well and spread it evenly in one layer over the meat and vegetables. Nestle whole garlic heads and whole chilies into the rice. Carefully pour boiling water over a spoon or ladle held above the rice to avoid disturbing the layer, covering the rice by about 2 cm. Add a bit more salt so the water tastes slightly over-salted."
+        },
+        {
+          "step": 6,
+          "title": "Cook rice",
+          "text": "Boil rapidly until the water level drops to the surface of the rice and is absorbed; rice should be al dente. Use a spoon or chopstick to poke holes down to the bottom to check moisture and allow steam to escape."
+        },
+        {
+          "step": 7,
+          "title": "Steam and finish",
+          "text": "Reduce heat to very low, cover tightly, and steam 20 minutes. Turn off heat, remove garlic and chilies to a plate. Gently mix rice with meat and carrots. Adjust salt if needed and let stand 5 minutes."
+        },
+        {
+          "step": 8,
+          "title": "Serve",
+          "text": "Pile plov on a large warmed platter. Serve with garlic heads, chilies, and a simple salad of thinly sliced tomatoes, sweet onions, chili, and salt."
+        }
+      ],
+      "tips": [
+        "Use long-grain or plov-friendly rice that keeps shape.",
+        "Do not stir once rice is added; keep layers intact.",
+        "Dried fruits like apricots and raisins add a festive touch."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
     },
-    {
-      "step": 2,
-      "title": "Cook vegetables and eggs",
-      "text": "Boil potatoes and carrots 20-30 min until cooked but firm; cool and peel. Hard-boil eggs and peel."
-    },
-    {
-      "step": 3,
-      "title": "Grate and chop",
-      "text": "Grate potatoes, carrots, beets, and eggs into separate bowls. Finely chop onion and herring separately."
-    },
-    {
-      "step": 4,
-      "title": "Layer salad",
-      "text": "On a serving plate, create layers in this order: herring, onions, potatoes (spread with a thin layer of mayonnaise), carrots, eggs (add another thin layer of mayonnaise), and beets on top. Repeat layers if desired."
-    },
-    {
-      "step": 5,
-      "title": "Finish",
-      "text": "Smooth the top layer of beets and decorate with chopped dill or parsley. Chill before serving."
-    }
-  ],
-  "tips": [
-    "Roasted beets give deeper flavor than boiled.",
-    "Do not overcook potatoes and carrots.",
-    "For a molded look, you can assemble in reverse order in a bowl and flip onto a serving plate."
-  ]
-},
-
-{
-  "id": 16,
-  "title": "Beet Salad with Garlic, Yogurt & Raisins",
-  "category": "Salads",
-  "story": "Easy way to use leftover roasted beets. Sweet beets and raisins balanced by garlic and creamy dressing.",
-  "prepTime": "15 min (if beets are ready)",
-  "cookTime": "100 min (for roasting beets)",
-  "difficulty": "Easy",
-  "cuisine": "Eastern European / Central Asian",
-  "baseServings": 4,
-  "image": "assets/images/beet-garlic-yogurt-raisins-salad.jpg",
-  "dietary": ["Gluten-Free", "Vegetarian"],
-  "nutrition": {
-    "calories": 260,
-    "protein": "6g",
-    "carbs": "34g",
-    "fat": "11g"
-  },
-  "ingredients": [
-    { "name": "beet roots, roasted", "amount": 2, "unit": "" },
-    { "name": "raisins", "amount": 0.5, "unit": "cup" },
-    { "name": "garlic cloves", "amount": "1-2", "unit": "" },
-    { "name": "mayonnaise or Greek yogurt", "amount": 5, "unit": "Tbsp" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Roast beets",
-      "text": "Wrap beets snugly in foil and roast about 100 min at 400°F until soft and tender. Cool, then peel."
-    },
-    {
-      "step": 2,
-      "title": "Shred",
-      "text": "Shred roasted beets on a coarse grater into a mixing bowl."
-    },
-    {
-      "step": 3,
-      "title": "Mix",
-      "text": "Add raisins. Press or finely grate garlic into the bowl. Stir in mayonnaise or Greek yogurt until well combined."
-    }
-  ],
-  "tips": [
-    "Roasted beets have a sweeter, deeper flavor than boiled.",
-    "Chill before serving for best texture.",
-    "Adjust garlic and yogurt-to-mayo ratio to taste."
-  ]
-},
-
-{
-  "id": 17,
-  "title": "Beshbarmak",
-  "category": "Main Dishes",
-  "story": "Traditional Kazakh feast dish of tender meat, dough sheets, and rich onion sauce. Similar meat-and-pasta traditions appear in Southern European cuisines too.",
-  "prepTime": "40 min",
-  "cookTime": "2.5 hrs",
-  "difficulty": "Medium",
-  "cuisine": "Kazakh / Central Asian",
-  "baseServings": 6,
-  "image": "assets/images/beshbarmak.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 650,
-    "protein": "40g",
-    "carbs": "55g",
-    "fat": "28g"
-  },
-  "ingredients": [
-    { "name": "all-purpose flour", "amount": 3, "unit": "cups" },
-    { "name": "salt for dough", "amount": 1, "unit": "Tbsp" },
-    { "name": "egg", "amount": 1, "unit": "" },
-    { "name": "water for dough", "amount": 0.5, "unit": "cup" },
-    { "name": "meat (beef and lamb, preferably on the bone)", "amount": 2.2, "unit": "lb (1 kg)" },
-    { "name": "tomato", "amount": 1, "unit": "" },
-    { "name": "cold water for broth", "amount": 1, "unit": "qt" },
-    { "name": "salt for broth", "amount": 1, "unit": "to 2 Tbsp" },
-    { "name": "potatoes, peeled and halved", "amount": 4, "unit": "to 5" },
-    { "name": "onions, medium (for sauce)", "amount": 2, "unit": "" },
-    { "name": "carrots (for sauce)", "amount": 2, "unit": "" },
-    { "name": "leeks, medium", "amount": 2, "unit": "" },
-    { "name": "bay leaves", "amount": 2, "unit": "" },
-    { "name": "ground black pepper", "amount": 1, "unit": "tsp" },
-    { "name": "lasagna sheets (optional quick alternative)", "amount": "", "unit": "" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Cook broth",
-      "text": "Bring water to a boil in a deep saucepan. Add meat and whole tomato; water should cover meat and bones. Once it returns to a boil, reduce heat immediately and skim foam. Simmer 2 hours until meat is tender."
-    },
-    {
-      "step": 2,
-      "title": "Alternative broth",
-      "text": "As an easier option, place cold water, meat, and tomato in a pressure cooker on slow-cook for 10–15 hours. Skim foam once cooking is finished."
-    },
-    {
-      "step": 3,
-      "title": "Cook potatoes",
-      "text": "Remove meat from broth. Add peeled, halved potatoes and cook in the broth 20–30 minutes until tender. Remove potatoes to a separate bowl."
-    },
-    {
-      "step": 4,
-      "title": "Make dough",
-      "text": "Combine flour, 1 Tbsp salt, egg, and 0.5 cup water into a firm dough. Knead until smooth, rest 20–30 minutes, then roll into thin sheets and cut into large rectangles."
-    },
-    {
-      "step": 5,
-      "title": "Cook dough in broth",
-      "text": "Cook the dough sheets (or lasagna sheets) briefly in the hot broth until just tender. Remove and drain."
-    },
-    {
-      "step": 6,
-      "title": "Tusdyk (sauce)",
-      "text": "In a separate saucepan, slice onions into half-rings, chop leeks and carrots. Add black pepper and bay leaves. Pour in about 2 cups of broth and simmer 10 minutes until vegetables soften."
-    },
-    {
-      "step": 7,
-      "title": "Assemble",
-      "text": "Slice cooked meat into pieces. On a large platter, first arrange dough sheets, then place potatoes in a circle. Put meat in the center and pour the hot onion-leek-carrot sauce over the top."
-    }
-  ],
-  "tips": [
-    "Lasagna sheets work as a quick dough alternative, but homemade dough has better texture.",
-    "Use a mix of beef and lamb with bones for deeper flavor."
-  ]
-},
-
-{
-  "id": 18,
-  "title": "Central Asian Plov (Pilaf)",
-  "category": "Main Dishes",
-  "story": "Classic Central Asian pilaf of meat, rice, carrots, and fragrant spices—perfect for feeding a crowd.",
-  "prepTime": "30 min",
-  "cookTime": "1.5–2 hrs",
-  "difficulty": "Medium",
-  "cuisine": "Central Asian",
-  "baseServings": 6,
-  "image": "assets/images/plov.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 720,
-    "protein": "32g",
-    "carbs": "80g",
-    "fat": "30g"
-  },
-  "ingredients": [
-    { "name": "boneless beef (or beef with some bone)", "amount": 2, "unit": "lb" },
-    { "name": "rice", "amount": 3, "unit": "cups" },
-    { "name": "onions", "amount": 2, "unit": "large" },
-    { "name": "carrots", "amount": 4, "unit": "large" },
-    { "name": "garlic heads, whole", "amount": 2, "unit": "" },
-    { "name": "dried apricots", "amount": 0.5, "unit": "cup" },
-    { "name": "raisins", "amount": 0.5, "unit": "cup" },
-    { "name": "salt", "amount": 2, "unit": "Tbsp (to taste)" },
-    { "name": "cumin seeds", "amount": 2, "unit": "Tbsp" },
-    { "name": "saffron (optional)", "amount": 1, "unit": "pinch" },
-    { "name": "neutral oil (or lamb fat)", "amount": 0.75, "unit": "cup" },
-    { "name": "whole chilies (optional)", "amount": 2, "unit": "" },
-    { "name": "water, hot", "amount": "", "unit": "as needed" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Prep rice and vegetables",
-      "text": "Rinse rice under running water until clear, then soak in cold water. Cut meat into matchbox-sized pieces. Cut carrots into 0.5×0.5 cm sticks. Slice onions into thin rings or half-rings. Clean garlic heads, removing roots and dirt, but keep heads whole."
-    },
-    {
-      "step": 2,
-      "title": "Brown meat",
-      "text": "Heat oil in a cauldron or Dutch oven over high heat. Deep-fry meat in 3–4 batches until golden-brown. Remove if needed between batches."
-    },
-    {
-      "step": 3,
-      "title": "Cook onions and carrots",
-      "text": "Add onions to the hot oil and cook until golden. Return meat, stir to prevent onions from burning. Add carrots and cook, stirring occasionally, 15–20 minutes until they start to wilt and lightly brown."
-    },
-    {
-      "step": 4,
-      "title": "Season and simmer",
-      "text": "Rub 2/3 of the cumin seeds between your palms to release aroma and add to the pot. Pour in hot water just to cover meat and vegetables. Add salt. Simmer 40–90 minutes (depending on meat) until most water evaporates and meat is tender. Do not stir."
-    },
-    {
-      "step": 5,
-      "title": "Add rice and aromatics",
-      "text": "Turn heat to high. Drain rice well and spread it evenly in one layer over the meat and vegetables. Nestle whole garlic heads and whole chilies into the rice. Carefully pour boiling water over a spoon or ladle held above the rice to avoid disturbing the layer, covering the rice by about 2 cm. Add a bit more salt so the water tastes slightly over-salted."
-    },
-    {
-      "step": 6,
-      "title": "Cook rice",
-      "text": "Boil rapidly until the water level drops to the surface of the rice and is absorbed; rice should be al dente. Use a spoon or chopstick to poke holes down to the bottom to check moisture and allow steam to escape."
-    },
-    {
-      "step": 7,
-      "title": "Steam and finish",
-      "text": "Reduce heat to very low, cover tightly, and steam 20 minutes. Turn off heat, remove garlic and chilies to a plate. Gently mix rice with meat and carrots. Adjust salt if needed and let stand 5 minutes."
-    },
-    {
-      "step": 8,
-      "title": "Serve",
-      "text": "Pile plov on a large warmed platter. Serve with garlic heads, chilies, and a simple salad of thinly sliced tomatoes, sweet onions, chili, and salt."
-    }
-  ],
-  "tips": [
-    "Use long-grain or plov-friendly rice that keeps shape.",
-    "Do not stir once rice is added; keep layers intact.",
-    "Dried fruits like apricots and raisins add a festive touch."
-  ]
-},
-
     {
       "id": 19,
       "title": "Manty",
@@ -1332,7 +1888,8 @@
       ],
       "tips": [
         "Serve with yogurt"
-      ]
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
     },
     {
       "id": 20,
@@ -1398,7 +1955,8 @@
       ],
       "tips": [
         "Freeze well"
-      ]
+      ],
+      "culturalBackground": "A classic from Russian and Soviet-era home cooking, this dish showcases the resourcefulness and hospitality that defined family gatherings across the former USSR."
     },
     {
       "id": 21,
@@ -1464,917 +2022,1422 @@
       ],
       "tips": [
         "Two-step cooking"
-      ]
-    },
-
-{
-  "id": 22,
-  "title": "Golubtzy (Cabbage Rolls)",
-  "category": "Main Dishes",
-  "story": "Classic cabbage rolls stuffed with savory ground beef and simmered in a tomato-based sauce.",
-  "prepTime": "30 min",
-  "cookTime": "50-60 min",
-  "difficulty": "Medium",
-  "cuisine": "Eastern European / Central Asian",
-  "baseServings": 6,
-  "image": "assets/images/golubtzy.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 480,
-    "protein": "28g",
-    "carbs": "20g",
-    "fat": "30g"
-  },
-  "ingredients": [
-    { "name": "white cabbage, medium", "amount": 1, "unit": "" },
-    { "name": "prepared ground beef mixture", "amount": 1.5, "unit": "lb" },
-    { "name": "water", "amount": 2, "unit": "cups" },
-    { "name": "carrot", "amount": 1, "unit": "large" },
-    { "name": "onion for ground beef", "amount": 1, "unit": "medium" },
-    { "name": "onion for sauce", "amount": 1, "unit": "medium" },
-    { "name": "oil", "amount": 3, "unit": "Tbsp" },
-    { "name": "black pepper", "amount": 1, "unit": "tsp" },
-    { "name": "salt", "amount": 1.5, "unit": "tsp" },
-    { "name": "fresh dill", "amount": 0.25, "unit": "cup, chopped" },
-    { "name": "tomato paste or tomato sauce (for sofrito/zazharka)", "amount": 3, "unit": "Tbsp" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Prep cabbage leaves",
-      "text": "Carefully separate cabbage leaves one by one. Soak them in a bowl of hot water to soften."
+      ],
+      "culturalBackground": "A classic from Russian and Soviet-era home cooking, this dish showcases the resourcefulness and hospitality that defined family gatherings across the former USSR."
     },
     {
-      "step": 2,
-      "title": "Prepare filling",
-      "text": "Use your prepared ground beef base: mix ground beef with finely chopped onion, salt, pepper, and chopped dill."
-    },
-    {
-      "step": 3,
-      "title": "Make sofrito sauce",
-      "text": "In a pan, sauté the second onion and grated carrot in oil until soft and golden. Stir in tomato paste or tomato sauce and cook a few minutes to develop flavor."
-    },
-    {
-      "step": 4,
-      "title": "Stuff rolls",
-      "text": "Place a spoonful of ground beef mixture onto each softened cabbage leaf. Roll tightly, folding in sides to form neat rolls."
-    },
-    {
-      "step": 5,
-      "title": "Simmer",
-      "text": "Arrange cabbage rolls snugly in a pot over the sofrito. Add enough water to partially cover the rolls. Cover and simmer gently 50–60 minutes until cabbage and filling are tender."
-    }
-  ],
-  "tips": [
-    "Flat cabbage from Asian stores is easier to roll.",
-    "Trim thick veins on cabbage leaves for easier rolling."
-  ]
-},
-
-{
-  "id": 23,
-  "title": "Chicken Tapaka",
-  "category": "Main Dishes",
-  "story": "Georgian-style spatchcocked chicken cooked under a heavy weight until crisp on the outside and juicy inside.",
-  "prepTime": "15 min",
-  "cookTime": "30 min",
-  "difficulty": "Easy",
-  "cuisine": "Georgian / Caucasian",
-  "baseServings": 3,
-  "image": "assets/images/chicken-tapaka.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 540,
-    "protein": "45g",
-    "carbs": "2g",
-    "fat": "38g"
-  },
-  "ingredients": [
-    { "name": "hen or small chicken", "amount": 1, "unit": "1–1.5 lb" },
-    { "name": "unsalted butter", "amount": 3, "unit": "Tbsp (50 g)" },
-    { "name": "salt", "amount": 0.5, "unit": "tsp" },
-    { "name": "water", "amount": 0.67, "unit": "cup (150 ml)" },
-    { "name": "garlic cloves", "amount": 3, "unit": "to 4" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Flatten chicken",
-      "text": "Cut the hen along the breastbone, open it like a book, and flatten on a board with a meat mallet until even and thinner."
-    },
-    {
-      "step": 2,
-      "title": "Season",
-      "text": "Rub the skin and flesh with salt."
-    },
-    {
-      "step": 3,
-      "title": "Brown",
-      "text": "Heat an iron skillet over medium-high and melt butter. Place chicken skin-side down and fry each side about 5 minutes until nicely browned."
-    },
-    {
-      "step": 4,
-      "title": "Add garlic and water",
-      "text": "Crush garlic cloves, mix with water, and pour over the chicken."
-    },
-    {
-      "step": 5,
-      "title": "Cook under weight",
-      "text": "Reduce heat to medium-low. Place a heavy lid or a plate with a weight on top of the chicken to press it down. Cover and cook 20 minutes on low heat until cooked through and very tender."
-    }
-  ],
-  "tips": [
-    "Cover chicken with plastic wrap or wax paper before pounding to avoid splatter.",
-    "Serve with gnocchi, potatoes, or simple vegetables."
-  ]
-},
-
-{
-  "id": 24,
-  "title": "Chicken (or Duck) in the Oven",
-  "category": "Main Dishes",
-  "story": "Simple whole bird roasted with garlic and butter until crisp on the outside and juicy inside.",
-  "prepTime": "15 min",
-  "cookTime": "1–1.5 hrs",
-  "difficulty": "Easy",
-  "cuisine": "Central Asian / European",
-  "baseServings": 4,
-  "image": "assets/images/roast-chicken-duck.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 600,
-    "protein": "45g",
-    "carbs": "2g",
-    "fat": "45g"
-  },
-  "ingredients": [
-    { "name": "hen or small chicken (or duck)", "amount": 1, "unit": "1–1.5 lb" },
-    { "name": "unsalted butter", "amount": 3, "unit": "Tbsp (50 g)" },
-    { "name": "salt", "amount": 0.5, "unit": "tsp" },
-    { "name": "water", "amount": 0.67, "unit": "cup (150 ml)" },
-    { "name": "garlic cloves", "amount": 3, "unit": "to 4" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Prep bird",
-      "text": "Preheat oven to 400°F (200°C). Pat the hen or duck dry with paper towels. Cut along the breast and flatten, or leave whole if preferred."
-    },
-    {
-      "step": 2,
-      "title": "Season",
-      "text": "Rub skin and cavity with salt."
-    },
-    {
-      "step": 3,
-      "title": "Garlic butter",
-      "text": "Crush garlic cloves and mix with softened or melted butter."
-    },
-    {
-      "step": 4,
-      "title": "Roast",
-      "text": "Place bird in a roasting pan. Brush with garlic butter, pour water into the bottom of the pan, and roast 50–70 minutes (depending on size), basting occasionally, until juices run clear."
-    }
-  ],
-  "tips": [
-    "Cover bird with foil if skin browns too quickly.",
-    "Let rest 10–15 minutes before carving. Serve with gnocchi or potatoes."
-  ]
-},
-
-{
-  "id": 25,
-  "title": "Roasted Leg of Lamb",
-  "category": "Main Dishes",
-  "story": "Festive roasted leg of lamb with simple seasoning—perfect centerpiece for a family meal.",
-  "prepTime": "20 min",
-  "cookTime": "1.5–2 hrs",
-  "difficulty": "Medium",
-  "cuisine": "Mediterranean / Central Asian",
-  "baseServings": 6,
-  "image": "assets/images/roasted-leg-of-lamb.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 680,
-    "protein": "48g",
-    "carbs": "4g",
-    "fat": "50g"
-  },
-  "ingredients": [
-    { "name": "leg of lamb, bone-in", "amount": 4, "unit": "lb" },
-    { "name": "garlic cloves", "amount": 4, "unit": "to 6" },
-    { "name": "salt", "amount": 1.5, "unit": "Tbsp" },
-    { "name": "black pepper", "amount": 1, "unit": "tsp" },
-    { "name": "olive oil", "amount": 3, "unit": "Tbsp" },
-    { "name": "fresh rosemary or thyme (optional)", "amount": 2, "unit": "Tbsp, chopped" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Prep lamb",
-      "text": "Bring lamb to room temperature 1 hour before cooking. Preheat oven to 400°F (200°C)."
-    },
-    {
-      "step": 2,
-      "title": "Season",
-      "text": "Make small slits in lamb and insert slivers of garlic. Rub lamb with olive oil, salt, pepper, and herbs if using."
-    },
-    {
-      "step": 3,
-      "title": "Roast",
-      "text": "Place lamb in a roasting pan. Roast 20 minutes, then lower heat to 350°F (175°C) and continue roasting 15–20 minutes per pound, until desired doneness."
-    },
-    {
-      "step": 4,
-      "title": "Rest",
-      "text": "Remove from oven, tent with foil, and rest 15–20 minutes before carving."
-    }
-  ],
-  "tips": [
-    "For medium-rare, internal temperature should reach about 135–140°F after resting.",
-    "Serve with potatoes or rice and a simple salad."
-  ]
-},
-
-
-{
-  "id": 26,
-  "title": "Beef Tongue",
-  "category": "Specialty & Cultural Dishes",
-  "story": "Exceptionally tender and mild-flavored, beef tongue makes an elegant appetizer served sliced and simply garnished.",
-  "prepTime": "20 min",
-  "cookTime": "2–3 hrs",
-  "difficulty": "Medium",
-  "cuisine": "Eastern European / Central Asian",
-  "baseServings": 8,
-  "image": "assets/images/beef-tongue.jpg",
-  "dietary": ["Gluten-Free"],
-  "nutrition": {
-    "calories": 280,
-    "protein": "24g",
-    "carbs": "0g",
-    "fat": "20g"
-  },
-  "ingredients": [
-    { "name": "beef tongue", "amount": 1, "unit": "whole" },
-    { "name": "salt", "amount": 1, "unit": "Tbsp (to taste)" },
-    { "name": "parsley or dill, chopped", "amount": 0.25, "unit": "cup" },
-    { "name": "sesame seeds (optional)", "amount": 1, "unit": "Tbsp" },
-    { "name": "soy sauce (optional)", "amount": 2, "unit": "Tbsp" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Simmer tongue",
-      "text": "Place beef tongue in a large pot, cover with water, and bring to a gentle boil. Add salt, reduce heat, and simmer 2–3 hours until very tender and a knife slides in easily."
-    },
-    {
-      "step": 2,
-      "title": "Peel",
-      "text": "Remove tongue from pot and let cool slightly. While still warm, peel off the tough outer skin; it should come off easily."
-    },
-    {
-      "step": 3,
-      "title": "Slice and serve",
-      "text": "Slice tongue across the grain into 0.5-inch pieces. Arrange on a serving plate, garnish with parsley or dill. Serve warm or at room temperature."
-    }
-  ],
-  "tips": [
-    "Slow, gentle cooking is key for a delicate texture.",
-    "For a variation, drizzle with sesame oil, sprinkle sesame seeds, and serve with a splash of soy sauce.",
-    "You can cook tongue in a pressure cooker until fully tender to save time."
-  ]
-},
-
-{
-  "id": 27,
-  "title": "Kholodets (Meat Jelly)",
-  "category": "Specialty & Cultural Dishes",
-  "story": "Traditional meat jelly made from long-simmered beef feet and meat—rich, savory, and served cold in slices.",
-  "prepTime": "30 min",
-  "cookTime": "4.5–5 hrs",
-  "difficulty": "Hard",
-  "cuisine": "Russian / Eastern European",
-  "baseServings": 10,
-  "image": "assets/images/kholodets.jpg",
-  "dietary": ["Gluten-Free"],
-  "nutrition": {
-    "calories": 260,
-    "protein": "24g",
-    "carbs": "3g",
-    "fat": "16g"
-  },
-  "ingredients": [
-    { "name": "beef feet", "amount": 2, "unit": "lb" },
-    { "name": "beef fillet or stew meat", "amount": 1.5, "unit": "lb" },
-    { "name": "onion, unpeeled", "amount": 1, "unit": "" },
-    { "name": "carrots", "amount": 2, "unit": "" },
-    { "name": "celery root", "amount": 1, "unit": "small" },
-    { "name": "black pepper (whole or ground)", "amount": 1, "unit": "tsp" },
-    { "name": "salt", "amount": 1.5, "unit": "Tbsp (to taste)" },
-    { "name": "cilantro or parsley", "amount": 0.25, "unit": "cup, chopped" },
-    { "name": "bay leaves", "amount": 2, "unit": "" },
-    { "name": "garlic bulb", "amount": 1, "unit": "whole" },
-    { "name": "water", "amount": "", "unit": "as needed to barely cover" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Soak bones",
-      "text": "Soak beef feet in cold water 2–3 hours. Drain and rinse."
-    },
-    {
-      "step": 2,
-      "title": "Start broth",
-      "text": "Place feet in a pot, cover with water, and bring to a boil. Once it boils, discard the water. Refill with fresh water just to barely cover the meat—do not add too much or the jelly will not set. Bring to a boil again, add salt, then reduce to a gentle simmer for about 3 hours."
-    },
-    {
-      "step": 3,
-      "title": "Add meat and onion",
-      "text": "After 3 hours, add beef fillet and whole unpeeled onion. Simmer together another 1.5 hours."
-    },
-    {
-      "step": 4,
-      "title": "Add vegetables",
-      "text": "Add whole carrots and celery root. Cook until vegetables are tender."
-    },
-    {
-      "step": 5,
-      "title": "Prepare meat",
-      "text": "Remove meat and bones. Separate meat from bones and cut into small pieces. Return meat pieces to the broth."
-    },
-    {
-      "step": 6,
-      "title": "Season",
-      "text": "Add black pepper and bay leaves and simmer 5–10 minutes. Skim off excess fat from the surface."
-    },
-    {
-      "step": 7,
-      "title": "Finish and set",
-      "text": "Grate the whole garlic bulb and chop cilantro or parsley. Stir into hot broth with meat. Remove bay leaves. Pour into molds or dishes and let cool; refrigerate until fully set."
-    }
-  ],
-  "tips": [
-    "The broth should be rich and concentrated; too much water will prevent it from setting.",
-    "Serve cold, sliced, with mustard or horseradish if desired."
-  ]
-},
-
-{
-  "id": 28,
-  "title": "Beef Liver with Onions, Garlic & Balsamic Glaze",
-  "category": "Specialty & Cultural Dishes",
-  "story": "Highly nutritious and rich in iron, this beef liver is soaked, quickly sautéed, and finished with a touch of balsamic glaze.",
-  "prepTime": "30 min",
-  "cookTime": "5–10 min",
-  "difficulty": "Easy",
-  "cuisine": "Eastern European / Central Asian",
-  "baseServings": 4,
-  "image": "assets/images/beef-liver.jpg",
-  "dietary": ["Gluten-Free"],
-  "nutrition": {
-    "calories": 310,
-    "protein": "32g",
-    "carbs": "10g",
-    "fat": "15g"
-  },
-  "ingredients": [
-    { "name": "beef liver", "amount": 1.5, "unit": "to 2 lb" },
-    { "name": "milk (for soaking)", "amount": 1, "unit": "cup or as needed" },
-    { "name": "onion, large", "amount": 1, "unit": "" },
-    { "name": "olive oil", "amount": 1, "unit": "Tbsp" },
-    { "name": "garlic cloves", "amount": 4, "unit": "" },
-    { "name": "salt", "amount": 0.5, "unit": "tsp" },
-    { "name": "black pepper", "amount": 0.25, "unit": "tsp" },
-    { "name": "balsamic glaze", "amount": 2, "unit": "Tbsp" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Prep liver",
-      "text": "Remove the thin membrane from the liver. Soak liver in milk about 30 minutes to tenderize and reduce bitterness."
-    },
-    {
-      "step": 2,
-      "title": "Season",
-      "text": "Pat liver dry, slice into pieces if needed, and season lightly with salt and pepper. Let sit a few minutes."
-    },
-    {
-      "step": 3,
-      "title": "Sauté aromatics",
-      "text": "Slice onion and mince garlic. In a frying pan, heat olive oil over medium heat and sauté onions and garlic until soft and fragrant."
-    },
-    {
-      "step": 4,
-      "title": "Cook liver",
-      "text": "Add liver pieces to the pan, lower heat, and cook gently about 5 minutes, just until cooked through. Do not overcook—liver should stay tender."
-    },
-    {
-      "step": 5,
-      "title": "Serve",
-      "text": "Transfer to a plate and lightly drizzle with balsamic glaze."
-    }
-  ],
-  "tips": [
-    "Removing the membrane and soaking in milk are key to tenderness and mild flavor.",
-    "The biggest secret is short, gentle cooking; overcooked liver becomes tough.",
-    "Serve immediately for best texture."
-  ]
-},
-
-
-{
-  "id": 29,
-  "title": "Baursak (Kazakh Puffy Bread)",
-  "category": "Baked Goods & Desserts",
-  "story": "Traditional Kazakh puffy fried dough, often served with tea during holidays and family gatherings.",
-  "prepTime": "20 min",
-  "cookTime": "30 min",
-  "difficulty": "Easy",
-  "cuisine": "Kazakh / Central Asian",
-  "baseServings": 6,
-  "image": "assets/images/baursak.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 260,
-    "protein": "6g",
-    "carbs": "30g",
-    "fat": "12g"
-  },
-  "ingredients": [
-    { "name": "flour", "amount": 2, "unit": "cups" },
-    { "name": "yeast", "amount": 1, "unit": "Tbsp" },
-    { "name": "warm water", "amount": 0.25, "unit": "cup" },
-    { "name": "egg", "amount": 1, "unit": "" },
-    { "name": "butter, softened", "amount": 1, "unit": "Tbsp" },
-    { "name": "sugar", "amount": 1, "unit": "Tbsp" },
-    { "name": "salt", "amount": 0.25, "unit": "tsp" },
-    { "name": "vegetable oil for frying", "amount": 2, "unit": "cups" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Make dough",
-      "text": "Combine flour, yeast, warm water, egg, butter, sugar, and salt in a large bowl to form a soft dough."
-    },
-    {
-      "step": 2,
-      "title": "Knead and rise",
-      "text": "Knead dough on a floured surface until smooth. Return to bowl, cover with a towel, and let rise about 30 minutes."
-    },
-    {
-      "step": 3,
-      "title": "Heat oil",
-      "text": "Heat vegetable oil in a deep skillet over high or medium-high heat."
-    },
-    {
-      "step": 4,
-      "title": "Shape",
-      "text": "Pinch off tablespoon-sized pieces of dough and roll into balls. Press down slightly."
-    },
-    {
-      "step": 5,
-      "title": "Fry",
-      "text": "Carefully drop dough pieces into hot oil and fry until golden brown on all sides. Drain on paper towels."
-    }
-  ],
-  "tips": [
-    "Serve warm with Kazakh chai, honey, or a sprinkle of sugar.",
-    "Do not overcrowd the pan; fry in batches for even browning."
-  ]
-},
-
-{
-  "id": 30,
-  "title": "Blintchiki (Crepes)",
-  "category": "Baked Goods & Desserts",
-  "story": "Thin, tender crepes perfect for breakfast or dessert, ready to fill with jam, cheese, or sour cream.",
-  "prepTime": "15 min",
-  "cookTime": "25 min",
-  "difficulty": "Easy",
-  "cuisine": "Russian / Eastern European",
-  "baseServings": 4,
-  "image": "assets/images/blintchiki.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 220,
-    "protein": "8g",
-    "carbs": "28g",
-    "fat": "8g"
-  },
-  "ingredients": [
-    { "name": "eggs", "amount": 2, "unit": "" },
-    { "name": "sugar", "amount": 2, "unit": "Tbsp" },
-    { "name": "salt", "amount": 1, "unit": "tsp" },
-    { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
-    { "name": "whole milk", "amount": 2, "unit": "cups" },
-    { "name": "cognac or whiskey", "amount": 1, "unit": "Tbsp" },
-    { "name": "water", "amount": 1, "unit": "cup" },
-    { "name": "flour", "amount": 2, "unit": "cups" },
-    { "name": "olive oil", "amount": 1, "unit": "Tbsp" },
-    { "name": "baking powder", "amount": 0.5, "unit": "tsp" },
-    { "name": "butter (for pan and layering)", "amount": 2, "unit": "Tbsp" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Start batter",
-      "text": "In a bowl whisk eggs with sugar and salt. Add 1 cup of milk and mix well."
-    },
-    {
-      "step": 2,
-      "title": "Combine dry ingredients",
-      "text": "In a separate bowl mix flour and baking powder. Gradually whisk dry ingredients into the egg mixture, alternating with the remaining milk and water until smooth."
-    },
-    {
-      "step": 3,
-      "title": "Finish batter",
-      "text": "Stir in vanilla, cognac or whiskey, and olive oil. Batter should be thin and pourable."
-    },
-    {
-      "step": 4,
-      "title": "Cook crepes",
-      "text": "Heat a 12-inch nonstick skillet over medium heat and lightly coat with butter. Pour in a small amount of batter, swirling to cover the bottom. Cook 2–3 minutes until underside is golden."
-    },
-    {
-      "step": 5,
-      "title": "Flip",
-      "text": "Loosen edge with a spatula and flip. Cook 1–2 minutes more. Transfer to a plate, spread with a thin layer of butter, and cover with a lid while you cook remaining crepes, buttering the pan as needed."
-    }
-  ],
-  "tips": [
-    "Let batter rest 10–15 minutes if you have time for more tender crepes.",
-    "Adjust with a splash of milk or water if batter becomes too thick."
-  ]
-},
-
-{
-  "id": 31,
-  "title": "Börek with Feta & Greens",
-  "category": "Baked Goods & Desserts",
-  "story": "Savory layered filo pie filled with feta, spinach, and herbs—perfect for brunch or as a light main.",
-  "prepTime": "25 min",
-  "cookTime": "50 min",
-  "difficulty": "Medium",
-  "cuisine": "Turkish / Mediterranean",
-  "baseServings": 6,
-  "image": "assets/images/borek.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 380,
-    "protein": "14g",
-    "carbs": "30g",
-    "fat": "22g"
-  },
-  "ingredients": [
-    { "name": "feta cheese", "amount": 300, "unit": "g" },
-    { "name": "filo dough (phyllo), 1 pack", "amount": 1, "unit": "pack" },
-    { "name": "sour cream", "amount": 0.5, "unit": "cup" },
-    { "name": "spinach, chopped", "amount": 2, "unit": "cups" },
-    { "name": "parsley, chopped", "amount": 0.5, "unit": "cup" },
-    { "name": "egg", "amount": 1, "unit": "" },
-    { "name": "butter, melted", "amount": 0.5, "unit": "cup" },
-    { "name": "milk", "amount": 0.5, "unit": "cup" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Soak feta",
-      "text": "Soak feta cheese in cold water 25–30 minutes to remove excess salt, then drain and crumble."
-    },
-    {
-      "step": 2,
-      "title": "Make filling",
-      "text": "Chop spinach and parsley. Mix with egg, sour cream, and crumbled feta to form the filling."
-    },
-    {
-      "step": 3,
-      "title": "Butter mixture",
-      "text": "In a separate bowl melt butter and mix with milk."
-    },
-    {
-      "step": 4,
-      "title": "Layer filo",
-      "text": "Preheat oven to 360°F (180°C). Brush a baking pan with butter-milk mixture. Lay down half of the filo sheets one by one, brushing each sheet lightly with the butter-milk mixture."
-    },
-    {
-      "step": 5,
-      "title": "Add filling",
-      "text": "Spread the filling evenly over the layered filo. Cover with remaining filo sheets, brushing each with butter-milk mixture."
-    },
-    {
-      "step": 6,
-      "title": "Score and bake",
-      "text": "Pre-cut the top into pieces with a sharp knife. Bake 40 minutes at 360°F, then reduce to 280°F (140°C) and bake 10 minutes more."
-    }
-  ],
-  "tips": [
-    "Keep filo sheets covered with a damp towel while working so they do not dry out.",
-    "Let börek rest 10–15 minutes before cutting to keep layers intact."
-  ]
-},
-
-{
-  "id": 32,
-  "title": "Cake Tvorozhniy",
-  "category": "Baked Goods & Desserts",
-  "story": "Soft vanilla cake with a tangy tvorog/ricotta topping—simple, tender, and perfect with tea.",
-  "prepTime": "20 min",
-  "cookTime": "35–40 min",
-  "difficulty": "Easy",
-  "cuisine": "Eastern European",
-  "baseServings": 8,
-  "image": "assets/images/cake-tvorozhniy.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 320,
-    "protein": "8g",
-    "carbs": "38g",
-    "fat": "15g"
-  },
-  "ingredients": [
-    { "name": "buttermilk, lukewarm", "amount": 1, "unit": "cup" },
-    { "name": "baking soda", "amount": 0.33, "unit": "tsp" },
-    { "name": "egg", "amount": 1, "unit": "" },
-    { "name": "sugar", "amount": 0.67, "unit": "cup" },
-    { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
-    { "name": "vegetable oil", "amount": 0.5, "unit": "cup" },
-    { "name": "all-purpose flour", "amount": 1.25, "unit": "cups" },
-    { "name": "baking powder", "amount": 1, "unit": "tsp" }
-  ],
-  "topping": [
-    { "name": "egg", "amount": 1, "unit": "" },
-    { "name": "ricotta cheese or twarog", "amount": 1, "unit": "cup" },
-    { "name": "sugar", "amount": 3, "unit": "Tbsp" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Activate soda",
-      "text": "Mix buttermilk and baking soda in a bowl. Let rest 10 minutes."
-    },
-    {
-      "step": 2,
-      "title": "Egg mixture",
-      "text": "In a second bowl whisk egg with 2/3 cup sugar and vanilla."
-    },
-    {
-      "step": 3,
-      "title": "Combine wet",
-      "text": "Combine the buttermilk mixture with the egg mixture. Add vegetable oil and stir until smooth."
-    },
-    {
-      "step": 4,
-      "title": "Add dry",
-      "text": "In a third bowl mix flour and baking powder. Gently fold dry ingredients into wet until just combined."
-    },
-    {
-      "step": 5,
-      "title": "Prepare topping",
-      "text": "In a small bowl whisk 1 egg with ricotta (or twarog) and 3 Tbsp sugar until smooth."
-    },
-    {
-      "step": 6,
-      "title": "Bake",
-      "text": "Preheat oven to 350°F (175°C). Pour batter into a greased pan. Spoon or spread the cheese topping over the batter. Bake 30–40 minutes, until a toothpick in the cake (not topping) comes out clean."
-    }
-  ],
-  "tips": [
-    "Let cake cool slightly before slicing so topping can set.",
-    "Use well-drained ricotta/twarog so the topping is not too runny."
-  ]
-},
-
-{
-  "id": 33,
-  "title": "Apricot Pie",
-  "category": "Baked Goods & Desserts",
-  "story": "Moist apricot cake soaked with sweet sour-cream glaze—an old-fashioned teacake style dessert.",
-  "prepTime": "20 min",
-  "cookTime": "90 min",
-  "difficulty": "Medium",
-  "cuisine": "Eastern European",
-  "baseServings": 8,
-  "image": "assets/images/apricot-pie.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 380,
-    "protein": "7g",
-    "carbs": "45g",
-    "fat": "18g"
-  },
-  "ingredients": [
-    { "name": "eggs", "amount": 4, "unit": "" },
-    { "name": "sugar", "amount": 1, "unit": "cup" },
-    { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
-    { "name": "butter, melted", "amount": 1.33, "unit": "sticks (200 g)" },
-    { "name": "baking powder", "amount": 1, "unit": "tsp" },
-    { "name": "all-purpose flour", "amount": 1.25, "unit": "cups" }
-  ],
-  "topping": [
-    { "name": "jarred apricots with syrup", "amount": 1, "unit": "450 ml jar" },
-    { "name": "sour cream", "amount": 200, "unit": "g" },
-    { "name": "sugar", "amount": 1, "unit": "cup" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Make batter",
-      "text": "Mix eggs, 1 cup sugar, and vanilla with melted butter until smooth."
-    },
-    {
-      "step": 2,
-      "title": "Add dry",
-      "text": "Mix baking powder with flour and fold into the batter until just combined."
-    },
-    {
-      "step": 3,
-      "title": "Layer apricots",
-      "text": "Preheat oven to 360°F (180°C). Lightly grease a baking pan. Arrange half of the apricots on the bottom."
-    },
-    {
-      "step": 4,
-      "title": "Bake cake",
-      "text": "Pour batter over the apricots. Arrange remaining apricots on top and let them sink slightly. Bake 40 minutes at 360°F, then lower to 340°F (170°C) and bake another 40 minutes."
-    },
-    {
-      "step": 5,
-      "title": "Sour-cream glaze",
-      "text": "Mix warm sour cream with 1 cup sugar until smooth. Pour over the warm cake in an even layer and return to the oven for 10 minutes."
-    }
-  ],
-  "tips": [
-    "Cool before slicing so the glaze can set.",
-    "Use good-quality jarred apricots in light syrup for best flavor."
-  ]
-},
-{
-  "id": 34,
-  "title": "Tchak-tchak",
-  "category": "Baked Goods & Desserts",
-  "story": "Crispy fried dough pieces coated in honey or caramel-like syrup, a beloved Tatar dessert often served at celebrations.",
-  "prepTime": "1 hr 15 min (including rest)",
-  "cookTime": "20–30 min",
-  "difficulty": "Medium",
-  "cuisine": "Tatar / Central Asian",
-  "baseServings": 8,
-  "image": "assets/images/tchak-tchak.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 420,
-    "protein": "8g",
-    "carbs": "55g",
-    "fat": "18g"
-  },
-  "ingredients": [
-    { "name": "eggs", "amount": 3, "unit": "" },
-    { "name": "sugar", "amount": 0.25, "unit": "cup" },
-    { "name": "salt", "amount": 0.25, "unit": "tsp" },
-    { "name": "milk", "amount": 0.5, "unit": "cup" },
-    { "name": "vodka or cognac", "amount": 1, "unit": "Tbsp" },
-    { "name": "baking powder", "amount": 0.5, "unit": "tsp" },
-    { "name": "flour (approximate, enough for soft dough)", "amount": 2.5, "unit": "to 3 cups" },
-    { "name": "vegetable oil for frying", "amount": 2, "unit": "cups" },
-    { "name": "walnuts, chopped", "amount": 0.5, "unit": "cup" },
-    { "name": "pecans, chopped (optional)", "amount": 0.25, "unit": "cup" }
-  ],
-  "syrupOptions": [
-    {
-      "name": "Option 1: Honey syrup",
+      "id": 22,
+      "title": "Golubtzy (Cabbage Rolls)",
+      "category": "Main Dishes",
+      "story": "Classic cabbage rolls stuffed with savory ground beef and simmered in a tomato-based sauce.",
+      "prepTime": "30 min",
+      "cookTime": "50-60 min",
+      "difficulty": "Medium",
+      "cuisine": "Eastern European / Central Asian",
+      "baseServings": 6,
+      "image": "assets/images/golubtzy.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 480,
+        "protein": "28g",
+        "carbs": "20g",
+        "fat": "30g"
+      },
       "ingredients": [
-        { "name": "honey", "amount": 12, "unit": "oz" },
-        { "name": "sugar", "amount": 9, "unit": "oz (~1 cup)" }
-      ]
+        {
+          "name": "white cabbage, medium",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "prepared ground beef mixture",
+          "amount": 1.5,
+          "unit": "lb"
+        },
+        {
+          "name": "water",
+          "amount": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "carrot",
+          "amount": 1,
+          "unit": "large"
+        },
+        {
+          "name": "onion for ground beef",
+          "amount": 1,
+          "unit": "medium"
+        },
+        {
+          "name": "onion for sauce",
+          "amount": 1,
+          "unit": "medium"
+        },
+        {
+          "name": "oil",
+          "amount": 3,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "fresh dill",
+          "amount": 0.25,
+          "unit": "cup, chopped"
+        },
+        {
+          "name": "tomato paste or tomato sauce (for sofrito/zazharka)",
+          "amount": 3,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep cabbage leaves",
+          "text": "Carefully separate cabbage leaves one by one. Soak them in a bowl of hot water to soften."
+        },
+        {
+          "step": 2,
+          "title": "Prepare filling",
+          "text": "Use your prepared ground beef base: mix ground beef with finely chopped onion, salt, pepper, and chopped dill."
+        },
+        {
+          "step": 3,
+          "title": "Make sofrito sauce",
+          "text": "In a pan, sauté the second onion and grated carrot in oil until soft and golden. Stir in tomato paste or tomato sauce and cook a few minutes to develop flavor."
+        },
+        {
+          "step": 4,
+          "title": "Stuff rolls",
+          "text": "Place a spoonful of ground beef mixture onto each softened cabbage leaf. Roll tightly, folding in sides to form neat rolls."
+        },
+        {
+          "step": 5,
+          "title": "Simmer",
+          "text": "Arrange cabbage rolls snugly in a pot over the sofrito. Add enough water to partially cover the rolls. Cover and simmer gently 50–60 minutes until cabbage and filling are tender."
+        }
+      ],
+      "tips": [
+        "Flat cabbage from Asian stores is easier to roll.",
+        "Trim thick veins on cabbage leaves for easier rolling."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
     },
     {
-      "name": "Option 2: Honey + dulce de leche",
+      "id": 23,
+      "title": "Chicken Tapaka",
+      "category": "Main Dishes",
+      "story": "Georgian-style spatchcocked chicken cooked under a heavy weight until crisp on the outside and juicy inside.",
+      "prepTime": "15 min",
+      "cookTime": "30 min",
+      "difficulty": "Easy",
+      "cuisine": "Georgian / Caucasian",
+      "baseServings": 3,
+      "image": "assets/images/chicken-tapaka.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 540,
+        "protein": "45g",
+        "carbs": "2g",
+        "fat": "38g"
+      },
       "ingredients": [
-        { "name": "honey", "amount": 8, "unit": "oz" },
-        { "name": "dulce de leche", "amount": 8, "unit": "oz" }
-      ]
+        {
+          "name": "hen or small chicken",
+          "amount": 1,
+          "unit": "1–1.5 lb"
+        },
+        {
+          "name": "unsalted butter",
+          "amount": 3,
+          "unit": "Tbsp (50 g)"
+        },
+        {
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "water",
+          "amount": 0.67,
+          "unit": "cup (150 ml)"
+        },
+        {
+          "name": "garlic cloves",
+          "amount": 3,
+          "unit": "to 4"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Flatten chicken",
+          "text": "Cut the hen along the breastbone, open it like a book, and flatten on a board with a meat mallet until even and thinner."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Rub the skin and flesh with salt."
+        },
+        {
+          "step": 3,
+          "title": "Brown",
+          "text": "Heat an iron skillet over medium-high and melt butter. Place chicken skin-side down and fry each side about 5 minutes until nicely browned."
+        },
+        {
+          "step": 4,
+          "title": "Add garlic and water",
+          "text": "Crush garlic cloves, mix with water, and pour over the chicken."
+        },
+        {
+          "step": 5,
+          "title": "Cook under weight",
+          "text": "Reduce heat to medium-low. Place a heavy lid or a plate with a weight on top of the chicken to press it down. Cover and cook 20 minutes on low heat until cooked through and very tender."
+        }
+      ],
+      "tips": [
+        "Cover chicken with plastic wrap or wax paper before pounding to avoid splatter.",
+        "Serve with gnocchi, potatoes, or simple vegetables."
+      ],
+      "culturalBackground": "From the mountainous Caucasus region, this dish embodies Georgian hospitality and the tradition of bold, aromatic flavors that have made Georgian cuisine beloved across the former Soviet Union."
     },
     {
-      "name": "Option 3: Sweetened condensed milk",
+      "id": 24,
+      "title": "Chicken (or Duck) in the Oven",
+      "category": "Main Dishes",
+      "story": "Simple whole bird roasted with garlic and butter until crisp on the outside and juicy inside.",
+      "prepTime": "15 min",
+      "cookTime": "1–1.5 hrs",
+      "difficulty": "Easy",
+      "cuisine": "Central Asian / European",
+      "baseServings": 4,
+      "image": "assets/images/roast-chicken-duck.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 600,
+        "protein": "45g",
+        "carbs": "2g",
+        "fat": "45g"
+      },
       "ingredients": [
-        { "name": "sweetened condensed milk", "amount": 14, "unit": "oz can" }
-      ]
+        {
+          "name": "hen or small chicken (or duck)",
+          "amount": 1,
+          "unit": "1–1.5 lb"
+        },
+        {
+          "name": "unsalted butter",
+          "amount": 3,
+          "unit": "Tbsp (50 g)"
+        },
+        {
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "water",
+          "amount": 0.67,
+          "unit": "cup (150 ml)"
+        },
+        {
+          "name": "garlic cloves",
+          "amount": 3,
+          "unit": "to 4"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep bird",
+          "text": "Preheat oven to 400°F (200°C). Pat the hen or duck dry with paper towels. Cut along the breast and flatten, or leave whole if preferred."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Rub skin and cavity with salt."
+        },
+        {
+          "step": 3,
+          "title": "Garlic butter",
+          "text": "Crush garlic cloves and mix with softened or melted butter."
+        },
+        {
+          "step": 4,
+          "title": "Roast",
+          "text": "Place bird in a roasting pan. Brush with garlic butter, pour water into the bottom of the pan, and roast 50–70 minutes (depending on size), basting occasionally, until juices run clear."
+        }
+      ],
+      "tips": [
+        "Cover bird with foil if skin browns too quickly.",
+        "Let rest 10–15 minutes before carving. Serve with gnocchi or potatoes."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
+    },
+    {
+      "id": 25,
+      "title": "Roasted Leg of Lamb",
+      "category": "Main Dishes",
+      "story": "Festive roasted leg of lamb with simple seasoning—perfect centerpiece for a family meal.",
+      "prepTime": "20 min",
+      "cookTime": "1.5–2 hrs",
+      "difficulty": "Medium",
+      "cuisine": "Mediterranean / Central Asian",
+      "baseServings": 6,
+      "image": "assets/images/roasted-leg-of-lamb.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 680,
+        "protein": "48g",
+        "carbs": "4g",
+        "fat": "50g"
+      },
+      "ingredients": [
+        {
+          "name": "leg of lamb, bone-in",
+          "amount": 4,
+          "unit": "lb"
+        },
+        {
+          "name": "garlic cloves",
+          "amount": 4,
+          "unit": "to 6"
+        },
+        {
+          "name": "salt",
+          "amount": 1.5,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "olive oil",
+          "amount": 3,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "fresh rosemary or thyme (optional)",
+          "amount": 2,
+          "unit": "Tbsp, chopped"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep lamb",
+          "text": "Bring lamb to room temperature 1 hour before cooking. Preheat oven to 400°F (200°C)."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Make small slits in lamb and insert slivers of garlic. Rub lamb with olive oil, salt, pepper, and herbs if using."
+        },
+        {
+          "step": 3,
+          "title": "Roast",
+          "text": "Place lamb in a roasting pan. Roast 20 minutes, then lower heat to 350°F (175°C) and continue roasting 15–20 minutes per pound, until desired doneness."
+        },
+        {
+          "step": 4,
+          "title": "Rest",
+          "text": "Remove from oven, tent with foil, and rest 15–20 minutes before carving."
+        }
+      ],
+      "tips": [
+        "For medium-rare, internal temperature should reach about 135–140°F after resting.",
+        "Serve with potatoes or rice and a simple salad."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
+    },
+    {
+      "id": 26,
+      "title": "Beef Tongue",
+      "category": "Specialty & Cultural Dishes",
+      "story": "Exceptionally tender and mild-flavored, beef tongue makes an elegant appetizer served sliced and simply garnished.",
+      "prepTime": "20 min",
+      "cookTime": "2–3 hrs",
+      "difficulty": "Medium",
+      "cuisine": "Eastern European / Central Asian",
+      "baseServings": 8,
+      "image": "assets/images/beef-tongue.jpg",
+      "dietary": [
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 280,
+        "protein": "24g",
+        "carbs": "0g",
+        "fat": "20g"
+      },
+      "ingredients": [
+        {
+          "name": "beef tongue",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "Tbsp (to taste)"
+        },
+        {
+          "name": "parsley or dill, chopped",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "sesame seeds (optional)",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "soy sauce (optional)",
+          "amount": 2,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Simmer tongue",
+          "text": "Place beef tongue in a large pot, cover with water, and bring to a gentle boil. Add salt, reduce heat, and simmer 2–3 hours until very tender and a knife slides in easily."
+        },
+        {
+          "step": 2,
+          "title": "Peel",
+          "text": "Remove tongue from pot and let cool slightly. While still warm, peel off the tough outer skin; it should come off easily."
+        },
+        {
+          "step": 3,
+          "title": "Slice and serve",
+          "text": "Slice tongue across the grain into 0.5-inch pieces. Arrange on a serving plate, garnish with parsley or dill. Serve warm or at room temperature."
+        }
+      ],
+      "tips": [
+        "Slow, gentle cooking is key for a delicate texture.",
+        "For a variation, drizzle with sesame oil, sprinkle sesame seeds, and serve with a splash of soy sauce.",
+        "You can cook tongue in a pressure cooker until fully tender to save time."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
+    },
+    {
+      "id": 27,
+      "title": "Kholodets (Meat Jelly)",
+      "category": "Specialty & Cultural Dishes",
+      "story": "Traditional meat jelly made from long-simmered beef feet and meat—rich, savory, and served cold in slices.",
+      "prepTime": "30 min",
+      "cookTime": "4.5–5 hrs",
+      "difficulty": "Hard",
+      "cuisine": "Russian / Eastern European",
+      "baseServings": 10,
+      "image": "assets/images/kholodets.jpg",
+      "dietary": [
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 260,
+        "protein": "24g",
+        "carbs": "3g",
+        "fat": "16g"
+      },
+      "ingredients": [
+        {
+          "name": "beef feet",
+          "amount": 2,
+          "unit": "lb"
+        },
+        {
+          "name": "beef fillet or stew meat",
+          "amount": 1.5,
+          "unit": "lb"
+        },
+        {
+          "name": "onion, unpeeled",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "carrots",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "celery root",
+          "amount": 1,
+          "unit": "small"
+        },
+        {
+          "name": "black pepper (whole or ground)",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1.5,
+          "unit": "Tbsp (to taste)"
+        },
+        {
+          "name": "cilantro or parsley",
+          "amount": 0.25,
+          "unit": "cup, chopped"
+        },
+        {
+          "name": "bay leaves",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "garlic bulb",
+          "amount": 1,
+          "unit": "whole"
+        },
+        {
+          "name": "water",
+          "amount": "",
+          "unit": "as needed to barely cover"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Soak bones",
+          "text": "Soak beef feet in cold water 2–3 hours. Drain and rinse."
+        },
+        {
+          "step": 2,
+          "title": "Start broth",
+          "text": "Place feet in a pot, cover with water, and bring to a boil. Once it boils, discard the water. Refill with fresh water just to barely cover the meat—do not add too much or the jelly will not set. Bring to a boil again, add salt, then reduce to a gentle simmer for about 3 hours."
+        },
+        {
+          "step": 3,
+          "title": "Add meat and onion",
+          "text": "After 3 hours, add beef fillet and whole unpeeled onion. Simmer together another 1.5 hours."
+        },
+        {
+          "step": 4,
+          "title": "Add vegetables",
+          "text": "Add whole carrots and celery root. Cook until vegetables are tender."
+        },
+        {
+          "step": 5,
+          "title": "Prepare meat",
+          "text": "Remove meat and bones. Separate meat from bones and cut into small pieces. Return meat pieces to the broth."
+        },
+        {
+          "step": 6,
+          "title": "Season",
+          "text": "Add black pepper and bay leaves and simmer 5–10 minutes. Skim off excess fat from the surface."
+        },
+        {
+          "step": 7,
+          "title": "Finish and set",
+          "text": "Grate the whole garlic bulb and chop cilantro or parsley. Stir into hot broth with meat. Remove bay leaves. Pour into molds or dishes and let cool; refrigerate until fully set."
+        }
+      ],
+      "tips": [
+        "The broth should be rich and concentrated; too much water will prevent it from setting.",
+        "Serve cold, sliced, with mustard or horseradish if desired."
+      ],
+      "culturalBackground": "A classic from Russian and Soviet-era home cooking, this dish showcases the resourcefulness and hospitality that defined family gatherings across the former USSR."
+    },
+    {
+      "id": 28,
+      "title": "Beef Liver with Onions, Garlic & Balsamic Glaze",
+      "category": "Specialty & Cultural Dishes",
+      "story": "Highly nutritious and rich in iron, this beef liver is soaked, quickly sautéed, and finished with a touch of balsamic glaze.",
+      "prepTime": "30 min",
+      "cookTime": "5–10 min",
+      "difficulty": "Easy",
+      "cuisine": "Eastern European / Central Asian",
+      "baseServings": 4,
+      "image": "assets/images/beef-liver.jpg",
+      "dietary": [
+        "Gluten-Free"
+      ],
+      "nutrition": {
+        "calories": 310,
+        "protein": "32g",
+        "carbs": "10g",
+        "fat": "15g"
+      },
+      "ingredients": [
+        {
+          "name": "beef liver",
+          "amount": 1.5,
+          "unit": "to 2 lb"
+        },
+        {
+          "name": "milk (for soaking)",
+          "amount": 1,
+          "unit": "cup or as needed"
+        },
+        {
+          "name": "onion, large",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "olive oil",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "garlic cloves",
+          "amount": 4,
+          "unit": ""
+        },
+        {
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "black pepper",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "balsamic glaze",
+          "amount": 2,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep liver",
+          "text": "Remove the thin membrane from the liver. Soak liver in milk about 30 minutes to tenderize and reduce bitterness."
+        },
+        {
+          "step": 2,
+          "title": "Season",
+          "text": "Pat liver dry, slice into pieces if needed, and season lightly with salt and pepper. Let sit a few minutes."
+        },
+        {
+          "step": 3,
+          "title": "Sauté aromatics",
+          "text": "Slice onion and mince garlic. In a frying pan, heat olive oil over medium heat and sauté onions and garlic until soft and fragrant."
+        },
+        {
+          "step": 4,
+          "title": "Cook liver",
+          "text": "Add liver pieces to the pan, lower heat, and cook gently about 5 minutes, just until cooked through. Do not overcook—liver should stay tender."
+        },
+        {
+          "step": 5,
+          "title": "Serve",
+          "text": "Transfer to a plate and lightly drizzle with balsamic glaze."
+        }
+      ],
+      "tips": [
+        "Removing the membrane and soaking in milk are key to tenderness and mild flavor.",
+        "The biggest secret is short, gentle cooking; overcooked liver becomes tough.",
+        "Serve immediately for best texture."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
+    },
+    {
+      "id": 29,
+      "title": "Baursak (Kazakh Puffy Bread)",
+      "category": "Baked Goods & Desserts",
+      "story": "Traditional Kazakh puffy fried dough, often served with tea during holidays and family gatherings.",
+      "prepTime": "20 min",
+      "cookTime": "30 min",
+      "difficulty": "Easy",
+      "cuisine": "Kazakh / Central Asian",
+      "baseServings": 6,
+      "image": "assets/images/baursak.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 260,
+        "protein": "6g",
+        "carbs": "30g",
+        "fat": "12g"
+      },
+      "ingredients": [
+        {
+          "name": "flour",
+          "amount": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "yeast",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "warm water",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "butter, softened",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "sugar",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "salt",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil for frying",
+          "amount": 2,
+          "unit": "cups"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Make dough",
+          "text": "Combine flour, yeast, warm water, egg, butter, sugar, and salt in a large bowl to form a soft dough."
+        },
+        {
+          "step": 2,
+          "title": "Knead and rise",
+          "text": "Knead dough on a floured surface until smooth. Return to bowl, cover with a towel, and let rise about 30 minutes."
+        },
+        {
+          "step": 3,
+          "title": "Heat oil",
+          "text": "Heat vegetable oil in a deep skillet over high or medium-high heat."
+        },
+        {
+          "step": 4,
+          "title": "Shape",
+          "text": "Pinch off tablespoon-sized pieces of dough and roll into balls. Press down slightly."
+        },
+        {
+          "step": 5,
+          "title": "Fry",
+          "text": "Carefully drop dough pieces into hot oil and fry until golden brown on all sides. Drain on paper towels."
+        }
+      ],
+      "tips": [
+        "Serve warm with Kazakh chai, honey, or a sprinkle of sugar.",
+        "Do not overcrowd the pan; fry in batches for even browning."
+      ],
+      "culturalBackground": "This dish represents the rich culinary heritage of Central Asia, where nomadic traditions met Silk Road influences to create unique and flavorful recipes passed down through generations."
+    },
+    {
+      "id": 30,
+      "title": "Blintchiki (Crepes)",
+      "category": "Baked Goods & Desserts",
+      "story": "Thin, tender crepes perfect for breakfast or dessert, ready to fill with jam, cheese, or sour cream.",
+      "prepTime": "15 min",
+      "cookTime": "25 min",
+      "difficulty": "Easy",
+      "cuisine": "Russian / Eastern European",
+      "baseServings": 4,
+      "image": "assets/images/blintchiki.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 220,
+        "protein": "8g",
+        "carbs": "28g",
+        "fat": "8g"
+      },
+      "ingredients": [
+        {
+          "name": "eggs",
+          "amount": 2,
+          "unit": ""
+        },
+        {
+          "name": "sugar",
+          "amount": 2,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "salt",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vanilla extract",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "whole milk",
+          "amount": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "cognac or whiskey",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "water",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "flour",
+          "amount": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "olive oil",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "baking powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "butter (for pan and layering)",
+          "amount": 2,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Start batter",
+          "text": "In a bowl whisk eggs with sugar and salt. Add 1 cup of milk and mix well."
+        },
+        {
+          "step": 2,
+          "title": "Combine dry ingredients",
+          "text": "In a separate bowl mix flour and baking powder. Gradually whisk dry ingredients into the egg mixture, alternating with the remaining milk and water until smooth."
+        },
+        {
+          "step": 3,
+          "title": "Finish batter",
+          "text": "Stir in vanilla, cognac or whiskey, and olive oil. Batter should be thin and pourable."
+        },
+        {
+          "step": 4,
+          "title": "Cook crepes",
+          "text": "Heat a 12-inch nonstick skillet over medium heat and lightly coat with butter. Pour in a small amount of batter, swirling to cover the bottom. Cook 2–3 minutes until underside is golden."
+        },
+        {
+          "step": 5,
+          "title": "Flip",
+          "text": "Loosen edge with a spatula and flip. Cook 1–2 minutes more. Transfer to a plate, spread with a thin layer of butter, and cover with a lid while you cook remaining crepes, buttering the pan as needed."
+        }
+      ],
+      "tips": [
+        "Let batter rest 10–15 minutes if you have time for more tender crepes.",
+        "Adjust with a splash of milk or water if batter becomes too thick."
+      ],
+      "culturalBackground": "A classic from Russian and Soviet-era home cooking, this dish showcases the resourcefulness and hospitality that defined family gatherings across the former USSR."
+    },
+    {
+      "id": 31,
+      "title": "Börek with Feta & Greens",
+      "category": "Baked Goods & Desserts",
+      "story": "Savory layered filo pie filled with feta, spinach, and herbs—perfect for brunch or as a light main.",
+      "prepTime": "25 min",
+      "cookTime": "50 min",
+      "difficulty": "Medium",
+      "cuisine": "Turkish / Mediterranean",
+      "baseServings": 6,
+      "image": "assets/images/borek.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 380,
+        "protein": "14g",
+        "carbs": "30g",
+        "fat": "22g"
+      },
+      "ingredients": [
+        {
+          "name": "feta cheese",
+          "amount": 300,
+          "unit": "g"
+        },
+        {
+          "name": "filo dough (phyllo), 1 pack",
+          "amount": 1,
+          "unit": "pack"
+        },
+        {
+          "name": "sour cream",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "spinach, chopped",
+          "amount": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "parsley, chopped",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "butter, melted",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "milk",
+          "amount": 0.5,
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Soak feta",
+          "text": "Soak feta cheese in cold water 25–30 minutes to remove excess salt, then drain and crumble."
+        },
+        {
+          "step": 2,
+          "title": "Make filling",
+          "text": "Chop spinach and parsley. Mix with egg, sour cream, and crumbled feta to form the filling."
+        },
+        {
+          "step": 3,
+          "title": "Butter mixture",
+          "text": "In a separate bowl melt butter and mix with milk."
+        },
+        {
+          "step": 4,
+          "title": "Layer filo",
+          "text": "Preheat oven to 360°F (180°C). Brush a baking pan with butter-milk mixture. Lay down half of the filo sheets one by one, brushing each sheet lightly with the butter-milk mixture."
+        },
+        {
+          "step": 5,
+          "title": "Add filling",
+          "text": "Spread the filling evenly over the layered filo. Cover with remaining filo sheets, brushing each with butter-milk mixture."
+        },
+        {
+          "step": 6,
+          "title": "Score and bake",
+          "text": "Pre-cut the top into pieces with a sharp knife. Bake 40 minutes at 360°F, then reduce to 280°F (140°C) and bake 10 minutes more."
+        }
+      ],
+      "tips": [
+        "Keep filo sheets covered with a damp towel while working so they do not dry out.",
+        "Let börek rest 10–15 minutes before cutting to keep layers intact."
+      ],
+      "culturalBackground": "Rooted in Mediterranean tradition, this recipe celebrates the region's emphasis on fresh vegetables, olive oil, and simple preparations that let quality ingredients shine."
+    },
+    {
+      "id": 32,
+      "title": "Cake Tvorozhniy",
+      "category": "Baked Goods & Desserts",
+      "story": "Soft vanilla cake with a tangy tvorog/ricotta topping—simple, tender, and perfect with tea.",
+      "prepTime": "20 min",
+      "cookTime": "35–40 min",
+      "difficulty": "Easy",
+      "cuisine": "Eastern European",
+      "baseServings": 8,
+      "image": "assets/images/cake-tvorozhniy.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 320,
+        "protein": "8g",
+        "carbs": "38g",
+        "fat": "15g"
+      },
+      "ingredients": [
+        {
+          "name": "buttermilk, lukewarm",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "baking soda",
+          "amount": 0.33,
+          "unit": "tsp"
+        },
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "sugar",
+          "amount": 0.67,
+          "unit": "cup"
+        },
+        {
+          "name": "vanilla extract",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "vegetable oil",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": 1.25,
+          "unit": "cups"
+        },
+        {
+          "name": "baking powder",
+          "amount": 1,
+          "unit": "tsp"
+        }
+      ],
+      "topping": [
+        {
+          "name": "egg",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "ricotta cheese or twarog",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "sugar",
+          "amount": 3,
+          "unit": "Tbsp"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Activate soda",
+          "text": "Mix buttermilk and baking soda in a bowl. Let rest 10 minutes."
+        },
+        {
+          "step": 2,
+          "title": "Egg mixture",
+          "text": "In a second bowl whisk egg with 2/3 cup sugar and vanilla."
+        },
+        {
+          "step": 3,
+          "title": "Combine wet",
+          "text": "Combine the buttermilk mixture with the egg mixture. Add vegetable oil and stir until smooth."
+        },
+        {
+          "step": 4,
+          "title": "Add dry",
+          "text": "In a third bowl mix flour and baking powder. Gently fold dry ingredients into wet until just combined."
+        },
+        {
+          "step": 5,
+          "title": "Prepare topping",
+          "text": "In a small bowl whisk 1 egg with ricotta (or twarog) and 3 Tbsp sugar until smooth."
+        },
+        {
+          "step": 6,
+          "title": "Bake",
+          "text": "Preheat oven to 350°F (175°C). Pour batter into a greased pan. Spoon or spread the cheese topping over the batter. Bake 30–40 minutes, until a toothpick in the cake (not topping) comes out clean."
+        }
+      ],
+      "tips": [
+        "Let cake cool slightly before slicing so topping can set.",
+        "Use well-drained ricotta/twarog so the topping is not too runny."
+      ],
+      "culturalBackground": "A testament to Eastern European home baking traditions, this recipe showcases the region's love for sweet, comforting desserts that bring families together."
+    },
+    {
+      "id": 33,
+      "title": "Apricot Pie",
+      "category": "Baked Goods & Desserts",
+      "story": "Moist apricot cake soaked with sweet sour-cream glaze—an old-fashioned teacake style dessert.",
+      "prepTime": "20 min",
+      "cookTime": "90 min",
+      "difficulty": "Medium",
+      "cuisine": "Eastern European",
+      "baseServings": 8,
+      "image": "assets/images/apricot-pie.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 380,
+        "protein": "7g",
+        "carbs": "45g",
+        "fat": "18g"
+      },
+      "ingredients": [
+        {
+          "name": "eggs",
+          "amount": 4,
+          "unit": ""
+        },
+        {
+          "name": "sugar",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "vanilla extract",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "butter, melted",
+          "amount": 1.33,
+          "unit": "sticks (200 g)"
+        },
+        {
+          "name": "baking powder",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": 1.25,
+          "unit": "cups"
+        }
+      ],
+      "topping": [
+        {
+          "name": "jarred apricots with syrup",
+          "amount": 1,
+          "unit": "450 ml jar"
+        },
+        {
+          "name": "sour cream",
+          "amount": 200,
+          "unit": "g"
+        },
+        {
+          "name": "sugar",
+          "amount": 1,
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Make batter",
+          "text": "Mix eggs, 1 cup sugar, and vanilla with melted butter until smooth."
+        },
+        {
+          "step": 2,
+          "title": "Add dry",
+          "text": "Mix baking powder with flour and fold into the batter until just combined."
+        },
+        {
+          "step": 3,
+          "title": "Layer apricots",
+          "text": "Preheat oven to 360°F (180°C). Lightly grease a baking pan. Arrange half of the apricots on the bottom."
+        },
+        {
+          "step": 4,
+          "title": "Bake cake",
+          "text": "Pour batter over the apricots. Arrange remaining apricots on top and let them sink slightly. Bake 40 minutes at 360°F, then lower to 340°F (170°C) and bake another 40 minutes."
+        },
+        {
+          "step": 5,
+          "title": "Sour-cream glaze",
+          "text": "Mix warm sour cream with 1 cup sugar until smooth. Pour over the warm cake in an even layer and return to the oven for 10 minutes."
+        }
+      ],
+      "tips": [
+        "Cool before slicing so the glaze can set.",
+        "Use good-quality jarred apricots in light syrup for best flavor."
+      ],
+      "culturalBackground": "This moist teacake embodies the Eastern European tradition of transforming preserved fruits into elegant desserts. The sour cream glaze technique was perfected in Soviet-era home baking, where resourceful cooks created luxurious treats from simple pantry staples."
+    },
+    {
+      "id": 34,
+      "title": "Tchak-tchak",
+      "category": "Baked Goods & Desserts",
+      "story": "Crispy fried dough pieces coated in honey or caramel-like syrup, a beloved Tatar dessert often served at celebrations.",
+      "prepTime": "1 hr 15 min (including rest)",
+      "cookTime": "20–30 min",
+      "difficulty": "Medium",
+      "cuisine": "Tatar / Central Asian",
+      "baseServings": 8,
+      "image": "assets/images/tchak-tchak.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 420,
+        "protein": "8g",
+        "carbs": "55g",
+        "fat": "18g"
+      },
+      "ingredients": [
+        {
+          "name": "eggs",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "name": "sugar",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "amount": 0.25,
+          "unit": "tsp"
+        },
+        {
+          "name": "milk",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "vodka or cognac",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "baking powder",
+          "amount": 0.5,
+          "unit": "tsp"
+        },
+        {
+          "name": "flour (approximate, enough for soft dough)",
+          "amount": 2.5,
+          "unit": "to 3 cups"
+        },
+        {
+          "name": "vegetable oil for frying",
+          "amount": 2,
+          "unit": "cups"
+        },
+        {
+          "name": "walnuts, chopped",
+          "amount": 0.5,
+          "unit": "cup"
+        },
+        {
+          "name": "pecans, chopped (optional)",
+          "amount": 0.25,
+          "unit": "cup"
+        }
+      ],
+      "syrupOptions": [
+        {
+          "name": "Option 1: Honey syrup",
+          "ingredients": [
+            {
+              "name": "honey",
+              "amount": 12,
+              "unit": "oz"
+            },
+            {
+              "name": "sugar",
+              "amount": 9,
+              "unit": "oz (~1 cup)"
+            }
+          ]
+        },
+        {
+          "name": "Option 2: Honey + dulce de leche",
+          "ingredients": [
+            {
+              "name": "honey",
+              "amount": 8,
+              "unit": "oz"
+            },
+            {
+              "name": "dulce de leche",
+              "amount": 8,
+              "unit": "oz"
+            }
+          ]
+        },
+        {
+          "name": "Option 3: Sweetened condensed milk",
+          "ingredients": [
+            {
+              "name": "sweetened condensed milk",
+              "amount": 14,
+              "unit": "oz can"
+            }
+          ]
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Make dough",
+          "text": "Beat eggs with sugar, salt, milk, and vodka/cognac. Add baking powder and enough flour to make a soft, pliable dough. Cover and rest 1 hour."
+        },
+        {
+          "step": 2,
+          "title": "Shape",
+          "text": "Roll out dough very thin and cut into small thin strips or pieces."
+        },
+        {
+          "step": 3,
+          "title": "Fry",
+          "text": "Heat oil in a saucepan. Fry dough pieces in small batches until golden, usually under 1 minute. Drain on paper towels."
+        },
+        {
+          "step": 4,
+          "title": "Add nuts",
+          "text": "Grind or chop walnuts (and pecans if using) and mix with the fried dough pieces in a large bowl."
+        },
+        {
+          "step": 5,
+          "title": "Make syrup (choose one option)",
+          "text": "For honey syrup: gently heat honey and sugar, stirring until sugar dissolves. For honey + dulce de leche: heat and stir together until smooth. For condensed milk: warm slightly if needed to loosen."
+        },
+        {
+          "step": 6,
+          "title": "Coat and shape",
+          "text": "Pour hot syrup over the fried dough and nuts. Mix carefully until evenly coated. Shape on a flat plate or in a mold and let cool. Decorate with extra pecans if desired."
+        }
+      ],
+      "tips": [
+        "Work in small frying batches so pieces do not stick.",
+        "Shape while syrup is still warm; it sets as it cools.",
+        "Light alcohol in the dough helps keep pieces crisp and airy."
+      ],
+      "culturalBackground": "Tchak-tchak is the crown jewel of Tatar celebrations, often served at weddings as a symbol of sweet wishes for the newlyweds. The name comes from the sound the fried dough makes when being assembled—a testament to its crispy, honey-coated texture that has delighted Central Asian families for generations."
+    },
+    {
+      "id": 35,
+      "title": "Lemon Cherry Pie",
+      "category": "Baked Goods & Desserts",
+      "story": "Bright lemon-scented cake studded with cherries, apples, and crunchy pecans.",
+      "prepTime": "20 min",
+      "cookTime": "1.5 hrs",
+      "difficulty": "Medium",
+      "cuisine": "European",
+      "baseServings": 8,
+      "image": "assets/images/lemon-cherry-pie.jpg",
+      "dietary": [],
+      "nutrition": {
+        "calories": 370,
+        "protein": "6g",
+        "carbs": "45g",
+        "fat": "18g"
+      },
+      "ingredients": [
+        {
+          "name": "eggs",
+          "amount": 3,
+          "unit": ""
+        },
+        {
+          "name": "brown sugar",
+          "amount": 0.25,
+          "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "amount": 0.33,
+          "unit": "tsp"
+        },
+        {
+          "name": "vanilla extract",
+          "amount": 1,
+          "unit": "tsp"
+        },
+        {
+          "name": "liquor (e.g., cognac)",
+          "amount": 1,
+          "unit": "Tbsp"
+        },
+        {
+          "name": "butter, melted",
+          "amount": 1,
+          "unit": "stick (113 g)"
+        },
+        {
+          "name": "baking powder",
+          "amount": 2,
+          "unit": "tsp"
+        },
+        {
+          "name": "all-purpose flour",
+          "amount": 1,
+          "unit": "cup"
+        }
+      ],
+      "topping": [
+        {
+          "name": "lemon or orange peel, simmered and chopped",
+          "amount": 2,
+          "unit": "to 3 Tbsp"
+        },
+        {
+          "name": "frozen cherries",
+          "amount": 1,
+          "unit": "cup"
+        },
+        {
+          "name": "apple, peeled and sliced",
+          "amount": 1,
+          "unit": ""
+        },
+        {
+          "name": "pecan nuts, crushed (optional)",
+          "amount": 0.5,
+          "unit": "cup"
+        }
+      ],
+      "instructions": [
+        {
+          "step": 1,
+          "title": "Prep peel",
+          "text": "Simmer lemon or orange peel in water 10 minutes, then drain and cut into small pieces."
+        },
+        {
+          "step": 2,
+          "title": "Make batter",
+          "text": "Mix eggs with salt, then add brown sugar and whisk well."
+        },
+        {
+          "step": 3,
+          "title": "Add flavorings",
+          "text": "Stir in vanilla, liquor, and melted butter until smooth."
+        },
+        {
+          "step": 4,
+          "title": "Add dry",
+          "text": "Mix baking powder with flour and fold into batter until just combined."
+        },
+        {
+          "step": 5,
+          "title": "Add peel",
+          "text": "Stir chopped lemon/orange peel into the batter."
+        },
+        {
+          "step": 6,
+          "title": "Assemble",
+          "text": "Pour batter into a greased pan. Scatter frozen cherries over the top and let them sink slightly. Arrange apple slices on top and let them sink. Sprinkle with crushed pecans, if using."
+        },
+        {
+          "step": 7,
+          "title": "Bake",
+          "text": "Bake in a preheated oven 50 minutes at 375°F (190°C), then lower heat to 340°F (170°C) and bake another 40 minutes, until a toothpick comes out clean."
+        }
+      ],
+      "tips": [
+        "Simmering the citrus peel removes bitterness and softens it.",
+        "Use frozen cherries straight from the freezer; they will sink into the batter as it bakes."
+      ],
+      "culturalBackground": "This bright, fruit-studded cake represents the European tradition of celebrating citrus and stone fruits in baked goods. The addition of liquor to the batter reflects Old World baking wisdom—a small amount of alcohol enhances flavor and creates a tender crumb."
     }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Make dough",
-      "text": "Beat eggs with sugar, salt, milk, and vodka/cognac. Add baking powder and enough flour to make a soft, pliable dough. Cover and rest 1 hour."
-    },
-    {
-      "step": 2,
-      "title": "Shape",
-      "text": "Roll out dough very thin and cut into small thin strips or pieces."
-    },
-    {
-      "step": 3,
-      "title": "Fry",
-      "text": "Heat oil in a saucepan. Fry dough pieces in small batches until golden, usually under 1 minute. Drain on paper towels."
-    },
-    {
-      "step": 4,
-      "title": "Add nuts",
-      "text": "Grind or chop walnuts (and pecans if using) and mix with the fried dough pieces in a large bowl."
-    },
-    {
-      "step": 5,
-      "title": "Make syrup (choose one option)",
-      "text": "For honey syrup: gently heat honey and sugar, stirring until sugar dissolves. For honey + dulce de leche: heat and stir together until smooth. For condensed milk: warm slightly if needed to loosen."
-    },
-    {
-      "step": 6,
-      "title": "Coat and shape",
-      "text": "Pour hot syrup over the fried dough and nuts. Mix carefully until evenly coated. Shape on a flat plate or in a mold and let cool. Decorate with extra pecans if desired."
-    }
-  ],
-  "tips": [
-    "Work in small frying batches so pieces do not stick.",
-    "Shape while syrup is still warm; it sets as it cools.",
-    "Light alcohol in the dough helps keep pieces crisp and airy."
-  ]
-},
-
-{
-  "id": 35,
-  "title": "Lemon Cherry Pie",
-  "category": "Baked Goods & Desserts",
-  "story": "Bright lemon-scented cake studded with cherries, apples, and crunchy pecans.",
-  "prepTime": "20 min",
-  "cookTime": "1.5 hrs",
-  "difficulty": "Medium",
-  "cuisine": "European",
-  "baseServings": 8,
-  "image": "assets/images/lemon-cherry-pie.jpg",
-  "dietary": [],
-  "nutrition": {
-    "calories": 370,
-    "protein": "6g",
-    "carbs": "45g",
-    "fat": "18g"
-  },
-  "ingredients": [
-    { "name": "eggs", "amount": 3, "unit": "" },
-    { "name": "brown sugar", "amount": 0.25, "unit": "cup" },
-    { "name": "salt", "amount": 0.33, "unit": "tsp" },
-    { "name": "vanilla extract", "amount": 1, "unit": "tsp" },
-    { "name": "liquor (e.g., cognac)", "amount": 1, "unit": "Tbsp" },
-    { "name": "butter, melted", "amount": 1, "unit": "stick (113 g)" },
-    { "name": "baking powder", "amount": 2, "unit": "tsp" },
-    { "name": "all-purpose flour", "amount": 1, "unit": "cup" }
-  ],
-  "topping": [
-    { "name": "lemon or orange peel, simmered and chopped", "amount": 2, "unit": "to 3 Tbsp" },
-    { "name": "frozen cherries", "amount": 1, "unit": "cup" },
-    { "name": "apple, peeled and sliced", "amount": 1, "unit": "" },
-    { "name": "pecan nuts, crushed (optional)", "amount": 0.5, "unit": "cup" }
-  ],
-  "instructions": [
-    {
-      "step": 1,
-      "title": "Prep peel",
-      "text": "Simmer lemon or orange peel in water 10 minutes, then drain and cut into small pieces."
-    },
-    {
-      "step": 2,
-      "title": "Make batter",
-      "text": "Mix eggs with salt, then add brown sugar and whisk well."
-    },
-    {
-      "step": 3,
-      "title": "Add flavorings",
-      "text": "Stir in vanilla, liquor, and melted butter until smooth."
-    },
-    {
-      "step": 4,
-      "title": "Add dry",
-      "text": "Mix baking powder with flour and fold into batter until just combined."
-    },
-    {
-      "step": 5,
-      "title": "Add peel",
-      "text": "Stir chopped lemon/orange peel into the batter."
-    },
-    {
-      "step": 6,
-      "title": "Assemble",
-      "text": "Pour batter into a greased pan. Scatter frozen cherries over the top and let them sink slightly. Arrange apple slices on top and let them sink. Sprinkle with crushed pecans, if using."
-    },
-    {
-      "step": 7,
-      "title": "Bake",
-      "text": "Bake in a preheated oven 50 minutes at 375°F (190°C), then lower heat to 340°F (170°C) and bake another 40 minutes, until a toothpick comes out clean."
-    }
-  ],
-  "tips": [
-    "Simmering the citrus peel removes bitterness and softens it.",
-    "Use frozen cherries straight from the freezer; they will sink into the batter as it bakes."
-  ]
-}
-
   ]
 }
