@@ -13,7 +13,7 @@
       "id": 0,
       "title": "Eggplant 'Tyeshin Yazyk'",
       "category": "Appetizers & Side Dishes",
-      "story": "An easy recipe that works best with Chinese eggplants.",
+      "story": "In its original, more high maintenance incarnation, this eggplant appetizer can be made as rolls from long, elegant Chinese eggplants—thin slices curled up with a sharp garlicky sauce and crowned with tomatoes, like little canapés for a cocktail party. In our version, the drama stays but the labor doesn’t: we swap in sturdy, bulbous globe eggplants, cut them into slim rounds, and stack everything flat. Same ‘mother in law’s tongue’ attitude, far less emotional (and culinary) effort.",
       "prepTime": "10 min",
       "cookTime": "60 min",
       "difficulty": "Easy",
@@ -31,7 +31,7 @@
       },
       "ingredients": [
         {
-          "name": "large Chinese eggplants (1 lb)",
+          "name": "large Chinese or bulbous globe eggplants (1 lb)",
           "amount": 3,
           "unit": ""
         },
@@ -51,7 +51,7 @@
           "unit": "Tbsp"
         },
         {
-          "name": "campari tomatoes (1 lb)",
+          "name": "medium–large tomatoes, preferably Campari (about 1 lb)",
           "amount": 5,
           "unit": ""
         },
@@ -101,7 +101,7 @@
       "tips": [
         "For egg-free option, use Greek yogurt with salt instead of mayo",
         "Can be made in advance and refrigerated for a couple of days",
-        "Garnish with parsley and cilantro"
+        "Garnish with parsley, dill or cilantro"
       ]
     },
     {
