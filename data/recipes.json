@@ -13,8 +13,7 @@
       "id": 0,
       "title": "Eggplant 'Tyeshin Yazyk'",
       "category": "Appetizers & Side Dishes",
-      "story": "In its original, more high maintenance incarnation, this eggplant appetizer can be made as rolls from long, elegant Chinese eggplants—thin slices curled up with a sharp garlicky sauce and crowned with tomatoes, like little canapés for a cocktail party. In our version, the drama stays but the labor doesn’t: we swap in sturdy, bulbous globe eggplants, cut them into slim rounds, and stack everything flat. Same ‘mother in law’s tongue’ attitude, far less emotional (and culinary) effort.",
-      "prepTime": "10 min",
+      "story": "In its original, more high maintenance incarnation, this eggplant appetizer can be made as rolls from long, elegant Chinese eggplants—thin slices curled up with a sharp garlicky sauce and crowned with tomatoes, like little canapés for a cocktail party.\n\nIn our version, the drama stays but the labor doesn’t: we swap in sturdy, bulbous globe eggplants, cut them into slim rounds, and stack everything flat. Same ‘mother in law’s tongue’ attitude, far less emotional (and culinary) effort.",      "prepTime": "10 min",
       "cookTime": "60 min",
       "difficulty": "Easy",
       "cuisine": "Russian / Mediterranean",
@@ -3067,8 +3066,7 @@
       "id": 33,
       "title": "Apricot Pie",
       "category": "Baked Goods & Desserts",
-      "story": "Moist apricot cake soaked with sweet sour-cream glaze—an old-fashioned teacake style dessert.",
-      "prepTime": "20 min",
+      "story": "Moist apricot cake soaked with a sweet sour-cream glaze—an old-fashioned teacake-style dessert that somehow held its own on a very serious Eid table in our semi-desert corner of central Kazakhstan, crowded with meat dishes, salads, and every imaginable side.\n\n After the main feast, when the dessert platters finally appeared, our mom’s three or four “simple” apricot pies for about 30 guests were always the first to vanish, quietly stealing the spotlight from everything else on the table."      "prepTime": "20 min",
       "cookTime": "90 min",
       "difficulty": "Medium",
       "cuisine": "Eastern European",
@@ -3144,17 +3142,17 @@
         {
           "step": 3,
           "title": "Layer apricots",
-          "text": "Preheat oven to 360°F (180°C). Lightly grease a baking pan. Arrange half of the apricots on the bottom."
+          "text": "Preheat oven to 380–390°F (depending on your oven size; larger ovens may require the higher temperature). Lightly grease a baking pan and arrange half of the apricots on the bottom, then place the remaining apricots on top."
         },
         {
           "step": 4,
           "title": "Bake cake",
-          "text": "Pour batter over the apricots. Arrange remaining apricots on top and let them sink slightly. Bake 40 minutes at 360°F, then lower to 340°F (170°C) and bake another 40 minutes."
+          "text": "Pour batter over the apricots. Arrange remaining apricots on top and let them sink slightly. Bake 40 minutes at 380°F, then lower to 340°F (170°C) and bake another 40 minutes."
         },
         {
           "step": 5,
           "title": "Sour-cream glaze",
-          "text": "Mix warm sour cream with 1 cup sugar until smooth. Pour over the warm cake in an even layer and return to the oven for 10 minutes."
+          "text": "Mix sour cream with 1/2 cup sugar until smooth. Pour over the warm cake in an even layer and return to the oven for 10 minutes."
         }
       ],
       "tips": [
