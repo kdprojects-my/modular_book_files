@@ -143,11 +143,12 @@ function populateRecipeIndex() {
             <span class="recipe-card-difficulty">${recipe.difficulty}</span>
           </div>
         </div>
+        
         <div class="recipe-card-content">
           <h4 class="recipe-card-title">${recipe.title}</h4>
-          <p class="recipe-card-subtitle">${recipe.story}</p>
+          <p class="recipe-card-subtitle">${recipe.story.split('.')[0] + '.'}</p>
           <div class="recipe-card-tags">
-            ${recipe.dietary.slice(0, 2).map(tag => `<span class="tag">${tag}</span>`).join('')}
+            ${recipe.dietary.slice(0, 2).map(tag => `<span class="tag">${tag}</span>`).join('')}   
           </div>
         </div>
       </div>
