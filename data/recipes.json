@@ -3064,9 +3064,9 @@
     },
     {
       "id": 33,
-      "title": "Apricot Pie",
+      "title": "Apricot (or Peach) Pie",
       "category": "Baked Goods & Desserts",
-      "story": "Moist apricot cake soaked with a sweet sour-cream glaze—an old-fashioned teacake-style dessert that somehow held its own on a very serious Eid table in our semi-desert corner of central Kazakhstan, crowded with meat dishes, salads, and every imaginable side.\n\nAfter the main feast, when the dessert platters finally appeared, our mom’s three or four “simple” apricot pies for about 30 guests were always the first to vanish, quietly stealing the spotlight from everything else on the table.", 
+      "story": "Moist apricot (or peach) cake soaked with a sweet sour-cream glaze—an old-fashioned teacake-style dessert that somehow held its own on a very serious Eid table in our semi-desert corner of central Kazakhstan, crowded with meat dishes, salads, and every imaginable side.\n\nAfter the main feast, when the dessert platters finally appeared, our mom’s three or four “simple” apricot pies for about 30 guests were always the first to vanish, quietly stealing the spotlight from everything else on the table.", 
       "cookTime": "90 min",
       "difficulty": "Medium",
       "cuisine": "Eastern European",
@@ -3087,8 +3087,13 @@
         },
         {
           "name": "sugar",
-          "amount": 1,
+          "amount": 0.5,
           "unit": "cup"
+        },
+        {
+          "name": "salt",
+          "amount": 0.5,
+          "unit": "tsp"
         },
         {
           "name": "vanilla extract",
@@ -3097,9 +3102,10 @@
         },
         {
           "name": "butter, melted",
-          "amount": 1.33,
+          "amount": 1.75,
           "unit": "sticks (200 g)"
         },
+
         {
           "name": "baking powder",
           "amount": 1,
@@ -3107,15 +3113,15 @@
         },
         {
           "name": "all-purpose flour",
-          "amount": 1.25,
+          "amount": 1,
           "unit": "cups"
         }
       ],
       "topping": [
         {
-          "name": "jarred apricots with syrup",
+          "name": "jarred apricots (or peaches) in syrup",
           "amount": 1,
-          "unit": "450 ml jar"
+          "unit": "700 ml jar"
         },
         {
           "name": "sour cream",
@@ -3124,7 +3130,7 @@
         },
         {
           "name": "sugar",
-          "amount": 1,
+          "amount": 0.5,
           "unit": "cup"
         }
       ],
@@ -3132,7 +3138,7 @@
         {
           "step": 1,
           "title": "Make batter",
-          "text": "Mix eggs, 1 cup sugar, and vanilla with melted butter until smooth."
+          "text": "Mix eggs, salt, 1/2 cup sugar, and vanilla with melted butter until smooth."
         },
         {
           "step": 2,
@@ -3141,25 +3147,26 @@
         },
         {
           "step": 3,
-          "title": "Layer apricots",
-          "text": "Preheat oven to 380–390°F (depending on your oven size; larger ovens may require the higher temperature). Lightly grease a baking pan and arrange half of the apricots on the bottom, then place the remaining apricots on top."
+          "title": "Pre-heat oven",
+          "text": "Preheat oven to 380–390°F (depending on your oven size; larger ovens may require the higher temperature)."
         },
         {
           "step": 4,
-          "title": "Bake cake",
-          "text": "Pour batter over the apricots. Arrange remaining apricots on top and let them sink slightly. Bake 40 minutes at 380°F, then lower to 340°F (170°C) and bake another 40 minutes."
+          "title": "Layer apricots and bake cake",
+          "text": "Lightly grease a baking pan or use parchment paper, and arrange half of the apricots on the bottom. Pour batter over the apricots. Arrange remaining apricots on top and let them sink slightly. Bake 40 minutes at 380°F, then lower to 340°F (170°C) and bake another 20 minutes."
         },
         {
           "step": 5,
-          "title": "Sour-cream glaze",
-          "text": "Mix sour cream with 1/2 cup sugar until smooth. Pour over the warm cake in an even layer and return to the oven for 10 minutes."
+          "title": "Sour-cream glaze, optional",
+          "text": "Mix sour cream with 1/2 cup sugar until smooth. Pour over the warm cake in an even layer and return to the oven for another 10 minutes."
         }
       ],
       "tips": [
         "Cool before slicing so the glaze can set.",
-        "Use good-quality jarred apricots in light syrup for best flavor."
+        "Use good-quality jarred apricots (or peaches) in light syrup for best flavor.",
+        "For extra aroma, add 1 Tbsp of brandy, cognac, or another strong spirit to the batter; the alcohol bakes off, leaving a subtle, complex flavor."
       ],
-      "culturalBackground": "This moist teacake embodies the Eastern European tradition of transforming preserved fruits into elegant desserts. The sour cream glaze technique was perfected in Soviet-era home baking, where resourceful cooks created luxurious treats from simple pantry staples."
+      "culturalBackground": "This apricot sour-cream teacake sits at the crossroads of Eastern European and Central Asian home baking. It echoes Soviet-era sour-cream cakes, where resourceful cooks turned pantry staples and preserved fruits into moist, luxurious desserts, yet in our semi-desert corner of central Kazakhstan it became an Eid classic - served after a rich midday feast of meat dishes, salads, and generous sides for about 30 guests, and baked in multiple pans as part of an abundant dessert spread."
     },
     {
       "id": 34,
